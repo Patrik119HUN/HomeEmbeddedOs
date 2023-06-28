@@ -1,0 +1,7 @@
+{
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "C_Cpp.default.cppStandard": "c++17"
+}

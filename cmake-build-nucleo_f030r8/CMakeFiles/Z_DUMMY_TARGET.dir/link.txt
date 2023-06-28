@@ -1,0 +1,1 @@
+C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe -std=gnu++14 -fno-threadsafe-statics -fno-rtti -fno-exceptions -fno-use-cxa-atexit -mcpu=cortex-m0 -mthumb -Os -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 @CMakeFiles\Z_DUMMY_TARGET.dir\objects1 -o Z_DUMMY_TARGET 

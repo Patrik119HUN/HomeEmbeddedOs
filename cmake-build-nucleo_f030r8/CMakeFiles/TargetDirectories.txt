@@ -1,0 +1,5 @@
+C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/Production.dir
+C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/Debug.dir
+C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/Z_DUMMY_TARGET.dir
+C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/edit_cache.dir
+C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/rebuild_cache.dir
