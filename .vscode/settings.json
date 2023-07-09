@@ -4,5 +4,6 @@
         "**/.vs": true
     },
     "C_Cpp.default.cppStandard": "c++17",
-    "sonarlint.pathToCompileCommands": "${workspaceFolder}\\compile_commands.json"
+    "sonarlint.pathToCompileCommands": "${workspaceFolder}\\compile_commands.json",
+    "C_Cpp.errorSquiggles": "disabled"
 }

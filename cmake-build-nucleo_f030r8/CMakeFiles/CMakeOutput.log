@@ -1,7 +1,7 @@
 The target system is: Generic -  - 
 The host system is: Windows - 10.0.22621 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/Users/patri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/bin/gcc.exe 
+Compiler: C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/3.25.2/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/3.23.2/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/Users/patri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/bin/g++.exe 
+Compiler: C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/g++.exe 
 Build flags: 
 Id flags:  
 
@@ -24,5 +24,5 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/3.25.2/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8/CMakeFiles/3.23.2/CompilerIdCXX/a.exe"
 
