@@ -23,7 +23,7 @@ int FileSystem::mkdir(const char* path) {
     if (paths.size() > SYMLOOP_MAX) return ELOOP;
     for (auto i : paths)
         if (strlen(i) > NAME_MAX) return ENAMETOOLONG;
-    node* lastInstance = &root;
+    node* lastInstance = lastFilePointer;
 
     while (!paths.empty()) {
         node* srchres = this->search(paths.front(), FOLDER, lastInstance);
@@ -32,6 +32,7 @@ int FileSystem::mkdir(const char* path) {
         } else {
             node* newFolder = new node;
             newFolder->name = paths.front();
+            newFolder->prevNode = lastInstance;
             lastInstance->files.push_back(newFolder);
             lastInstance = newFolder;
         }
@@ -78,6 +79,24 @@ int FileSystem::mknod(const char* path, node* file) {
     if (this->search(file->name, file->type, lastInstance) != nullptr) return 0;
     lastInstance->files.push_back(file);
     return 1;
+}
+
+String FileSystem::currentPath(node* actualFolder) {
+    String path = "";
+    std::vector<String> pathNames;
+    node* lastInstance = actualFolder;
+    pathNames.push_back(lastInstance->name);
+    while (true) {
+        if (lastInstance->prevNode== nullptr) break;
+        lastInstance = lastInstance->prevNode;
+        pathNames.push_back(lastInstance->name);
+    }
+    while(!pathNames.empty()){
+        path+=pathNames.back();
+        pathNames.pop_back();
+        path+="/";
+    }
+    return path;
 }
 
 int FileSystem::mknod(const char* path, dev_t dev) {
