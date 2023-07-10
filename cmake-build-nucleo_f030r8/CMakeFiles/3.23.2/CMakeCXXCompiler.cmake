@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "C:/Users/patri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "11.2.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Users/patri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "C:/Users/patri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Users/patri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/Users/patri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Users/patri/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.9161.40/bin/mingw/bin/ld.exe")
+set(CMAKE_AR "C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/Program Files/JetBrains/CLion 2022.2.3/bin/mingw/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
