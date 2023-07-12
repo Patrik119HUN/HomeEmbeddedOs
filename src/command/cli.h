@@ -3,62 +3,23 @@
 
 #include <Arduino.h>
 #include <SimpleCLI.h>
+#include <Streaming.h>
 
-#include "FileSystem/FileSystem.h"
-class cli {
+#include "../System/FileSystem/FileSystem.h"
+void static errorCallback(cmd_error* e);
+class console {
    private:
     SimpleCLI cli;
-    Command sum;
-    Command ls;
-    Command cd;
-    Command mkdir;
+    Command ls, cd, mkdir;
+    Command echo;
 
     bool arrived = true;
 
-    void errorCallback(cmd_error* e) {
-        CommandError cmdError(e);  // Create wrapper object
+    FileSystem* fs = FileSystem::getInstance();
 
-        Serial.print("ERROR: ");
-        Serial.println(cmdError.toString());
-
-        if (cmdError.hasCommand()) {
-            Serial.print("Did you mean \"");
-            Serial.print(cmdError.getCommand().toString());
-            Serial.println("\"?");
-        }
-    }
-    /* data */
    public:
-    cli() {
-        cli.setOnError(errorCallback);  // Set error Callback
-        sum = cli.addBoundlessCommand("sum", sumCallback);
-        ls = cli.addCommand("ls", lsCallback);
-        cd = cli.addSingleArgumentCommand("cd", cdCallback);
-        mkdir = cli.addSingleArgumentCommand("mkdir", mkdirCallback);
-    }
-    ~cli();
-
-    void loop() {}
-    if (arrived) {
-        Serial << endl;
-        Serial << fs->currentPath(fs->lastFilePointer) << "> ";
-        arrived = false;
-    }
-    if (Serial.available()) {
-        String input = Serial.readStringUntil('\n');
-        cli.parse(input);
-        arrived = true;
-    }
-    if (cli.errored()) {
-        CommandError cmdError = cli.getError();
-        Serial.print("ERROR: ");
-        Serial.println(cmdError.toString());
-        if (cmdError.hasCommand()) {
-            Serial.print("Did you mean \"");
-            Serial.print(cmdError.getCommand().toString());
-            Serial.println("\"?");
-        }
-    }
+    console();
+    void loop();
 };
 
 #endif  // cli

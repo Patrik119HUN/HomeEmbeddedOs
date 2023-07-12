@@ -7,7 +7,7 @@
 
 #include "System/FileSystem/FileSystem.h"
 
-void lsCallback(cmd* c) {
+void static lsCallback(cmd* c) {
     Command cmd(c);
     FileSystem* fs = FileSystem::getInstance();
     for (auto i : fs->lastFilePointer->files) {

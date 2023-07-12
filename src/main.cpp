@@ -1,65 +1,50 @@
-#include <SimpleCLI.h>
-#include <string.h>
+#include <System/Driver/full/full.h>
+#include <System/Driver/null/null.h>
+#include <System/Driver/zero/zero.h>
+#include <TaskScheduler.h>
 #include <sysheaders.h>
 
-#include "UUID.h"
-
+Scheduler runner;
 FileSystem* fs = FileSystem::getInstance();
+console cli;
 
-void sumCallback(cmd* c) {
-    Command cmd(c);  // Create wrapper object
-
-    int argNum = cmd.countArgs();  // Get number of arguments
-    int sum = 0;
-
-    // Go through all arguments and add their value up
-    for (int i = 0; i < argNum; i++) {
-        Argument arg = cmd.getArg(i);
-        String argValue = arg.getValue();
-        int argIntValue = argValue.toInt();
-
-        if (argIntValue > 0) {
-            if (i > 0) Serial.print('+');
-            Serial.print(argIntValue);
-
-            sum += argIntValue;
-        }
-    }
-    // Print result
-    Serial.print(" = ");
-    Serial.println(sum);
-}
-
-UUID uuid;
 DeviceManager* dv = DeviceManager::getInstance();
 NetworkManager* nm = NetworkManager::getInstance();
-// DigitalOutput relay;
-// rtc* fasz = NULL;
-// Screen* fos = NULL;
+
+void cli_wrapper() { cli.loop(); }
+Task t1(100 * TASK_MILLISECOND, TASK_FOREVER, &cli_wrapper, &runner);
+full fulldev;
+zero zerodev;
+null nulldev;
+Screen* scr;
 int main(void) {
     init();
     initVariant();
     randomSeed(analogRead(A0));
-    uuid.seed(random(311), random(211));
-    uuid.generate();
     fs->mkdir("/dev");
+    scr = new Screen;
+    dev_t fullid = dv->addDev(DeviceManager::devTypes::sys, &fulldev);
+    dev_t nullid = dv->addDev(DeviceManager::devTypes::sys, &nulldev);
+    dev_t zeroid = dv->addDev(DeviceManager::devTypes::sys, &zerodev);
+    dev_t scrid = dv->addDev(DeviceManager::devTypes::screen, scr);
+    fs->mknod("/dev/full", fullid);
+    fs->mknod("/dev/zero", nullid);
+    fs->mknod("/dev/null", zeroid);
+    fs->mknod("/dev/scr", scrid);
     fs->mkdir("/user");
+
+    Device* dos = fs->open("/dev/scr");
+    const char* szoveg = "alma";
+    for (int i = 0; i < 4; i++) {
+        dos->write(szoveg[i]);
+    }
     Serial.begin(9600);
+    t1.enable();
     Ethernet.init(PA9);
 
-    // dev_t rtcid = dv->addDev(DeviceManager::devTypes::rtcdev);
-    // dev_t screenid = dv->addDev(DeviceManager::devTypes::screen);
-    // fs->mkdir("/dev");
-    // fs->mknod("/dev/rtc", rtcid);
-    // fs->mknod("/dev/screen", screenid);
-    // fasz = static_cast<rtc*>(fs->open("/dev/rtc"));
-    // fos = static_cast<Screen*>(fs->open("/dev/screen"));
-    // setDebugMessageLevel(DBG_INFO);
-
     while (true) {
-        //nm->loop();
-        // fos->ioctl(Screen::CTRLCMD::CLEAR, 0);
-        // fos->write(fasz->read());
+        runner.execute();
+        // nm->loop();
         serialEventRun();
     }
 

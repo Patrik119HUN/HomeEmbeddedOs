@@ -19,7 +19,7 @@ class Device : public Stream {
     size_t write(const uint8_t* buffer, size_t size);
 
     int read();
-    int ioctl(int code, int var);
+    virtual int ioctl(int code, int var) = 0;
 };
 
 #endif  // Device

@@ -14,7 +14,6 @@ class null : public Device {
         setTimeout(0);
         nullVar = -1;
     }
-    ~null();
     int available() { return 0; }
     int peek() { return EOF; }
     int read() { return EOF; }
@@ -32,6 +31,7 @@ class null : public Device {
     }
 
     int lastByte() { return nullVar; }
+    int ioctl(int code, int var) { return 1; }
 };
 
 #endif  // null

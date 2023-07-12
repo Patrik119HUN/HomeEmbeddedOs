@@ -6,7 +6,7 @@
 
 #include "System/FileSystem/FileSystem.h"
 
-void cdCallback(cmd* c) {
+void static cdCallback(cmd* c) {
     Command cmd(c);
     FileSystem* fs = FileSystem::getInstance();
     Argument arg = cmd.getArg(0);

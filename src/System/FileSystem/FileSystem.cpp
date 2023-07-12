@@ -17,13 +17,14 @@ node* FileSystem::search(const char* name, nodeType type, node* actualFolder) {
 int FileSystem::mkdir(const char* path) {
     if (strlen(path) <= 0) return ENOENT;
     if (strlen(path) > PATH__MAX) return ENAMETOOLONG;
-
-    std::vector<char*> paths = tokenize(path, "/");
+    char* _path = strdup(path);
+    std::vector<char*> paths = tokenize(_path, "/");
 
     if (paths.size() > SYMLOOP_MAX) return ELOOP;
     for (auto i : paths)
         if (strlen(i) > NAME_MAX) return ENAMETOOLONG;
-    node* lastInstance = lastFilePointer;
+
+    node* lastInstance = (_path[0] == '/') ? &root : lastFilePointer;
 
     while (!paths.empty()) {
         node* srchres = this->search(paths.front(), FOLDER, lastInstance);
@@ -45,7 +46,8 @@ int FileSystem::rmdir(const char* path) {
     std::vector<char*> paths = tokenize(path, "/");
 
     node* folder;
-    node* lastInstance = &root;
+    char* _path = strdup(path);
+    node* lastInstance = (_path[0] == '/') ? &root : lastFilePointer;
 
     while (paths.size() != 1) {
         node* srchres = this->search(paths.front(), FOLDER, lastInstance);
@@ -64,8 +66,10 @@ int FileSystem::rmdir(const char* path) {
 
 void FileSystem::rmnod(const char* path) {}
 
+
 int FileSystem::mknod(const char* path, node* file) {
-    node* lastInstance = &root;
+    char* _path = strdup(path);
+    node* lastInstance = (_path[0] == '/') ? &root : lastFilePointer;
     std::vector<char*> paths = tokenize(path, "/");
     file->name = paths.back();
     paths.pop_back();
@@ -87,14 +91,14 @@ String FileSystem::currentPath(node* actualFolder) {
     node* lastInstance = actualFolder;
     pathNames.push_back(lastInstance->name);
     while (true) {
-        if (lastInstance->prevNode== nullptr) break;
+        if (lastInstance->prevNode == nullptr) break;
         lastInstance = lastInstance->prevNode;
         pathNames.push_back(lastInstance->name);
     }
-    while(!pathNames.empty()){
-        path+=pathNames.back();
+    while (!pathNames.empty()) {
+        path += pathNames.back();
         pathNames.pop_back();
-        path+="/";
+        path += "/";
     }
     return path;
 }
@@ -112,7 +116,8 @@ int FileSystem::mknod(const char* path) {
 }
 
 Device* FileSystem::open(const char* path) {
-    node* lastInstance = &root;
+    char* _path = strdup(path);
+    node* lastInstance = (_path[0] == '/') ? &root : lastFilePointer;
     Device* dev;
     std::vector<char*> paths = tokenize(path, "/");
     char* devName = paths.back();
@@ -125,7 +130,7 @@ Device* FileSystem::open(const char* path) {
         paths.erase(paths.begin());
     }
     node* devFile = this->search(devName, DEVICE, lastInstance);
-    if (devFile == nullptr) return 0;
+    if (devFile == nullptr) return nullptr;
     dev = dmInstance->getDev(devFile->dev);
     return dev;
 }

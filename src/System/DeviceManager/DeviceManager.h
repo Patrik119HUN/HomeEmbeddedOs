@@ -7,8 +7,8 @@
 #include <map>
 #include <vector>
 
+#include "../Driver/drivers.h"
 #include "../Utils/Device/Device.h"
-#include "../drivers.h"
 #include "../sysmacros.h"
 
 class DeviceManager {
@@ -38,20 +38,11 @@ class DeviceManager {
         return instance;
     }
 
-    enum devTypes { screen, rtcdev, relay, sd };
-    dev_t addDev(devTypes type) {
+    enum devTypes { screen, rtcdev, relay, sd, sys };
+    dev_t addDev(devTypes type, Device* dev) {
         dev_t a = deviceRecord.at(type);
         dev_t id = makedev(type, a);
-        switch (type) {
-            case screen:
-                devices.insert(std::pair{id, new Screen});
-                break;
-            case rtcdev:
-                devices.insert(std::pair{id, new rtc});
-                break;
-            default:
-                break;
-        }
+        devices.insert(std::pair{id, dev});
         deviceRecord[type]++;
         return id;
     };

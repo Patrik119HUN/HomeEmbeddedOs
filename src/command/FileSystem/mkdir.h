@@ -7,7 +7,7 @@
 
 #include "System/FileSystem/FileSystem.h"
 
-void mkdirCallback(cmd* c) {
+void static mkdirCallback(cmd* c) {
     Command cmd(c);
     FileSystem* fs = FileSystem::getInstance();
     Argument arg = cmd.getArg(0);

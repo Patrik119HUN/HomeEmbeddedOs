@@ -7,20 +7,14 @@
 #include <map>
 #include <vector>
 
+#include "node.h"
+
 #define PATH__MAX 64
 #define NAME_MAX 32
 #define SYMLOOP_MAX 10
 #include "../DeviceManager/DeviceManager.h"
 #include "../Utils/Device/Device.h"
-// Commands
-enum nodeType { FOLDER, DEVICE };
-struct node {
-    dev_t dev;
-    node* prevNode = nullptr;
-    nodeType type = FOLDER;
-    const char* name;
-    std::vector<node*> files;
-};
+
 class FileSystem {
    private:
     inline static FileSystem* instance{nullptr};
@@ -31,7 +25,6 @@ class FileSystem {
     };
     ~FileSystem() = default;
     DeviceManager* dmInstance = DeviceManager::getInstance();
-
     int mknod(const char* path, node* node);
 
    public:

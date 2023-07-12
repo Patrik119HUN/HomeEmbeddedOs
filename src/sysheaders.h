@@ -7,5 +7,8 @@
 #include <System/DeviceManager/DeviceManager.h>
 #include <System/FileSystem/FileSystem.h>
 #include <System/NetworkInterface/NetworkManager.h>
-#include <System/drivers.h>
+#include <System/Driver/drivers.h>
+#include <command/cli.h>
+
+#include "UUID.h"
 #endif  // sysheaders

@@ -33,7 +33,6 @@ class Screen : public Device {
         SET_DISPLAY,
         SET_AUTOSCROLL
     };
-
     Screen() {
         this->LCDinstance = new LiquidCrystal(rs, rw, en, d0, d1, d2, d3, d4, d5, d6, d7);
         this->LCDinstance->begin(LCD_COLS, LCD_ROWS);
@@ -45,12 +44,11 @@ class Screen : public Device {
         this->LCDinstance->setCursor(col, row);
         return 1;
     }
-    int write(int str) {
-        this->LCDinstance->print(str);
+
+    size_t write(const uint8_t data) {
+        this->LCDinstance->write(data);
         return 1;
     };
-    int read() { return 1; }
-
     int ioctl(int code, int var) {
         switch (code) {
             case CLEAR:
@@ -96,6 +94,12 @@ class Screen : public Device {
         }
         return 1;
     }
+    int available() { return 0; }
+    int peek() { return EOF; }
+    int read() { return 0; }
+    void flush() { return; };
+
+    size_t write(const uint8_t* buffer, size_t size) { return 1; }
 };
 
 #endif  // Screen

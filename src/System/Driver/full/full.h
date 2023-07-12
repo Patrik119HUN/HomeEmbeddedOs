@@ -7,7 +7,6 @@
 class full : public Device {
    public:
     full() { setTimeout(0); }
-    ~full();
     int available() { return 0; }
     int peek() { return EOF; }
     int read() { return EOF; }
@@ -15,5 +14,6 @@ class full : public Device {
 
     size_t write(const uint8_t data) { return ENOSPC; }
     size_t write(const uint8_t* buffer, size_t size) { return ENOSPC; }
+    int ioctl(int code, int var) { return 1; }
 };
 #endif  // full
