@@ -12,8 +12,8 @@
 Scheduler runner;
 FileSystem* fs = FileSystem::getInstance();
 console cli;
-DeviceManager* dv = DeviceManager::getInstance();
-VolumeManager* vm = VolumeManager::get_instance();
+DeviceManager* dv = DeviceManager::GetInstance();
+VolumeManager* vm = VolumeManager::GetInstance();
 
 void cli_wrapper() { cli.loop(); }
 Task t1(100 * TASK_MILLISECOND, TASK_FOREVER, &cli_wrapper, &runner);
@@ -43,7 +43,7 @@ int main(void) {
             ;
     }
     vm->Mount("C", FSType::kFAT32, &SD);
-    IFileSystem* external_drive = vm->get_volume("C");
+    IFileSystem* external_drive = vm->GetVolume("C");
     if (external_drive != nullptr) {
         IFile* file = external_drive->open("proba2.txt", FILE_WRITE);
 

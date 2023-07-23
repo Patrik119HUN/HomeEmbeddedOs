@@ -1,6 +1,6 @@
 #include "volume_manager.h"
 
-VolumeManager* VolumeManager::get_instance() {
+VolumeManager* VolumeManager::GetInstance() {
     if (!instance) {
         instance = new VolumeManager();
     }
@@ -15,7 +15,7 @@ void VolumeManager::Mount(const char* name, FSType type, IFileSystem* fsptr) {
 }
 void VolumeManager::UnMount(const char* name) { this->Search(name); }
 
-IFileSystem* VolumeManager::get_volume(const char* name) {
+IFileSystem* VolumeManager::GetVolume(const char* name) {
     VolumeInformation* vi = this->Search(name);
     if (vi == nullptr) return nullptr;
     return vi->fs;

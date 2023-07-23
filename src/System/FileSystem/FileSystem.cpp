@@ -131,6 +131,6 @@ IFile* FileSystem::open(const char* path,uint8_t mode) {
     }
     node* devFile = this->search(devName, DEVICE, lastInstance);
     if (devFile == nullptr) return nullptr;
-    dev = dmInstance->getDev(devFile->dev);
+    dev = dmInstance->GetDevice(devFile->dev);
     return dev;
 }

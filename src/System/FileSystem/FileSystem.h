@@ -12,7 +12,7 @@
 #define PATH__MAX 64
 #define NAME_MAX_ 32
 #define SYMLOOP_MAX 10
-#include "../DeviceManager/DeviceManager.h"
+#include "../device_manager/device_manager.h"
 #include "IFileSystem.h"
 class FileSystem : public IFileSystem {
    private:
@@ -23,7 +23,7 @@ class FileSystem : public IFileSystem {
         root.name = "";
     };
     ~FileSystem() = default;
-    DeviceManager* dmInstance = DeviceManager::getInstance();
+    DeviceManager* dmInstance = DeviceManager::GetInstance();
     uint8_t mknod(const char* path, node* node);
 
    public:

@@ -14,13 +14,13 @@ class VolumeManager {
    public:
     VolumeManager(const VolumeManager&) = delete;
     VolumeManager& operator=(const VolumeManager&) = delete;
-    static VolumeManager* get_instance();
+    static VolumeManager* GetInstance();
 
     void Mount(const char* name, FSType type, IFileSystem* fsptr);
 
     void UnMount(const char* name);
 
-    IFileSystem* get_volume(const char* name);
+    IFileSystem* GetVolume(const char* name);
 
    private:
     inline static VolumeManager* instance{nullptr};

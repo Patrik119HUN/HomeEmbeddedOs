@@ -5,7 +5,7 @@
 #include <SimpleCLI.h>
 #include <Streaming.h>
 
-#include "System/DeviceManager/DeviceManager.h"
+#include "System/device_manager/device_manager.h"
 #include "System/FileSystem/FileSystem.h"
 void static echoCallback(cmd* c) {
     Command cmd(c);
