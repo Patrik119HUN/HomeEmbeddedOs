@@ -1,44 +1,56 @@
 #include <System/Driver/full/full.h>
 #include <System/Driver/null/null.h>
 #include <System/Driver/zero/zero.h>
+#include <System/VolumeManager/VolumeManager.h>
 #include <TaskScheduler.h>
 #include <sysheaders.h>
+
+#include <vector>
+
+#include "System/Driver/SD/SD.h"
 
 Scheduler runner;
 FileSystem* fs = FileSystem::getInstance();
 console cli;
-
 DeviceManager* dv = DeviceManager::getInstance();
-NetworkManager* nm = NetworkManager::getInstance();
+VolumeManager* vm = VolumeManager::getInstance();
 
 void cli_wrapper() { cli.loop(); }
 Task t1(100 * TASK_MILLISECOND, TASK_FOREVER, &cli_wrapper, &runner);
-full fulldev;
+// full fulldev;
 zero zerodev;
 null nulldev;
+terminal term;
+
 Screen* scr;
 int main(void) {
     init();
     initVariant();
     randomSeed(analogRead(A0));
     fs->mkdir("/dev");
-    scr = new Screen;
-    dev_t fullid = dv->addDev(DeviceManager::devTypes::sys, &fulldev);
-    dev_t nullid = dv->addDev(DeviceManager::devTypes::sys, &nulldev);
-    dev_t zeroid = dv->addDev(DeviceManager::devTypes::sys, &zerodev);
-    dev_t scrid = dv->addDev(DeviceManager::devTypes::screen, scr);
-    fs->mknod("/dev/full", fullid);
-    fs->mknod("/dev/zero", nullid);
-    fs->mknod("/dev/null", zeroid);
-    fs->mknod("/dev/scr", scrid);
-    fs->mkdir("/user");
+    // scr = new Screen;
+    // fs->mknod("/dev/full", dv->addDev(DeviceManager::devTypes::sys, &fulldev));
+    // fs->mknod("/dev/zero", dv->addDev(DeviceManager::devTypes::sys, &nulldev));
+    // fs->mknod("/dev/null", dv->addDev(DeviceManager::devTypes::sys, &zerodev));
+    // fs->mknod("/dev/scr", dv->addDev(DeviceManager::devTypes::screen, scr));
+    // fs->mknod("/dev/tty", dv->addDev(DeviceManager::devTypes::screen, &term));
+    // fs->mkdir("/user");
 
-    Device* dos = fs->open("/dev/scr");
-    const char* szoveg = "alma";
-    for (int i = 0; i < 4; i++) {
-        dos->write(szoveg[i]);
-    }
     Serial.begin(9600);
+    if (!SD.begin(PB6)) {
+        Serial.println("initialization failed!");
+        while (1)
+            ;
+    }
+    vm->mount("C", FSType::FAT32, &SD);
+    IFileSystem* external_drive = vm->getVolume("C");
+    if (external_drive != nullptr) {
+        IFile* file = external_drive->open("proba2.txt", FILE_WRITE);
+
+        file->println("ez egy alma425");
+        file->close();
+    }
+
     t1.enable();
     Ethernet.init(PA9);
 
@@ -50,3 +62,32 @@ int main(void) {
 
     return 0;
 }
+
+/*
+BUS
+    Power 
+        5V
+        3.3V
+        12V
+        GND
+        GND
+    Data
+        SDA1
+        SCL1    I2C
+
+        SDA2
+        SCL2    I2C
+
+        MISO
+        MOSI    SPI
+        SCLK
+
+        1-wire  IDENTIFICATION
+
+        CS1
+        CS2
+        CS3     Bus Select
+        CS4
+        CS5
+        CS6
+*/
