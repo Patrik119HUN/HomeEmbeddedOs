@@ -14,7 +14,7 @@ node* FileSystem::search(const char* name, nodeType type, node* actualFolder) {
     return nullptr;
 }
 
-int FileSystem::mkdir(const char* path) {
+uint8_t FileSystem::mkdir(const char* path) {
     if (strlen(path) <= 0) return ENOENT;
     if (strlen(path) > PATH__MAX) return ENAMETOOLONG;
     char* _path = strdup(path);
@@ -22,7 +22,7 @@ int FileSystem::mkdir(const char* path) {
 
     if (paths.size() > SYMLOOP_MAX) return ELOOP;
     for (auto i : paths)
-        if (strlen(i) > NAME_MAX) return ENAMETOOLONG;
+        if (strlen(i) > NAME_MAX_) return ENAMETOOLONG;
 
     node* lastInstance = (_path[0] == '/') ? &root : lastFilePointer;
 
@@ -42,7 +42,7 @@ int FileSystem::mkdir(const char* path) {
     return 1;
 }
 
-int FileSystem::rmdir(const char* path) {
+uint8_t FileSystem::rmdir(const char* path) {
     std::vector<char*> paths = tokenize(path, "/");
 
     node* folder;
@@ -67,7 +67,7 @@ int FileSystem::rmdir(const char* path) {
 void FileSystem::rmnod(const char* path) {}
 
 
-int FileSystem::mknod(const char* path, node* file) {
+uint8_t FileSystem::mknod(const char* path, node* file) {
     char* _path = strdup(path);
     node* lastInstance = (_path[0] == '/') ? &root : lastFilePointer;
     std::vector<char*> paths = tokenize(path, "/");
@@ -103,22 +103,22 @@ String FileSystem::currentPath(node* actualFolder) {
     return path;
 }
 
-int FileSystem::mknod(const char* path, dev_t dev) {
+uint8_t FileSystem::mknod(const char* path, dev_t dev) {
     node* file = new node;
     file->type = DEVICE;
     file->dev = dev;
     return this->mknod(path, file);
 }
 
-int FileSystem::mknod(const char* path) {
+uint8_t FileSystem::mknod(const char* path) {
     node* file = new node;
     return this->mknod(path, file);
 }
 
-Device* FileSystem::open(const char* path) {
+IFile* FileSystem::open(const char* path,uint8_t mode) {
     char* _path = strdup(path);
     node* lastInstance = (_path[0] == '/') ? &root : lastFilePointer;
-    Device* dev;
+    IFile* dev;
     std::vector<char*> paths = tokenize(path, "/");
     char* devName = paths.back();
     paths.pop_back();
