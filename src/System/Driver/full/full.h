@@ -2,18 +2,23 @@
 #define full_h
 #include <Arduino.h>
 
-#include "../../Utils/Device/Device.h"
+#include "../../FileSystem/IFile.h"
+class full : public IFile {
+    char _file_name[5] = "full";
 
-class full : public Device {
    public:
     full() { setTimeout(0); }
-    int available() { return 0; }
-    int peek() { return EOF; }
-    int read() { return EOF; }
-    void flush() { return; };
+    int available() override { return 0; }
 
-    size_t write(const uint8_t data) { return ENOSPC; }
-    size_t write(const uint8_t* buffer, size_t size) { return ENOSPC; }
-    int ioctl(int code, int var) { return 1; }
+    bool seek(uint32_t pos) override { return false; }
+    int peek() override { return EOF; }
+    int read() override { return EOF; }
+    void flush() override { return; };
+    size_t write(const uint8_t data) override { return ENOSPC; }
+    size_t write(const uint8_t* buffer, size_t size) override { return ENOSPC; }
+    int ioctl(int code, int var) override { return 1; }
+    char* name() override { return _file_name; }
+    bool isDirectory(void) override { return false; }
+    void close() override { return; }
 };
 #endif  // full

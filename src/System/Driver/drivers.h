@@ -6,6 +6,7 @@
 #include "full/full.h"
 #include "null/null.h"
 #include "rtc/rtc.h"
+#include "terminal/terminal.h"
 #include "zero/zero.h"
 
 #endif  // drivers

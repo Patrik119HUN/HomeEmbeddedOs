@@ -3,8 +3,7 @@
 #include <Arduino.h>
 #include <LiquidCrystal.h>
 
-#include "../../Utils/Device/Device.h"
-
+#include "../../FileSystem/IFile.h"
 constexpr uint8_t LCD_COLS = 20;
 constexpr uint8_t LCD_ROWS = 4;
 
@@ -19,9 +18,10 @@ constexpr uint8_t d4 = PB2;
 constexpr uint8_t d5 = PB1;
 constexpr uint8_t d6 = PB15;
 constexpr uint8_t d7 = PB14;
-class Screen : public Device {
+class Screen : public IFile {
    private:
     LiquidCrystal* LCDinstance = NULL;
+    char _file_name[4] = "scr";
 
    public:
     enum CTRLCMD {
@@ -37,19 +37,19 @@ class Screen : public Device {
         this->LCDinstance = new LiquidCrystal(rs, rw, en, d0, d1, d2, d3, d4, d5, d6, d7);
         this->LCDinstance->begin(LCD_COLS, LCD_ROWS);
     };
-    int seek(int pos) {
+    bool seek(uint32_t pos) override {
         int col = pos % LCD_COLS;
         int row = pos / LCD_ROWS;
-        if (pos < 0 || pos > 80) return 0;
+        if (pos < 0 || pos > 80) return false;
         this->LCDinstance->setCursor(col, row);
-        return 1;
+        return true;
     }
 
-    size_t write(const uint8_t data) {
+    size_t write(const uint8_t data) override {
         this->LCDinstance->write(data);
         return 1;
     };
-    int ioctl(int code, int var) {
+    int ioctl(int code, int var) override {
         switch (code) {
             case CLEAR:
                 this->LCDinstance->clear();
@@ -94,12 +94,20 @@ class Screen : public Device {
         }
         return 1;
     }
-    int available() { return 0; }
-    int peek() { return EOF; }
-    int read() { return 0; }
-    void flush() { return; };
+    int available() override { return 0; }
+    int peek() override { return EOF; }
+    int read() override { return 0; }
+    void flush() override { return; };
 
-    size_t write(const uint8_t* buffer, size_t size) { return 1; }
+    size_t write(const uint8_t* buffer, size_t size) {
+        for (size_t i = 0; i < size; i++) {
+            this->LCDinstance->write(buffer[i]);
+        }
+        return 1;
+    }
+    char* name() override { return _file_name; }
+    bool isDirectory(void) override { return false; }
+    void close() override { return; }
 };
 
 #endif  // Screen
