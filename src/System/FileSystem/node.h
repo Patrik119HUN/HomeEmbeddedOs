@@ -3,7 +3,6 @@
 
 #include <Arduino.h>
 
-#include "../Utils/Device/Device.h"
 enum nodeType { FOLDER, DEVICE };
 struct node {
     dev_t dev;

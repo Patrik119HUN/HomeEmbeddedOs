@@ -13,7 +13,6 @@
 #define NAME_MAX_ 32
 #define SYMLOOP_MAX 10
 #include "../DeviceManager/DeviceManager.h"
-#include "../Utils/Device/Device.h"
 #include "IFileSystem.h"
 class FileSystem : public IFileSystem {
    private:

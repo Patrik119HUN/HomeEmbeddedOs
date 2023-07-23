@@ -2,12 +2,14 @@
 #define rtc_h
 
 #include <Arduino.h>
-#include "../../Utils/Device/Device.h"
 #include <RTClib.h>
 
-class rtc : public Device {
+
+#include "../../FileSystem/IFile.h"
+class rtc : public IFile{
    private:
     RTC_DS3231* RTCInstance = NULL;
+    char _file_name[4] = "rtc";
 
    public:
     enum RTCCMD { RTC_SET_TIME, RTC_ALM_READ, RTC_ALM_SET, RTC_AIE_ON, RTC_AIE_OFF };
@@ -20,9 +22,7 @@ class rtc : public Device {
         }
     };
     ~rtc() { delete RTCInstance; }
-    int seek(int pos) { return 1; }
-    int read() { return RTCInstance->unixTime(); }
-    int write(int str) { return 1; }
+    int read() override { return RTCInstance->unixTime(); }
     int ioctl(int code, int var) {
         switch (code) {
             case RTC_SET_TIME:
@@ -40,6 +40,16 @@ class rtc : public Device {
         }
         return 1;
     }
+    int available() override { return 0; }
+
+    bool seek(uint32_t pos) override { return false; }
+    int peek() override { return EOF; }
+    void flush() override { return; };
+    size_t write(const uint8_t data) override { return ENOSPC; }
+    size_t write(const uint8_t* buffer, size_t size) override { return ENOSPC; }
+    char* name() override { return _file_name; }
+    bool isDirectory(void) override { return false; }
+    void close() override { return; }
 };
 
 #endif  // rtc

@@ -53,7 +53,7 @@ class VolumeManager {
 
     IFileSystem* getVolume(const char* name) {
         VolumeInformation* vi = this->srch(name);
-        if (vi == nullptr) return;
+        if (vi == nullptr) return nullptr;
         return vi->fs;
     }
 };
