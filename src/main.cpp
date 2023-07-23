@@ -1,7 +1,7 @@
 #include <System/Driver/full/full.h>
 #include <System/Driver/null/null.h>
 #include <System/Driver/zero/zero.h>
-#include <System/VolumeManager/VolumeManager.h>
+#include <System/volume_manager/volume_manager.h>
 #include <TaskScheduler.h>
 #include <sysheaders.h>
 
@@ -13,7 +13,7 @@ Scheduler runner;
 FileSystem* fs = FileSystem::getInstance();
 console cli;
 DeviceManager* dv = DeviceManager::getInstance();
-VolumeManager* vm = VolumeManager::getInstance();
+VolumeManager* vm = VolumeManager::get_instance();
 
 void cli_wrapper() { cli.loop(); }
 Task t1(100 * TASK_MILLISECOND, TASK_FOREVER, &cli_wrapper, &runner);
@@ -42,8 +42,8 @@ int main(void) {
         while (1)
             ;
     }
-    vm->mount("C", FSType::FAT32, &SD);
-    IFileSystem* external_drive = vm->getVolume("C");
+    vm->Mount("C", FSType::kFAT32, &SD);
+    IFileSystem* external_drive = vm->get_volume("C");
     if (external_drive != nullptr) {
         IFile* file = external_drive->open("proba2.txt", FILE_WRITE);
 
