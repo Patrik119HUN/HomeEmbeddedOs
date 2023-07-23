@@ -18,12 +18,12 @@ void errorCallback(cmd_error* e) {
 }
 void console::loop() {
     if (arrived) {
-        Serial << endl;
         Serial << fs->currentPath(fs->lastFilePointer) << "> ";
         arrived = false;
     }
     if (Serial.available()) {
         String input = Serial.readStringUntil('\n');
+        Serial << "#" << input << endl;
         cli.parse(input);
         arrived = true;
     }
@@ -43,5 +43,7 @@ console::console() {
     ls = cli.addCommand("ls", lsCallback);
     cd = cli.addSingleArgumentCommand("cd", cdCallback);
     mkdir = cli.addSingleArgumentCommand("mkdir", mkdirCallback);
-    echo = cli.addBoundlessCommand("echo", echoCallback);
+    echo = cli.addCommand("echo", echoCallback);
+    echo.addPositionalArgument("str","pon");
+    echo.addPositionalArgument("p","/dev/tty");
 }

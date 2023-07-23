@@ -9,29 +9,20 @@
 #include "System/FileSystem/FileSystem.h"
 void static echoCallback(cmd* c) {
     Command cmd(c);
-    Argument arg = cmd.getArg(0);
+    Argument arg = cmd.getArgument("str");
+    Argument display = cmd.getArgument("p");
+
     String message = arg.getValue();
+    String da = display.getValue();
 
     FileSystem* fs = FileSystem::getInstance();
+    IFile* scr = fs->open(da.c_str());
 
-    int argNum = cmd.countArgs();
-    if (argNum == 1) {
-        Serial << message << endl;
-    }
-    if (argNum == 3 && cmd.getArg(1).getValue().compareTo(">") == 0) {
-        const char* path = cmd.getArg(2).getValue().c_str();
-        Device* scr = fs->open(path);
-        if (scr == nullptr) {
-            Serial << "no device found!" << endl;
-            return;
-        }
+    if (scr == nullptr) return;
 
-        scr->ioctl(0, 0);
-        Serial << message.length() << endl;
-        for (int i = 0; i < message.length(); i++) {
-
-            scr->write(message[i]);
-        }
-    }
+    scr->ioctl(0, 0);
+    for (size_t i = 0; i < message.length(); i++) scr->write(message[i]);
+    scr->write('\n');
+    return;
 }
 #endif  // echo
