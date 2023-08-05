@@ -1,0 +1,6409 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 88,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 93,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++2a -fno-threadsafe-statics -fno-rtti -fno-exceptions -fno-use-cxa-atexit -mcpu=cortex-m0 -mthumb -Os -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500"
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_STM32"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_NUCLEO_F030R8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOARD_HAS_ETHERNET"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOARD_HAS_WIFI"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BOARD_NAME=\"NUCLEO_F030R8\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAL_UART_MODULE_ENABLED"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PLATFORMIO=60107"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F030x8"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STM32F0xx"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "VARIANT_H=\"variant_NUCLEO_F030R8.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/RTClib/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/Streaming/src"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/WiFiNINA/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/Ethernet/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/LinkedList"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SPI/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/avr"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F0xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F0xx_HAL_Driver/Src"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/STM32F0xx"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 40,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Users/patri/.platformio/packages/framework-cmsis/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 46,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F0xx/Include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc"
+				},
+				{
+					"backtrace" : 48,
+					"path" : "C:/Users/patri/.platformio/packages/framework-cmsis/CMSIS/DSP/Include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Users/patri/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude"
+				},
+				{
+					"backtrace" : 50,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/variants/STM32F0xx/F030R8T"
+				},
+				{
+					"backtrace" : 52,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoJson/src"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/MKRGSM/src"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/MKRNB/src"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/MKRWAN/src"
+				},
+				{
+					"backtrace" : 56,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/WiFi101/src"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/Servo/src"
+				},
+				{
+					"backtrace" : 65,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 66,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src"
+				},
+				{
+					"backtrace" : 67,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"
+				},
+				{
+					"backtrace" : 69,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"
+				},
+				{
+					"backtrace" : 70,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				29,
+				41,
+				54,
+				62,
+				65,
+				66,
+				69,
+				75,
+				77,
+				87,
+				95,
+				97,
+				115,
+				117,
+				119,
+				122,
+				124,
+				126,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				333,
+				359,
+				361,
+				363,
+				365,
+				367,
+				369,
+				371,
+				372,
+				386,
+				401,
+				447,
+				449,
+				451,
+				453,
+				455,
+				457,
+				459,
+				461,
+				463,
+				465,
+				467,
+				469,
+				471,
+				473,
+				476,
+				479,
+				507,
+				510,
+				512,
+				514,
+				516,
+				518,
+				520,
+				522,
+				524,
+				526,
+				528,
+				531,
+				550,
+				552,
+				564,
+				586,
+				588,
+				590,
+				592,
+				630,
+				631,
+				633,
+				640,
+				642,
+				645,
+				647,
+				658,
+				659,
+				660,
+				709,
+				711,
+				713,
+				715,
+				717,
+				719,
+				729,
+				768,
+				792,
+				818,
+				820,
+				823,
+				825,
+				827,
+				829,
+				832,
+				834,
+				836
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -mcpu=cortex-m0 -mthumb -Os -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_STM32"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_NUCLEO_F030R8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOARD_HAS_ETHERNET"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOARD_HAS_WIFI"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BOARD_NAME=\"NUCLEO_F030R8\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAL_UART_MODULE_ENABLED"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "PLATFORMIO=60107"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F030x8"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STM32F0xx"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "VARIANT_H=\"variant_NUCLEO_F030R8.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/RTClib/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/Streaming/src"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/WiFiNINA/src"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/Ethernet/src"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/LinkedList"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SPI/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/avr"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F0xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F0xx_HAL_Driver/Src"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/STM32F0xx"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 40,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Users/patri/.platformio/packages/framework-cmsis/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 46,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F0xx/Include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/gcc"
+				},
+				{
+					"backtrace" : 48,
+					"path" : "C:/Users/patri/.platformio/packages/framework-cmsis/CMSIS/DSP/Include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Users/patri/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude"
+				},
+				{
+					"backtrace" : 50,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/cores/arduino"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/variants/STM32F0xx/F030R8T"
+				},
+				{
+					"backtrace" : 52,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoJson/src"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/MKRGSM/src"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/MKRNB/src"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/MKRWAN/src"
+				},
+				{
+					"backtrace" : 56,
+					"path" : "C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/WiFi101/src"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/Servo/src"
+				},
+				{
+					"backtrace" : 65,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 66,
+					"path" : "C:/Users/patri/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src"
+				},
+				{
+					"backtrace" : 67,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"
+				},
+				{
+					"backtrace" : 69,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"
+				},
+				{
+					"backtrace" : 70,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "C:/Users/patri/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				128,
+				548,
+				554,
+				566,
+				595,
+				598,
+				600,
+				604,
+				606,
+				726,
+				727,
+				732,
+				741,
+				742,
+				743,
+				745,
+				746,
+				747,
+				748,
+				749,
+				751,
+				753,
+				755,
+				757,
+				759,
+				763,
+				767
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=gnu++2a -fno-threadsafe-statics -fno-rtti -fno-exceptions -fno-use-cxa-atexit -mcpu=cortex-m0 -mthumb -Os -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				305,
+				306,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				374,
+				375,
+				376,
+				377,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				403,
+				404,
+				405,
+				406,
+				408,
+				410,
+				412,
+				414,
+				416,
+				418,
+				420,
+				422,
+				424,
+				426,
+				428,
+				429,
+				430,
+				434,
+				435,
+				436,
+				438,
+				439,
+				440,
+				442,
+				443,
+				445,
+				446,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				489,
+				491,
+				493,
+				495,
+				497,
+				498,
+				500,
+				501,
+				502,
+				504,
+				505,
+				506,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				547,
+				556,
+				557,
+				559,
+				560,
+				561,
+				562,
+				563,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				644,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				657,
+				661,
+				662,
+				663,
+				664,
+				670,
+				671,
+				672,
+				673,
+				675,
+				676,
+				678,
+				680,
+				682,
+				683,
+				684,
+				686,
+				687,
+				688,
+				689,
+				691,
+				693,
+				695,
+				697,
+				699,
+				701,
+				703,
+				705,
+				707,
+				708,
+				770,
+				771,
+				772,
+				773,
+				774,
+				775,
+				777,
+				779,
+				781,
+				783,
+				785,
+				786,
+				787,
+				788,
+				790,
+				791,
+				794,
+				795,
+				796,
+				797,
+				798,
+				799,
+				801,
+				803,
+				805,
+				807,
+				809,
+				811,
+				813,
+				814,
+				816,
+				817,
+				841
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				29,
+				41,
+				54,
+				62,
+				65,
+				66,
+				69,
+				75,
+				77,
+				87,
+				95,
+				97,
+				115,
+				117,
+				119,
+				122,
+				124,
+				126,
+				128,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				333,
+				359,
+				361,
+				363,
+				365,
+				367,
+				369,
+				371,
+				372,
+				386,
+				401,
+				447,
+				449,
+				451,
+				453,
+				455,
+				457,
+				459,
+				461,
+				463,
+				465,
+				467,
+				469,
+				471,
+				473,
+				476,
+				479,
+				507,
+				510,
+				512,
+				514,
+				516,
+				518,
+				520,
+				522,
+				524,
+				526,
+				528,
+				531,
+				548,
+				550,
+				552,
+				554,
+				564,
+				566,
+				586,
+				588,
+				590,
+				592,
+				595,
+				598,
+				600,
+				604,
+				606,
+				630,
+				631,
+				633,
+				640,
+				642,
+				645,
+				647,
+				658,
+				659,
+				660,
+				709,
+				711,
+				713,
+				715,
+				717,
+				719,
+				726,
+				727,
+				729,
+				732,
+				741,
+				742,
+				743,
+				745,
+				746,
+				747,
+				748,
+				749,
+				751,
+				753,
+				755,
+				757,
+				759,
+				763,
+				767,
+				768,
+				792,
+				818,
+				820,
+				823,
+				825,
+				827,
+				829,
+				832,
+				834,
+				836
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				30,
+				31,
+				32,
+				39,
+				40,
+				42,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				63,
+				64,
+				67,
+				68,
+				70,
+				71,
+				72,
+				73,
+				74,
+				76,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				96,
+				98,
+				114,
+				116,
+				118,
+				120,
+				121,
+				123,
+				125,
+				127,
+				129,
+				136,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				304,
+				308,
+				310,
+				312,
+				314,
+				316,
+				318,
+				334,
+				360,
+				362,
+				364,
+				366,
+				368,
+				370,
+				373,
+				378,
+				402,
+				407,
+				409,
+				411,
+				413,
+				415,
+				417,
+				419,
+				421,
+				423,
+				425,
+				427,
+				431,
+				432,
+				433,
+				437,
+				441,
+				444,
+				448,
+				450,
+				452,
+				454,
+				456,
+				458,
+				460,
+				462,
+				464,
+				466,
+				468,
+				470,
+				472,
+				474,
+				475,
+				477,
+				478,
+				480,
+				488,
+				490,
+				492,
+				494,
+				496,
+				499,
+				503,
+				508,
+				509,
+				511,
+				513,
+				515,
+				517,
+				519,
+				521,
+				523,
+				525,
+				527,
+				529,
+				530,
+				532,
+				546,
+				549,
+				551,
+				553,
+				555,
+				558,
+				565,
+				567,
+				587,
+				589,
+				591,
+				593,
+				594,
+				596,
+				597,
+				599,
+				601,
+				602,
+				603,
+				605,
+				607,
+				608,
+				632,
+				641,
+				643,
+				646,
+				648,
+				655,
+				656,
+				665,
+				666,
+				667,
+				668,
+				669,
+				674,
+				677,
+				679,
+				681,
+				685,
+				690,
+				692,
+				694,
+				696,
+				698,
+				700,
+				702,
+				704,
+				706,
+				710,
+				712,
+				714,
+				716,
+				718,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				728,
+				730,
+				731,
+				733,
+				734,
+				735,
+				736,
+				737,
+				738,
+				739,
+				740,
+				744,
+				750,
+				752,
+				754,
+				756,
+				758,
+				760,
+				761,
+				762,
+				764,
+				765,
+				766,
+				769,
+				776,
+				778,
+				780,
+				782,
+				784,
+				789,
+				793,
+				800,
+				802,
+				804,
+				806,
+				808,
+				810,
+				812,
+				815,
+				819,
+				821,
+				822,
+				824,
+				826,
+				828,
+				830,
+				831,
+				833,
+				835,
+				837,
+				838,
+				839,
+				840
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/.github/ISSUE_TEMPLATE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/.github/PULL_REQUEST_TEMPLATE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/.github/workflows/githubci.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/code-of-conduct.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/DS3231_alarm/DS3231_alarm.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/customWire_DS3231onSAMD21/.metro_m4.test.only",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/customWire_DS3231onSAMD21/customWire_DS3231onSAMD21.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/datecalc/datecalc.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/ds1307/ds1307.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/ds1307SqwPin/ds1307SqwPin.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/ds1307nvram/ds1307nvram.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/ds3231/ds3231.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/interrupts1Hz/.leonardo.test.only",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/interrupts1Hz/.mega2560.test.only",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/interrupts1Hz/.uno.test.only",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/interrupts1Hz/interrupts1Hz.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/pcf8523/pcf8523.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/pcf8523Countdown/pcf8523Countdown.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/pcf8563/pcf8563.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/pcf8563_interrupt/pcf8563_interrupt.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/softrtc/softrtc.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/timestamp/timestamp.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/examples/toString/toString.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/license.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/RTClib/src/RTClib.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/src/RTClib.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/src/const.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/RTClib/src/enums.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Streaming/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Streaming/README.org",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Streaming/examples/StreamingExample/StreamingExample.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Streaming/examples/StreamingTests/StreamingTests.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Streaming/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Streaming/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Streaming/src/Streaming.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/bus_out/bus_out.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/uuid/UUID.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/UUID.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_minimum/UUID_minimum.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_performance/UUID_performance.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_performance/performance_0.1.4..txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_performance/performance_0.1.5.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_random_ESP32/UUID_random_ESP32.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_random_seed/UUID_random_seed.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_test/UUID_test.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_test/output_0.1.1.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_test/output_0.1.2.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_test/output_0.1.3.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/uuid/examples/UUID_test/output_0.1.4.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/command/cli.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/command/cli.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/command/echo.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/command/file_system/cd.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/command/file_system/fs_commands.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/command/file_system/ls.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/command/file_system/mkdir.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/NetworkInterface/NetworkManager.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kernel/device_manager/device_manager.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/device_manager/device_manager.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/device_manager/device_types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kernel/driver/SD/File.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kernel/driver/SD/SD.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/SD/SD.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/SD/utility/FatStructs.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kernel/driver/SD/utility/Sd2Card.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/SD/utility/Sd2Card.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/SD/utility/Sd2PinMap.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/SD/utility/SdFat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/SD/utility/SdFatUtil.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/SD/utility/SdFatmainpage.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kernel/driver/SD/utility/SdFile.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/SD/utility/SdInfo.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kernel/driver/SD/utility/SdVolume.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/digital_output/digital_output.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/drivers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/full/full.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/null/null.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/rtc/rtc.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/screen/screen.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/terminal/terminal.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/driver/zero/zero.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/file_system/file_interface.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kernel/file_system/file_system.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/file_system/file_system.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/file_system/file_system_interface.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/file_system/node.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/kernel_boot.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/sysmacros.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/volume_manager/fs_type.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/volume_manager/volume_information.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/kernel/volume_manager/volume_manager.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/kernel/volume_manager/volume_manager.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/sysheaders.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/.codespellrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/arduino-lint.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/sync-labels.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/README.adoc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/ECCX08HMAC/ECCX08HMAC.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/ECCX08RandomNumber/ECCX08RandomNumber.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/Tools/ECCX08CSR/ECCX08CSR.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/Tools/ECCX08JWSPublicKey/ECCX08JWSPublicKey.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/Tools/ECCX08SelfSignedCert/ECCX08SelfSignedCert.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ArduinoECCX08.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08DefaultTLSConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/.clang-format",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/.gitattributes",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/.mbedignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/.prettierignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/ArduinoJson.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/CHANGELOG.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/CONTRIBUTING.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/LICENSE.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/SUPPORT.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/appveyor.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/component.mk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/JsonConfigFile/JsonConfigFile.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/JsonFilterExample/JsonFilterExample.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/JsonGeneratorExample/JsonGeneratorExample.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/JsonHttpClient/JsonHttpClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/JsonParserExample/JsonParserExample.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/JsonServer/JsonServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/JsonUdpBeacon/JsonUdpBeacon.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/MsgPackParser/MsgPackParser.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/ProgmemExample/ProgmemExample.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/examples/StringExample/StringExample.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/idf_component.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/library.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Configuration.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationError.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/NestingLimit.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStreamReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Readers/RamReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Json/EscapeSequence.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Json/Latch.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Memory/Alignment.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Namespace.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Numbers/JsonFloat.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Numbers/arithmeticCompare.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/assert.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/attributes.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/ctype.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/limits.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/math.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace_generic.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/preprocessor.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/conditional.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/declval.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/enable_if.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/integral_constant.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_array.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_base_of.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_class.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_const.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_enum.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_floating_point.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_integral.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_pointer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_same.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_signed.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_unsigned.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_void.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_const.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_cv.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_reference.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/type_identity.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/Writers/ArduinoStringWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/Writers/PrintWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/Adapters/FlashString.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/StringAdapter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/Converter.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantSlot.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantTag.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/VariantTo.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/compatibility.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/ArduinoJson/version.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/ArduinoJson/src/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/.codespellrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/.github/dependabot.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/.github/workflows/check-arduino.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/.github/workflows/sync-labels.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/examples/ConnectionHandlerDemo/ConnectionHandlerDemo.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/examples/ConnectionHandlerDemo/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.codespellrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.github/dependabot.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.github/workflows/check-arduino.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.github/workflows/sync-labels.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/examples/Arduino_Debug_Advance/Arduino_Debug_Advance.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/examples/Arduino_Debug_Basic/Arduino_Debug_Basic.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/.codespellrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/.github/dependabot.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/.github/workflows/check-arduino.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/.github/workflows/sync-labels.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/README.adoc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/AdvancedChatServer/AdvancedChatServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/BarometricPressureWebServer/BarometricPressureWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/ChatServer/ChatServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/DhcpAddressPrinter/DhcpAddressPrinter.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/DhcpChatServer/DhcpChatServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/LinkStatus/LinkStatus.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/PagerServer/PagerServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/TelnetClient/TelnetClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/UDPSendReceiveString/UDPSendReceiveString.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/UdpNtpClient/UdpNtpClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/WebClient/WebClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/WebClientRepeating/WebClientRepeating.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/examples/WebServer/WebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/.gitattributes",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/LICENSE.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/LinkedList.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/examples/ClassList/ClassList.pde",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/examples/SimpleIntegerList/SimpleIntegerList.pde",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/examples/Sort/Sort.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/library.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/README.adoc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/Autoscroll/Autoscroll.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/Blink/Blink.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/Cursor/Cursor.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/CustomCharacter/CustomCharacter.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/Display/Display.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/HelloWorld/HelloWorld.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/Scroll/Scroll.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/SerialDisplay/SerialDisplay.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/TextDirection/TextDirection.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/examples/setCursor/setCursor.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/.travis.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/README.adoc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GPRSPing/GPRSPing.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GPRSPing/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GPRSUdpNtpClient/GPRSUdpNtpClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GPRSUdpNtpClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GsmLocation/GsmLocation.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GsmLocation/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GsmSSLWebClient/GsmSSLWebClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GsmSSLWebClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GsmWebClient/GsmWebClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GsmWebClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GsmWebServer/GsmWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/GsmWebServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/MakeVoiceCall/MakeVoiceCall.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/MakeVoiceCall/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/ReceiveSMS/ReceiveSMS.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/ReceiveSMS/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/ReceiveVoiceCall/ReceiveVoiceCall.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/ReceiveVoiceCall/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/SSLCertificateManagement_Example/SSLCertificateManagement_Example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/SSLCertificateManagement_Example/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/SendSMS/SendSMS.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/SendSMS/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/BandManagement/BandManagement.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/ChooseRadioAccessTechnology/ChooseRadioAccessTechnology.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/FileUtilsHttpDownload/FileUtilsHttpDownload.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/FileUtilsHttpDownload/Helpers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/FileUtilsHttpDownload/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/FileUtilsJsonFile/Config.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/FileUtilsJsonFile/FileUtilsJsonFile.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/FileUtilsReadBlock/FileUtilsReadBlock.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/GsmScanNetworks/GsmScanNetworks.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/GsmScanNetworks/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/PinManagement/PinManagement.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/SerialGSMPassthrough/SerialGSMPassthrough.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/TestGPRS/TestGPRS.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/TestGPRS/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/TestModem/TestModem.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/TestWebServer/TestWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/examples/Tools/TestWebServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/MKRGSM.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMRootCerts.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/README.adoc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/GPRSUdpNtpClient/GPRSUdpNtpClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/GPRSUdpNtpClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/NBSSLWebClient/NBSSLWebClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/NBSSLWebClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/NBWebClient/NBWebClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/NBWebClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/ReceiveSMS/ReceiveSMS.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/ReceiveSMS/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/SendSMS/SendSMS.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/SendSMS/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/Tools/ChooseRadioAccessTechnology/ChooseRadioAccessTechnology.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/Tools/NBScanNetworks/NBScanNetworks.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/Tools/NBScanNetworks/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/Tools/PinManagement/PinManagement.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/Tools/SerialSARAPassthrough/SerialSARAPassthrough.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/Tools/TestGPRS/TestGPRS.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/Tools/TestGPRS/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/examples/Tools/TestModem/TestModem.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/MKRNB.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NB.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBRootCerts.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/.codespellrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/.github/dependabot.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/.github/workflows/check-arduino.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/COPYING.LESSER",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/DumbModemLoraSender/DumbModemLoraSender.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/FWUpdaterBridge/FWUpdaterBridge.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/FirstConfiguration/FirstConfiguration.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/LoraSendAndReceive/LoraSendAndReceive.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/LoraSendAndReceive/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/MKRWANFWUpdate_standalone.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/fw.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/MKRWAN/src/MKRWAN.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/examples/BarometricPressureSensor/BarometricPressureSensor.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/examples/DigitalPotControl/DigitalPotControl.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/src/SPI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/.github/FUNDING.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/.github/stale.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/.github/workflows/version.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/BoundlessCommand/BoundlessCommand.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/ESP8266WebCLI/ESP8266WebCLI.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/HelpCommand/HelpCommand.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/Ping/Ping.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/PingWithArguments/PingWithArguments.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/PingWithCallbacks/PingWithCallbacks.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/PingWithTemplates/PingWithTemplates.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/SingleArgumentCommand/SingleArgumentCommand.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/examples/VideoExample/VideoExample.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/library.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/StringCLI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg_types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error_types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser_types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/LICENSE.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example00_Blink/Scheduler_example00_Blink.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example00_Blink_Namespace/Scheduler_example00_Blink_Namespace.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example01/Scheduler_example01.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example02/Scheduler_example02.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example03/Scheduler_example03.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example04_StatusRequest/Scheduler_example04_StatusRequest.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example05_StatusRequest/Scheduler_example05_StatusRequest.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example06_IDLE/Scheduler_example06_IDLE.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example07_WDT/Scheduler_example07_WDT.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example08_LTS/Scheduler_example08_LTS.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example09_TimeCritical/Scheduler_example09_TimeCritical.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example10_Benchmark/Scheduler_example10_Benchmark.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example11_Priority/Scheduler_example11_Priority.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example12_Priority/Scheduler_example12_Priority.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example13_Micros/Scheduler_example13_Micros.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example14_Yield/Scheduler_example14_Yield.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example15_STDFunction/Scheduler_example15_STDFunction.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/Scheduler_example16_Multitab.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/header.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example17_Timeout/Scheduler_example17_Timeout.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example18_StatusRequest_LTS_WDT_Timeout/Scheduler_example18_StatusRequest_LTS_WDT_Timeout.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example19_Dynamic_Tasks/Scheduler_example19_Dynamic_Tasks.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example19_Dynamic_Tasks_SelfDestruct/Scheduler_example19_Dynamic_Tasks_SelfDestruct.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example19_Dynamic_Tasks_stdQueue/Scheduler_example19_Dynamic_Tasks_stdQueue.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Scheduler_example21_OO_Callbacks.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example23_IDLE_Callback/Scheduler_example23_IDLE_Callback.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example24_CPU_LOAD/Scheduler_example24_CPU_LOAD.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example25_SCHEDULER_CHAIN/Scheduler_example25_SCHEDULER_CHAIN.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example26_SCHEDULING_OPTIONS/Scheduler_example26_SCHEDULING_OPTIONS.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/.vscode/extensions.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/include/led.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/include/main.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/platformio.ini",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_template/Scheduler_template.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/library.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/src/TScheduler.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/src/TSchedulerDeclarations.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/src/TaskScheduler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/src/TaskSchedulerDeclarations.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/TaskScheduler/src/TaskSchedulerSleepMethods.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/.travis.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/README.adoc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/AP_SimpleWebServer/AP_SimpleWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/AP_SimpleWebServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/CheckWifi101FirmwareVersion/CheckWifi101FirmwareVersion.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/ConnectNoEncryption/ConnectNoEncryption.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/ConnectNoEncryption/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/ConnectWithWEP/ConnectWithWEP.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/ConnectWithWEP/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/ConnectWithWPA/ConnectWithWPA.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/ConnectWithWPA/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/FirmwareUpdater/Endianess.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/FirmwareUpdater/FirmwareUpdater.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/MDNS_WiFiWebServer/MDNS_WiFiWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/MDNS_WiFiWebServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/Provisioning_WiFiWebServer/Provisioning_WiFiWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/ScanNetworks/ScanNetworks.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/ScanNetworksAdvanced/ScanNetworksAdvanced.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/SimpleWebServerWiFi/SimpleWebServerWiFi.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/SimpleWebServerWiFi/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiChatServer/WiFiChatServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiChatServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiPing/WiFiPing.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiPing/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiSSLClient/WiFiSSLClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiSSLClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiUdpNtpClient/WiFiUdpNtpClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiUdpNtpClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiUdpSendReceiveString/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiWebClient/WiFiWebClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiWebClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiWebClientRepeating/WiFiWebClientRepeating.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiWebClientRepeating/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiWebServer/WiFiWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/examples/WiFiWebServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi101.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/include/nm_bsp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/include/nm_bsp_arduino.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/include/nm_bsp_avr.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/include/nm_bsp_internal.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/include/nm_bsp_samd21.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/include/nm_bus_wrapper.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/common/include/nm_common.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/common/include/nm_debug.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/include/ecc_types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/include/m2m_ate_mode.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/include/m2m_crypto.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/include/m2m_ota.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/include/m2m_periph.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/include/m2m_ssl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/include/m2m_types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/include/m2m_wifi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/socket/include/m2m_socket_host_if.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/socket/include/socket.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket_internal.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/include/spi_flash.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/include/spi_flash_map.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/.github/ISSUE_TEMPLATE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/.github/PULL_REQUEST_TEMPLATE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/.github/workflows/githubci.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/README.adoc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/AP_SimpleWebServer/.esp32.test.skip",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/AP_SimpleWebServer/AP_SimpleWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/AP_SimpleWebServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/ConnectNoEncryption/ConnectNoEncryption.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/ConnectNoEncryption/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/ConnectWithWEP/ConnectWithWEP.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/ConnectWithWEP/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/ConnectWithWPA/ConnectWithWPA.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/ConnectWithWPA/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/JSONdemo/JSONdemo.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/JSONdemo/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/ScanNetworks/ScanNetworks.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/ScanNetworksAdvanced/ScanNetworksAdvanced.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/SimpleWebServerWiFi/.esp32.test.skip",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/SimpleWebServerWiFi/SimpleWebServerWiFi.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/SimpleWebServerWiFi/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/CheckFirmwareVersion/CheckFirmwareVersion.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/.pyportal.test.only",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/Endianess.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/FirmwareUpdater.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/SerialNINAPassthrough/.pyportal.test.only",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/SerialNINAPassthrough/SerialNINAPassthrough.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiChatServer/.esp32.test.skip",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiChatServer/WiFiChatServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiChatServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiPing/WiFiPing.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiPing/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiSSLClient/WiFiSSLClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiSSLClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiUdpNtpClient/WiFiUdpNtpClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiUdpNtpClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiUdpSendReceiveString/WiFiUdpSendReceiveString.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiUdpSendReceiveString/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiWebClient/WiFiWebClient.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiWebClient/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiWebClientRepeating/WiFiWebClientRepeating.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiWebClientRepeating/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiWebServer/.esp32.test.skip",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiWebServer/WiFiWebServer.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/examples/WiFiWebServer/arduino_secrets.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiNINA.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/debug.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_spi.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wl_definitions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wl_types.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/nucleo_f030r8/integrity.dat",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

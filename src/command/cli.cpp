@@ -1,8 +1,6 @@
 #include "cli.h"
 
-#include "FileSystem/cd.h"
-#include "FileSystem/ls.h"
-#include "FileSystem/mkdir.h"
+#include "file_system/fs_commands.h"
 #include "echo.h"
 void errorCallback(cmd_error* e) {
     CommandError cmdError(e);

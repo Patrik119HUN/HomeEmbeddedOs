@@ -1,0 +1,161 @@
+name: Compile Examples
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/compile-examples.yml"
+      - "library.properties"
+      - "examples/**"
+      - "src/**"
+  push:
+    paths:
+      - ".github/workflows/compile-examples.yml"
+      - "library.properties"
+      - "examples/**"
+      - "src/**"
+  schedule:
+    # Run every Tuesday at 8 AM UTC to catch breakage caused by changes to external resources (libraries, platforms).
+    - cron: "0 8 * * TUE"
+  workflow_dispatch:
+  repository_dispatch:
+
+jobs:
+  build:
+    name: ${{ matrix.board.fqbn }}
+    runs-on: ubuntu-latest
+
+    env:
+      LIBRARIES: |
+        # Install the Arduino_ConnectionHandler library from the repository
+        - source-path: ./
+        - name: Arduino_DebugUtils
+        - name: WiFi101
+        - name: WiFiNINA
+        - name: MKRGSM
+        - name: MKRNB
+        - name: MKRWAN
+      ARDUINOCORE_MBED_STAGING_PATH: extras/ArduinoCore-mbed
+      ARDUINOCORE_API_STAGING_PATH: extras/ArduinoCore-API
+      SKETCHES_REPORTS_PATH: sketches-reports
+    strategy:
+      matrix:
+        board:
+          - fqbn: "arduino:samd:mkr1000"
+            platform-name: arduino:samd
+          - fqbn: "arduino:samd:mkrwifi1010"
+            platform-name: arduino:samd
+          - fqbn: "arduino:samd:nano_33_iot"
+            platform-name: arduino:samd
+          - fqbn: "arduino:samd:mkrgsm1400"
+            platform-name: arduino:samd
+          - fqbn: "arduino:samd:mkrnb1500"
+            platform-name: arduino:samd
+          - fqbn: "arduino:samd:mkrwan1300"
+            platform-name: arduino:samd
+          - fqbn: "arduino:samd:mkrwan1310"
+            platform-name: arduino:samd
+          - fqbn: "arduino:mbed:envie_m7"
+            platform-name: arduino:mbed
+          - fqbn: "esp8266:esp8266:huzzah"
+            platform-name: esp8266:esp8266
+          - fqbn: "esp32:esp32:esp32"
+            platform-name: esp32:esp32
+          - fqbn: arduino:mbed_nano:nanorp2040connect
+            platform-name: arduino:mbed_nano
+          - fqbn: arduino:mbed_nicla:nicla_vision
+            platform-name: arduino:mbed_nicla
+          - fqbn: arduino:mbed_opta:opta
+            platform-name: arduino:mbed_opta
+          - fqbn: arduino:mbed_giga:giga
+            platform-name: arduino:mbed_giga
+          - fqbn: arduino:renesas_portenta:portenta_c33
+            platform-name: arduino:renesas_portenta
+          - fqbn: arduino:renesas_uno:unor4wifi
+            platform-name: arduino:renesas_uno
+
+        # Make board type-specific customizations to the matrix jobs
+        include:
+          - board:
+              platform-name: arduino:samd
+            platforms: |
+              # Install Arduino SAMD Boards via Boards Manager
+              - name: arduino:samd
+          - board:
+              platform-name: arduino:mbed
+            platforms: |
+              # Install Arduino mbed-Enabled Boards via Boards Manager for the toolchain
+              - name: arduino:mbed
+              # Overwrite the Arduino mbed-Enabled Boards release version with version from the tip of the default branch (located in local path because of the need to first install ArduinoCore-API)
+              - source-path: extras/ArduinoCore-mbed
+                name: arduino:mbed
+          - board:
+              platform-name: arduino:renesas_portenta
+            platforms: |
+              # Install Arduino Renesas portenta Boards via Boards Manager
+              - name: arduino:renesas_portenta
+          - board:
+              platform-name: arduino:renesas_uno
+            platforms: |
+              # Install Arduino Renesas uno Boards via Boards Manager
+              - name: arduino:renesas_uno
+          - board:
+              platform-name: esp8266:esp8266
+            platforms: |
+              # Install ESP8266 platform via Boards Manager
+              - name: esp8266:esp8266
+                source-url: https://arduino.esp8266.com/stable/package_esp8266com_index.json
+                version: 2.5.0
+          - board:
+              platform-name: esp32:esp32
+            platforms: |
+              # Install ESP32 platform via Boards Manager
+              - name: esp32:esp32
+                source-url: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+    steps:
+      - uses: actions/checkout@v3
+
+      # It's necessary to checkout the platform before installing it so that the ArduinoCore-API dependency can be added
+      - name: Checkout ArduinoCore-mbed
+        # this step only needed when the Arduino mbed-Enabled Boards platform sourced from the repository is being used
+        if: matrix.board.platform-name == 'arduino:mbed'
+        uses: actions/checkout@v3
+        with:
+          repository: arduino/ArduinoCore-mbed
+          # The arduino/actions/libraries/compile-examples action will install the platform from this path
+          path: ${{ env.ARDUINOCORE_MBED_STAGING_PATH }}
+
+      - name: Checkout ArduinoCore-API
+        # This step only needed when the Arduino mbed-Enabled Boards platform sourced from the repository is being used
+        if: matrix.board.platform-name == 'arduino:mbed'
+        uses: actions/checkout@v3
+        with:
+          repository: arduino/ArduinoCore-API
+          path: ${{ env.ARDUINOCORE_API_STAGING_PATH }}
+
+      - name: Install ArduinoCore-API
+        # This step only needed when the Arduino mbed-Enabled Boards platform sourced from the repository is being used
+        if: matrix.board.platform-name == 'arduino:mbed'
+        run: |
+          mv "${{ env.ARDUINOCORE_API_STAGING_PATH }}/api" "${{ env.ARDUINOCORE_MBED_STAGING_PATH }}/cores/arduino"
+
+      - name: Install ESP32 platform dependencies
+        if: matrix.board.platform-name == 'esp32:esp32'
+        run: pip3 install pyserial
+
+      - name: Compile examples
+        uses: arduino/compile-sketches@v1
+        with:
+          platforms: ${{ matrix.platforms }}
+          fqbn: ${{ matrix.board.fqbn }}
+          libraries: ${{ env.LIBRARIES }}
+          enable-deltas-report: 'true'
+          sketches-report-path: ${{ env.SKETCHES_REPORTS_PATH }}
+
+      - name: Save memory usage change report as artifact
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v3
+        with:
+          if-no-files-found: error
+          name: ${{ env.SKETCHES_REPORTS_PATH }}
+          path: ${{ env.SKETCHES_REPORTS_PATH }}

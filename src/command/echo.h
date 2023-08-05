@@ -5,8 +5,8 @@
 #include <SimpleCLI.h>
 #include <Streaming.h>
 
-#include "System/device_manager/device_manager.h"
-#include "System/FileSystem/FileSystem.h"
+#include "kernel/device_manager/device_manager.h"
+#include "kernel/file_system/file_system.h"
 void static echoCallback(cmd* c) {
     Command cmd(c);
     Argument arg = cmd.getArgument("str");
@@ -21,8 +21,9 @@ void static echoCallback(cmd* c) {
     if (scr == nullptr) return;
 
     scr->ioctl(0, 0);
-    for (size_t i = 0; i < message.length(); i++) scr->write(message[i]);
+    for (size_t i = 0; i < message.length(); i++)
+        scr->write(message[i]);
     scr->write('\n');
     return;
 }
-#endif  // echo
+#endif // echo

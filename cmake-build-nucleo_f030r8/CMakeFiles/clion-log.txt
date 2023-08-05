@@ -1,7 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=nucleo_f030r8 -G "CodeBlocks - MinGW Makefiles" -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs -B C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/cmake-build-nucleo_f030r8
-
-Problems were encountered while collecting compiler information:
-	arm-none-eabi-g++.exe: error: unrecognized command line option '-std=gnu++20'; did you mean '-std=gnu++2a'?

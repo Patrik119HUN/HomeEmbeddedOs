@@ -154,6 +154,174 @@ Z_DUMMY_TARGET/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
 .PHONY : Z_DUMMY_TARGET/fast
 
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.obj: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.obj
+
+# target to build an object file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.i: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.i
+
+# target to preprocess a source file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.i
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.s: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.s
+
+# target to generate assembly for a file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.s
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.obj: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.obj
+
+# target to build an object file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.i: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.i
+
+# target to preprocess a source file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.i
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.s: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.s
+
+# target to generate assembly for a file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.s
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.obj: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.obj
+
+# target to build an object file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.i: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.i
+
+# target to preprocess a source file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.i
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.s: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.s
+
+# target to generate assembly for a file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.s
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.obj: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.obj
+
+# target to build an object file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.i: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.i
+
+# target to preprocess a source file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.i
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.s: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.s
+
+# target to generate assembly for a file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.s
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.obj: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.obj
+
+# target to build an object file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.i: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.i
+
+# target to preprocess a source file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.i
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.s: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.s
+
+# target to generate assembly for a file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.s
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.obj: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.obj
+
+# target to build an object file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.i: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.i
+
+# target to preprocess a source file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.i
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.s: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.s
+
+# target to generate assembly for a file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.s
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.obj: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.obj
+
+# target to build an object file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.i: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.i
+
+# target to preprocess a source file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.i
+
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.s: .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.s
+
+# target to generate assembly for a file
+.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.s
+
 .pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.obj: .pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj
 .PHONY : .pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.obj
 
@@ -1378,1157 +1546,461 @@ Z_DUMMY_TARGET/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.s
 .PHONY : .pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.obj: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.i: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.i
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.i
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.s: .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.s
+.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.s
+.PHONY : .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.s
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.obj: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.obj
 
 # target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.i: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.i
 
 # target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.i
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.i
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.i
 
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.s: .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.s
 
 # target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.s
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.obj: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.obj
-
-# target to build an object file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.i: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.i
-
-# target to preprocess a source file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.i
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.i
-
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.s: .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.s
-
-# target to generate assembly for a file
-.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.s
-.PHONY : .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.s
+.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.s
+.PHONY : .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.s
 
 .pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.obj: .pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj
 .PHONY : .pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.obj
@@ -3418,53 +2890,245 @@ lib/RTClib/src/RTClib.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/src/RTClib.cpp.s
 .PHONY : lib/RTClib/src/RTClib.cpp.s
 
-src/System/FileSystem/FileSystem.obj: src/System/FileSystem/FileSystem.cpp.obj
-.PHONY : src/System/FileSystem/FileSystem.obj
+lib/uuid/UUID.obj: lib/uuid/UUID.cpp.obj
+.PHONY : lib/uuid/UUID.obj
 
 # target to build an object file
-src/System/FileSystem/FileSystem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.obj
-.PHONY : src/System/FileSystem/FileSystem.cpp.obj
+lib/uuid/UUID.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.obj
+.PHONY : lib/uuid/UUID.cpp.obj
 
-src/System/FileSystem/FileSystem.i: src/System/FileSystem/FileSystem.cpp.i
-.PHONY : src/System/FileSystem/FileSystem.i
+lib/uuid/UUID.i: lib/uuid/UUID.cpp.i
+.PHONY : lib/uuid/UUID.i
 
 # target to preprocess a source file
-src/System/FileSystem/FileSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.i
-.PHONY : src/System/FileSystem/FileSystem.cpp.i
+lib/uuid/UUID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.i
+.PHONY : lib/uuid/UUID.cpp.i
 
-src/System/FileSystem/FileSystem.s: src/System/FileSystem/FileSystem.cpp.s
-.PHONY : src/System/FileSystem/FileSystem.s
+lib/uuid/UUID.s: lib/uuid/UUID.cpp.s
+.PHONY : lib/uuid/UUID.s
 
 # target to generate assembly for a file
-src/System/FileSystem/FileSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.s
-.PHONY : src/System/FileSystem/FileSystem.cpp.s
+lib/uuid/UUID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.s
+.PHONY : lib/uuid/UUID.cpp.s
 
-src/System/Utils/Device/Device.obj: src/System/Utils/Device/Device.cpp.obj
-.PHONY : src/System/Utils/Device/Device.obj
+src/command/cli.obj: src/command/cli.cpp.obj
+.PHONY : src/command/cli.obj
 
 # target to build an object file
-src/System/Utils/Device/Device.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.obj
-.PHONY : src/System/Utils/Device/Device.cpp.obj
+src/command/cli.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.obj
+.PHONY : src/command/cli.cpp.obj
 
-src/System/Utils/Device/Device.i: src/System/Utils/Device/Device.cpp.i
-.PHONY : src/System/Utils/Device/Device.i
+src/command/cli.i: src/command/cli.cpp.i
+.PHONY : src/command/cli.i
 
 # target to preprocess a source file
-src/System/Utils/Device/Device.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.i
-.PHONY : src/System/Utils/Device/Device.cpp.i
+src/command/cli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.i
+.PHONY : src/command/cli.cpp.i
 
-src/System/Utils/Device/Device.s: src/System/Utils/Device/Device.cpp.s
-.PHONY : src/System/Utils/Device/Device.s
+src/command/cli.s: src/command/cli.cpp.s
+.PHONY : src/command/cli.s
 
 # target to generate assembly for a file
-src/System/Utils/Device/Device.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.s
-.PHONY : src/System/Utils/Device/Device.cpp.s
+src/command/cli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.s
+.PHONY : src/command/cli.cpp.s
+
+src/kernel/device_manager/device_manager.obj: src/kernel/device_manager/device_manager.cpp.obj
+.PHONY : src/kernel/device_manager/device_manager.obj
+
+# target to build an object file
+src/kernel/device_manager/device_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.obj
+.PHONY : src/kernel/device_manager/device_manager.cpp.obj
+
+src/kernel/device_manager/device_manager.i: src/kernel/device_manager/device_manager.cpp.i
+.PHONY : src/kernel/device_manager/device_manager.i
+
+# target to preprocess a source file
+src/kernel/device_manager/device_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.i
+.PHONY : src/kernel/device_manager/device_manager.cpp.i
+
+src/kernel/device_manager/device_manager.s: src/kernel/device_manager/device_manager.cpp.s
+.PHONY : src/kernel/device_manager/device_manager.s
+
+# target to generate assembly for a file
+src/kernel/device_manager/device_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.s
+.PHONY : src/kernel/device_manager/device_manager.cpp.s
+
+src/kernel/driver/SD/File.obj: src/kernel/driver/SD/File.cpp.obj
+.PHONY : src/kernel/driver/SD/File.obj
+
+# target to build an object file
+src/kernel/driver/SD/File.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.obj
+.PHONY : src/kernel/driver/SD/File.cpp.obj
+
+src/kernel/driver/SD/File.i: src/kernel/driver/SD/File.cpp.i
+.PHONY : src/kernel/driver/SD/File.i
+
+# target to preprocess a source file
+src/kernel/driver/SD/File.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.i
+.PHONY : src/kernel/driver/SD/File.cpp.i
+
+src/kernel/driver/SD/File.s: src/kernel/driver/SD/File.cpp.s
+.PHONY : src/kernel/driver/SD/File.s
+
+# target to generate assembly for a file
+src/kernel/driver/SD/File.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.s
+.PHONY : src/kernel/driver/SD/File.cpp.s
+
+src/kernel/driver/SD/SD.obj: src/kernel/driver/SD/SD.cpp.obj
+.PHONY : src/kernel/driver/SD/SD.obj
+
+# target to build an object file
+src/kernel/driver/SD/SD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.obj
+.PHONY : src/kernel/driver/SD/SD.cpp.obj
+
+src/kernel/driver/SD/SD.i: src/kernel/driver/SD/SD.cpp.i
+.PHONY : src/kernel/driver/SD/SD.i
+
+# target to preprocess a source file
+src/kernel/driver/SD/SD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.i
+.PHONY : src/kernel/driver/SD/SD.cpp.i
+
+src/kernel/driver/SD/SD.s: src/kernel/driver/SD/SD.cpp.s
+.PHONY : src/kernel/driver/SD/SD.s
+
+# target to generate assembly for a file
+src/kernel/driver/SD/SD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.s
+.PHONY : src/kernel/driver/SD/SD.cpp.s
+
+src/kernel/driver/SD/utility/Sd2Card.obj: src/kernel/driver/SD/utility/Sd2Card.cpp.obj
+.PHONY : src/kernel/driver/SD/utility/Sd2Card.obj
+
+# target to build an object file
+src/kernel/driver/SD/utility/Sd2Card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.obj
+.PHONY : src/kernel/driver/SD/utility/Sd2Card.cpp.obj
+
+src/kernel/driver/SD/utility/Sd2Card.i: src/kernel/driver/SD/utility/Sd2Card.cpp.i
+.PHONY : src/kernel/driver/SD/utility/Sd2Card.i
+
+# target to preprocess a source file
+src/kernel/driver/SD/utility/Sd2Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.i
+.PHONY : src/kernel/driver/SD/utility/Sd2Card.cpp.i
+
+src/kernel/driver/SD/utility/Sd2Card.s: src/kernel/driver/SD/utility/Sd2Card.cpp.s
+.PHONY : src/kernel/driver/SD/utility/Sd2Card.s
+
+# target to generate assembly for a file
+src/kernel/driver/SD/utility/Sd2Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.s
+.PHONY : src/kernel/driver/SD/utility/Sd2Card.cpp.s
+
+src/kernel/driver/SD/utility/SdFile.obj: src/kernel/driver/SD/utility/SdFile.cpp.obj
+.PHONY : src/kernel/driver/SD/utility/SdFile.obj
+
+# target to build an object file
+src/kernel/driver/SD/utility/SdFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.obj
+.PHONY : src/kernel/driver/SD/utility/SdFile.cpp.obj
+
+src/kernel/driver/SD/utility/SdFile.i: src/kernel/driver/SD/utility/SdFile.cpp.i
+.PHONY : src/kernel/driver/SD/utility/SdFile.i
+
+# target to preprocess a source file
+src/kernel/driver/SD/utility/SdFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.i
+.PHONY : src/kernel/driver/SD/utility/SdFile.cpp.i
+
+src/kernel/driver/SD/utility/SdFile.s: src/kernel/driver/SD/utility/SdFile.cpp.s
+.PHONY : src/kernel/driver/SD/utility/SdFile.s
+
+# target to generate assembly for a file
+src/kernel/driver/SD/utility/SdFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.s
+.PHONY : src/kernel/driver/SD/utility/SdFile.cpp.s
+
+src/kernel/driver/SD/utility/SdVolume.obj: src/kernel/driver/SD/utility/SdVolume.cpp.obj
+.PHONY : src/kernel/driver/SD/utility/SdVolume.obj
+
+# target to build an object file
+src/kernel/driver/SD/utility/SdVolume.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.obj
+.PHONY : src/kernel/driver/SD/utility/SdVolume.cpp.obj
+
+src/kernel/driver/SD/utility/SdVolume.i: src/kernel/driver/SD/utility/SdVolume.cpp.i
+.PHONY : src/kernel/driver/SD/utility/SdVolume.i
+
+# target to preprocess a source file
+src/kernel/driver/SD/utility/SdVolume.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.i
+.PHONY : src/kernel/driver/SD/utility/SdVolume.cpp.i
+
+src/kernel/driver/SD/utility/SdVolume.s: src/kernel/driver/SD/utility/SdVolume.cpp.s
+.PHONY : src/kernel/driver/SD/utility/SdVolume.s
+
+# target to generate assembly for a file
+src/kernel/driver/SD/utility/SdVolume.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.s
+.PHONY : src/kernel/driver/SD/utility/SdVolume.cpp.s
+
+src/kernel/file_system/file_system.obj: src/kernel/file_system/file_system.cpp.obj
+.PHONY : src/kernel/file_system/file_system.obj
+
+# target to build an object file
+src/kernel/file_system/file_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.obj
+.PHONY : src/kernel/file_system/file_system.cpp.obj
+
+src/kernel/file_system/file_system.i: src/kernel/file_system/file_system.cpp.i
+.PHONY : src/kernel/file_system/file_system.i
+
+# target to preprocess a source file
+src/kernel/file_system/file_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.i
+.PHONY : src/kernel/file_system/file_system.cpp.i
+
+src/kernel/file_system/file_system.s: src/kernel/file_system/file_system.cpp.s
+.PHONY : src/kernel/file_system/file_system.s
+
+# target to generate assembly for a file
+src/kernel/file_system/file_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.s
+.PHONY : src/kernel/file_system/file_system.cpp.s
+
+src/kernel/volume_manager/volume_manager.obj: src/kernel/volume_manager/volume_manager.cpp.obj
+.PHONY : src/kernel/volume_manager/volume_manager.obj
+
+# target to build an object file
+src/kernel/volume_manager/volume_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.obj
+.PHONY : src/kernel/volume_manager/volume_manager.cpp.obj
+
+src/kernel/volume_manager/volume_manager.i: src/kernel/volume_manager/volume_manager.cpp.i
+.PHONY : src/kernel/volume_manager/volume_manager.i
+
+# target to preprocess a source file
+src/kernel/volume_manager/volume_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.i
+.PHONY : src/kernel/volume_manager/volume_manager.cpp.i
+
+src/kernel/volume_manager/volume_manager.s: src/kernel/volume_manager/volume_manager.cpp.s
+.PHONY : src/kernel/volume_manager/volume_manager.s
+
+# target to generate assembly for a file
+src/kernel/volume_manager/volume_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z_DUMMY_TARGET.dir\build.make CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.s
+.PHONY : src/kernel/volume_manager/volume_manager.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -3501,6 +3165,27 @@ help:
 	@echo ... Debug
 	@echo ... Production
 	@echo ... Z_DUMMY_TARGET
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.i
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.s
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.i
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.s
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.i
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.s
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.i
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.s
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.i
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.s
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.i
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.s
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.i
+	@echo ... .pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.s
 	@echo ... .pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.obj
 	@echo ... .pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.i
 	@echo ... .pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.s
@@ -3654,150 +3339,63 @@ help:
 	@echo ... .pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.obj
 	@echo ... .pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.i
 	@echo ... .pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.s
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.obj
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.i
-	@echo ... .pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.s
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.i
+	@echo ... .pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.s
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.obj
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.i
+	@echo ... .pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.s
 	@echo ... .pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.obj
 	@echo ... .pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.i
 	@echo ... .pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.s
@@ -3909,12 +3507,36 @@ help:
 	@echo ... lib/RTClib/src/RTClib.obj
 	@echo ... lib/RTClib/src/RTClib.i
 	@echo ... lib/RTClib/src/RTClib.s
-	@echo ... src/System/FileSystem/FileSystem.obj
-	@echo ... src/System/FileSystem/FileSystem.i
-	@echo ... src/System/FileSystem/FileSystem.s
-	@echo ... src/System/Utils/Device/Device.obj
-	@echo ... src/System/Utils/Device/Device.i
-	@echo ... src/System/Utils/Device/Device.s
+	@echo ... lib/uuid/UUID.obj
+	@echo ... lib/uuid/UUID.i
+	@echo ... lib/uuid/UUID.s
+	@echo ... src/command/cli.obj
+	@echo ... src/command/cli.i
+	@echo ... src/command/cli.s
+	@echo ... src/kernel/device_manager/device_manager.obj
+	@echo ... src/kernel/device_manager/device_manager.i
+	@echo ... src/kernel/device_manager/device_manager.s
+	@echo ... src/kernel/driver/SD/File.obj
+	@echo ... src/kernel/driver/SD/File.i
+	@echo ... src/kernel/driver/SD/File.s
+	@echo ... src/kernel/driver/SD/SD.obj
+	@echo ... src/kernel/driver/SD/SD.i
+	@echo ... src/kernel/driver/SD/SD.s
+	@echo ... src/kernel/driver/SD/utility/Sd2Card.obj
+	@echo ... src/kernel/driver/SD/utility/Sd2Card.i
+	@echo ... src/kernel/driver/SD/utility/Sd2Card.s
+	@echo ... src/kernel/driver/SD/utility/SdFile.obj
+	@echo ... src/kernel/driver/SD/utility/SdFile.i
+	@echo ... src/kernel/driver/SD/utility/SdFile.s
+	@echo ... src/kernel/driver/SD/utility/SdVolume.obj
+	@echo ... src/kernel/driver/SD/utility/SdVolume.i
+	@echo ... src/kernel/driver/SD/utility/SdVolume.s
+	@echo ... src/kernel/file_system/file_system.obj
+	@echo ... src/kernel/file_system/file_system.i
+	@echo ... src/kernel/file_system/file_system.s
+	@echo ... src/kernel/volume_manager/volume_manager.obj
+	@echo ... src/kernel/volume_manager/volume_manager.i
+	@echo ... src/kernel/volume_manager/volume_manager.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

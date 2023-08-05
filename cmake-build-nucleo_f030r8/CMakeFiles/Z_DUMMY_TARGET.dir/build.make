@@ -82,38 +82,150 @@ CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/src/RTClib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/src/RTClib.cpp.s"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\lib\RTClib\src\RTClib.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\RTClib\src\RTClib.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.obj: ../src/System/FileSystem/FileSystem.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\System\FileSystem\FileSystem.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\System\FileSystem\FileSystem.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\System\FileSystem\FileSystem.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.obj: ../lib/uuid/UUID.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\lib\uuid\UUID.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\uuid\UUID.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\lib\uuid\UUID.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\System\FileSystem\FileSystem.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\System\FileSystem\FileSystem.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\lib\uuid\UUID.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\lib\uuid\UUID.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\System\FileSystem\FileSystem.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\System\FileSystem\FileSystem.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\lib\uuid\UUID.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\lib\uuid\UUID.cpp.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.obj: ../src/System/Utils/Device/Device.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\System\Utils\Device\Device.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\System\Utils\Device\Device.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\System\Utils\Device\Device.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.obj: ../src/command/cli.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\command\cli.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\command\cli.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\command\cli.cpp
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\System\Utils\Device\Device.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\System\Utils\Device\Device.cpp.i
+CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\command\cli.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\command\cli.cpp.i
 
-CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\System\Utils\Device\Device.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\System\Utils\Device\Device.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\command\cli.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\command\cli.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.obj: ../src/kernel/device_manager/device_manager.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\device_manager\device_manager.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\device_manager\device_manager.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\device_manager\device_manager.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\device_manager\device_manager.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\device_manager\device_manager.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\device_manager\device_manager.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\device_manager\device_manager.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.obj: ../src/kernel/driver/SD/File.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\File.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\File.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\File.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\File.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\File.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\File.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\File.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.obj: ../src/kernel/driver/SD/SD.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\SD.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\SD.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\SD.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\SD.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\SD.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\SD.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\SD.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.obj: ../src/kernel/driver/SD/utility/Sd2Card.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\Sd2Card.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\Sd2Card.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\Sd2Card.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\Sd2Card.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\Sd2Card.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\Sd2Card.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\Sd2Card.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.obj: ../src/kernel/driver/SD/utility/SdFile.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\SdFile.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\SdFile.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\SdFile.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\SdFile.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\SdFile.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\SdFile.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\SdFile.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.obj: ../src/kernel/driver/SD/utility/SdVolume.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\SdVolume.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\SdVolume.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\SdVolume.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\SdVolume.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\SdVolume.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\driver\SD\utility\SdVolume.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\driver\SD\utility\SdVolume.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.obj: ../src/kernel/file_system/file_system.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\file_system\file_system.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\file_system\file_system.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\file_system\file_system.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\file_system\file_system.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\file_system\file_system.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\file_system\file_system.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\file_system\file_system.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.obj: ../src/kernel/volume_manager/volume_manager.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\volume_manager\volume_manager.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\volume_manager\volume_manager.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\volume_manager\volume_manager.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\volume_manager\volume_manager.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\volume_manager\volume_manager.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\kernel\volume_manager\volume_manager.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\kernel\volume_manager\volume_manager.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\main.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i: cmake_force
@@ -124,10 +236,108 @@ CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\src\main.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\src\main.cpp.s
 
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj: ../.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\ECCX08.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\ECCX08.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\ECCX08.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\ECCX08.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\ECCX08.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\ECCX08.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\ECCX08.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj: ../.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ASN1Utils.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ASN1Utils.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ASN1Utils.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ASN1Utils.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ASN1Utils.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ASN1Utils.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ASN1Utils.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj: ../.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08CSR.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08CSR.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08CSR.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08CSR.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08CSR.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08CSR.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08CSR.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj: ../.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08JWS.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08JWS.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08JWS.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08JWS.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08JWS.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08JWS.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08JWS.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj: ../.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08SelfSignedCert.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08SelfSignedCert.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08SelfSignedCert.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08SelfSignedCert.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08SelfSignedCert.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08SelfSignedCert.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\ECCX08SelfSignedCert.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj: ../.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\PEMUtils.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\PEMUtils.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\PEMUtils.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\PEMUtils.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\PEMUtils.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\PEMUtils.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\PEMUtils.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj: ../.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\sha1.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\sha1.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\sha1.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\sha1.c > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\sha1.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\sha1.c -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\ArduinoECCX08\src\utility\sha1.c.s
+
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_ConnectionHandler.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_ConnectionHandler.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_ConnectionHandler.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.i: cmake_force
@@ -141,7 +351,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandl
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_EthernetConnectionHandler.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_EthernetConnectionHandler.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_EthernetConnectionHandler.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.i: cmake_force
@@ -155,7 +365,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandl
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_GSMConnectionHandler.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_GSMConnectionHandler.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_GSMConnectionHandler.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.i: cmake_force
@@ -169,7 +379,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandl
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_LoRaConnectionHandler.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_LoRaConnectionHandler.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_LoRaConnectionHandler.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_LoRaConnectionHandler.cpp.i: cmake_force
@@ -183,7 +393,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandl
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_NBConnectionHandler.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_NBConnectionHandler.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_NBConnectionHandler.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_NBConnectionHandler.cpp.i: cmake_force
@@ -197,7 +407,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandl
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_WiFiConnectionHandler.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_WiFiConnectionHandler.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Arduino_ConnectionHandler\src\Arduino_WiFiConnectionHandler.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_WiFiConnectionHandler.cpp.i: cmake_force
@@ -211,7 +421,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandl
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_DebugUtils\src\Arduino_DebugUtils.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Arduino_DebugUtils\src\Arduino_DebugUtils.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Arduino_DebugUtils\src\Arduino_DebugUtils.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/Arduino_DebugUtils.cpp.i: cmake_force
@@ -225,7 +435,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_DebugUtils/src/
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\Dhcp.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\Dhcp.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Ethernet\src\Dhcp.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp.i: cmake_force
@@ -239,7 +449,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dhcp.cpp.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\Dns.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\Dns.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Ethernet\src\Dns.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp.i: cmake_force
@@ -253,7 +463,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Dns.cpp.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\Ethernet.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\Ethernet.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Ethernet\src\Ethernet.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.cpp.i: cmake_force
@@ -267,7 +477,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/Ethernet.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetClient.cpp.i: cmake_force
@@ -281,7 +491,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetCl
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetServer.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetServer.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetServer.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetServer.cpp.i: cmake_force
@@ -295,7 +505,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetSe
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetUdp.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetUdp.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Ethernet\src\EthernetUdp.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUdp.cpp.i: cmake_force
@@ -309,7 +519,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/EthernetUd
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\socket.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\socket.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Ethernet\src\socket.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp.i: cmake_force
@@ -323,7 +533,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/socket.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp.obj: ../.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\utility\w5100.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\Ethernet\src\utility\w5100.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\Ethernet\src\utility\w5100.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5100.cpp.i: cmake_force
@@ -337,7 +547,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Ethernet/src/utility/w5
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp.obj: ../.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\LinkedList\tests.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\LinkedList\tests.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\LinkedList\tests.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp.i: cmake_force
@@ -351,7 +561,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LinkedList/tests.cpp.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp.obj: ../.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\LiquidCrystal\src\LiquidCrystal.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\LiquidCrystal\src\LiquidCrystal.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\LiquidCrystal\src\LiquidCrystal.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/LiquidCrystal.cpp.i: cmake_force
@@ -365,7 +575,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/LiquidCrystal/src/Liqui
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GPRS.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GPRS.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GPRS.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp.i: cmake_force
@@ -379,7 +589,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GPRS.cpp.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSM.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSM.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSM.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp.i: cmake_force
@@ -393,7 +603,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM.cpp.s: c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMBand.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMBand.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMBand.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp.i: cmake_force
@@ -407,7 +617,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMBand.cpp.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cpp.i: cmake_force
@@ -421,7 +631,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMClient.cp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMFileUtils.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMFileUtils.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMFileUtils.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils.cpp.i: cmake_force
@@ -435,7 +645,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMFileUtils
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMLocation.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMLocation.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMLocation.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.cpp.i: cmake_force
@@ -449,7 +659,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMLocation.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMModem.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMModem.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMModem.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp.i: cmake_force
@@ -463,7 +673,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMModem.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMPIN.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMPIN.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMPIN.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp.i: cmake_force
@@ -477,7 +687,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMPIN.cpp.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMSSLClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMSSLClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMSSLClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient.cpp.i: cmake_force
@@ -491,7 +701,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMSSLClient
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMScanner.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMScanner.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMScanner.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.cpp.i: cmake_force
@@ -505,7 +715,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMScanner.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMServer.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMServer.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMServer.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cpp.i: cmake_force
@@ -519,7 +729,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMServer.cp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMUdp.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMUdp.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMUdp.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp.i: cmake_force
@@ -533,7 +743,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMUdp.cpp.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMVoiceCall.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMVoiceCall.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSMVoiceCall.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall.cpp.i: cmake_force
@@ -547,7 +757,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSMVoiceCall
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSM_SMS.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSM_SMS.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\GSM_SMS.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp.i: cmake_force
@@ -561,7 +771,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/GSM_SMS.cpp.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\Modem.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\Modem.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\Modem.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp.i: cmake_force
@@ -575,7 +785,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/Modem.cpp.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\utility\GSMSocketBuffer.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRGSM\src\utility\GSMSocketBuffer.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRGSM\src\utility\GSMSocketBuffer.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMSocketBuffer.cpp.i: cmake_force
@@ -589,7 +799,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRGSM/src/utility/GSMS
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\GPRS.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\GPRS.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\GPRS.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp.i: cmake_force
@@ -603,7 +813,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/GPRS.cpp.s: c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\Modem.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\Modem.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\Modem.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp.i: cmake_force
@@ -617,7 +827,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/Modem.cpp.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NB.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NB.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NB.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp.i: cmake_force
@@ -631,7 +841,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB.cpp.s: cma
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp.i: cmake_force
@@ -645,7 +855,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBClient.cpp.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBFileUtils.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBFileUtils.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBFileUtils.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.cpp.i: cmake_force
@@ -659,7 +869,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBFileUtils.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBModem.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBModem.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBModem.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp.i: cmake_force
@@ -673,7 +883,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBModem.cpp.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBPIN.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBPIN.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBPIN.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp.i: cmake_force
@@ -687,7 +897,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBPIN.cpp.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBSSLClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBSSLClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBSSLClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.cpp.i: cmake_force
@@ -701,7 +911,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBSSLClient.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBScanner.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBScanner.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBScanner.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp.i: cmake_force
@@ -715,7 +925,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBScanner.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBUdp.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBUdp.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NBUdp.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp.i: cmake_force
@@ -729,7 +939,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NBUdp.cpp.s: 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NB_SMS.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\NB_SMS.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\NB_SMS.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp.i: cmake_force
@@ -743,7 +953,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/NB_SMS.cpp.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\utility\NBSocketBuffer.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRNB\src\utility\NBSocketBuffer.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRNB\src\utility\NBSocketBuffer.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSocketBuffer.cpp.i: cmake_force
@@ -757,7 +967,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRNB/src/utility/NBSoc
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c.obj: ../.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\dev_table.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\dev_table.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\dev_table.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/dev_table.c.i: cmake_force
@@ -771,7 +981,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANF
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\serial_arduino.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\serial_arduino.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\serial_arduino.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/serial_arduino.cpp.i: cmake_force
@@ -785,7 +995,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANF
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp.obj: ../.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\stm32.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\stm32.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\stm32.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/stm32.cpp.i: cmake_force
@@ -799,7 +1009,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANF
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.obj: ../.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\utils.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\utils.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\MKRWAN\examples\MKRWANFWUpdate_standalone\utils.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.i: cmake_force
@@ -813,7 +1023,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANF
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SPI\src\SPI.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SPI\src\SPI.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SPI\src\SPI.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.i: cmake_force
@@ -827,7 +1037,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.s: cmak
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.obj: ../.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SPI\src\utility\spi_com.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SPI\src\utility\spi_com.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SPI\src\utility\spi_com.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.i: cmake_force
@@ -838,682 +1048,276 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.s"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SPI\src\utility\spi_com.c -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SPI\src\utility\spi_com.c.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLogger\UserFunctions.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLogger\UserFunctions.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLogger\UserFunctions.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLogger\UserFunctions.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLogger\UserFunctions.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLogger\UserFunctions.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLogger\UserFunctions.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLoggerADXL345\UserFunctions.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLoggerADXL345\UserFunctions.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLoggerADXL345\UserFunctions.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLoggerADXL345\UserFunctions.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLoggerADXL345\UserFunctions.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLoggerADXL345\UserFunctions.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLoggerADXL345\UserFunctions.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLoggerMPU6050\UserFunctions.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLoggerMPU6050\UserFunctions.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLoggerMPU6050\UserFunctions.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLoggerMPU6050\UserFunctions.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLoggerMPU6050\UserFunctions.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\examples\examplesV1\LowLatencyLoggerMPU6050\UserFunctions.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\examples\examplesV1\LowLatencyLoggerMPU6050\UserFunctions.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/ExFatLib/ExFatDbg.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatDbg.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatDbg.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatDbg.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatDbg.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatDbg.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatDbg.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatDbg.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/ExFatLib/ExFatFile.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFile.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFile.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFile.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFile.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFile.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFile.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFile.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/ExFatLib/ExFatFilePrint.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFilePrint.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFilePrint.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFilePrint.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFilePrint.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFilePrint.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFilePrint.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFilePrint.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/ExFatLib/ExFatFileWrite.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFileWrite.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFileWrite.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFileWrite.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFileWrite.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFileWrite.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFileWrite.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFileWrite.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/ExFatLib/ExFatFormatter.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFormatter.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFormatter.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFormatter.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFormatter.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFormatter.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatFormatter.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatFormatter.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/ExFatLib/ExFatName.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatName.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatName.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatName.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatName.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatName.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatName.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatName.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/ExFatLib/ExFatPartition.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatPartition.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatPartition.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatPartition.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatPartition.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatPartition.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatPartition.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatPartition.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/ExFatLib/ExFatVolume.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatVolume.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatVolume.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatVolume.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatVolume.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatVolume.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\ExFatLib\ExFatVolume.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\ExFatLib\ExFatVolume.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatDbg.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatDbg.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatDbg.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatDbg.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatDbg.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatDbg.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatDbg.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatDbg.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatFile.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFile.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFile.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFile.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFile.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFile.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFile.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFile.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatFileLFN.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFileLFN.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFileLFN.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFileLFN.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFileLFN.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFileLFN.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFileLFN.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFileLFN.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatFilePrint.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFilePrint.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFilePrint.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFilePrint.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFilePrint.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFilePrint.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFilePrint.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFilePrint.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatFileSFN.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFileSFN.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFileSFN.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFileSFN.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFileSFN.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFileSFN.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFileSFN.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFileSFN.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatFormatter.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFormatter.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFormatter.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFormatter.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFormatter.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFormatter.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatFormatter.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatFormatter.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatName.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatName.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatName.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatName.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatName.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatName.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatName.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatName.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatPartition.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatPartition.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatPartition.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatPartition.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatPartition.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatPartition.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatPartition.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatPartition.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FatLib/FatVolume.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatVolume.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatVolume.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatVolume.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatVolume.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatVolume.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FatLib\FatVolume.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FatLib\FatVolume.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FreeStack.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FreeStack.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FreeStack.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FreeStack.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FreeStack.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FreeStack.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FreeStack.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FreeStack.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FsLib/FsFile.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsFile.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsFile.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsFile.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsFile.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsFile.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsFile.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsFile.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FsLib/FsNew.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsNew.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsNew.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsNew.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsNew.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsNew.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsNew.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsNew.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/FsLib/FsVolume.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsVolume.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsVolume.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsVolume.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsVolume.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsVolume.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\FsLib\FsVolume.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\FsLib\FsVolume.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/MinimumSerial.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\MinimumSerial.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\MinimumSerial.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\MinimumSerial.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\MinimumSerial.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\MinimumSerial.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\MinimumSerial.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\MinimumSerial.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SdCard/SdCardInfo.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdCardInfo.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdCardInfo.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdCardInfo.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdCardInfo.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdCardInfo.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdCardInfo.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdCardInfo.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SdCard/SdSpiCard.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdSpiCard.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdSpiCard.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdSpiCard.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdSpiCard.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdSpiCard.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdSpiCard.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdSpiCard.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SdCard/SdioTeensy.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdioTeensy.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdioTeensy.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdioTeensy.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdioTeensy.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdioTeensy.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SdCard\SdioTeensy.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SdCard\SdioTeensy.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SpiDriver/SdSpiArtemis.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiArtemis.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiArtemis.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiArtemis.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiArtemis.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiArtemis.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiArtemis.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiArtemis.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SpiDriver/SdSpiChipSelect.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiChipSelect.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiChipSelect.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiChipSelect.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiChipSelect.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiChipSelect.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiChipSelect.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiChipSelect.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SpiDriver/SdSpiDue.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiDue.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiDue.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiDue.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiDue.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiDue.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiDue.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiDue.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SpiDriver/SdSpiESP.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiESP.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiESP.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiESP.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiESP.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiESP.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiESP.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiESP.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SpiDriver/SdSpiParticle.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiParticle.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiParticle.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiParticle.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiParticle.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiParticle.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiParticle.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiParticle.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SpiDriver/SdSpiSTM32.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiSTM32.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiSTM32.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiSTM32.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiSTM32.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiSTM32.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiSTM32.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiSTM32.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SpiDriver/SdSpiSTM32Core.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiSTM32Core.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiSTM32Core.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiSTM32Core.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiSTM32Core.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiSTM32Core.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiSTM32Core.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiSTM32Core.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/SpiDriver/SdSpiTeensy3.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiTeensy3.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiTeensy3.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiTeensy3.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiTeensy3.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiTeensy3.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\SpiDriver\SdSpiTeensy3.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\SpiDriver\SdSpiTeensy3.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/common/FmtNumber.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FmtNumber.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FmtNumber.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FmtNumber.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FmtNumber.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FmtNumber.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FmtNumber.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FmtNumber.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/common/FsCache.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsCache.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsCache.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsCache.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsCache.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsCache.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsCache.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsCache.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/common/FsDateTime.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsDateTime.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsDateTime.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsDateTime.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsDateTime.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsDateTime.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsDateTime.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsDateTime.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/common/FsName.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsName.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsName.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsName.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsName.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsName.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsName.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsName.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/common/FsStructs.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsStructs.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsStructs.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsStructs.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsStructs.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsStructs.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsStructs.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsStructs.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/common/FsUtf.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsUtf.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsUtf.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsUtf.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsUtf.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsUtf.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\FsUtf.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\FsUtf.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/common/PrintBasic.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\PrintBasic.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\PrintBasic.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\PrintBasic.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\PrintBasic.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\PrintBasic.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\PrintBasic.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\PrintBasic.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/common/upcase.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\upcase.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\upcase.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\upcase.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\upcase.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\upcase.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\common\upcase.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\common\upcase.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/iostream/StdioStream.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\StdioStream.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\StdioStream.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\StdioStream.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\StdioStream.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\StdioStream.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\StdioStream.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\StdioStream.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/iostream/StreamBaseClass.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\StreamBaseClass.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\StreamBaseClass.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\StreamBaseClass.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\StreamBaseClass.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\StreamBaseClass.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\StreamBaseClass.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\StreamBaseClass.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/iostream/istream.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\istream.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\istream.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\istream.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\istream.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\istream.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\istream.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\istream.cpp.s
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SdFat\ -\ Adafruit\ Fork/src/iostream/ostream.cpp
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\ostream.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\ostream.cpp.obj -c "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\ostream.cpp"
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.i"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\ostream.cpp" > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\ostream.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.s"
-	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SdFat - Adafruit Fork\src\iostream\ostream.cpp" -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SdFat_-_Adafruit_Fork\src\iostream\ostream.cpp.s
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Argument.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Argument.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Argument.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Argument.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Argument.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Argument.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Argument.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Command.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Command.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Command.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Command.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Command.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Command.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\Command.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\CommandError.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\CommandError.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\CommandError.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\CommandError.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\CommandError.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\CommandError.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\CommandError.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\SimpleCLI.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\SimpleCLI.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\SimpleCLI.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\SimpleCLI.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\SimpleCLI.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\SimpleCLI.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\SimpleCLI.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\arg.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\arg.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\arg.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\arg.c > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\arg.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\arg.c -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\arg.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd.c > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd.c -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd_error.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd_error.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd_error.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd_error.c > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd_error.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd_error.c -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\cmd_error.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\comparator.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\comparator.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\comparator.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\comparator.c > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\comparator.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\comparator.c -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\comparator.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj: ../.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\parser.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\parser.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\parser.c
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\parser.c > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\parser.c.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\parser.c -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\SimpleCLI\src\c\parser.c.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file1.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file1.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file1.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file1.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file1.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file1.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file1.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file2.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file2.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file2.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file2.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file2.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file2.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\file2.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\ts.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\ts.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\ts.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\ts.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\ts.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\ts.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example16_Multitab\ts.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object\SuperSensor.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object\SuperSensor.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object\SuperSensor.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object\SuperSensor.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object\SuperSensor.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object\SuperSensor.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object\SuperSensor.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Calculator.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Calculator.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Calculator.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Calculator.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Calculator.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Calculator.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Calculator.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\SuperSensor.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\SuperSensor.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\SuperSensor.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\SuperSensor.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\SuperSensor.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\SuperSensor.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\SuperSensor.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Ticker.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Ticker.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Ticker.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Ticker.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Ticker.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Ticker.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example21_OO_Callbacks\Ticker.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\TaskScheduler.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\TaskScheduler.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\TaskScheduler.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\TaskScheduler.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\TaskScheduler.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\TaskScheduler.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\TaskScheduler.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\led.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\led.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\led.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\led.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\led.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\led.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\led.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj: ../.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\main.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\main.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\main.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.i"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\main.cpp > CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\main.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.s"
+	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\main.cpp -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\TaskScheduler\examples\Scheduler_example27_PlatformIO\src\main.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFi.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFi.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFi.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.i: cmake_force
@@ -1527,7 +1331,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.s:
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.i: cmake_force
@@ -1541,7 +1345,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiMDNSResponder.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiMDNSResponder.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiMDNSResponder.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.i: cmake_force
@@ -1555,7 +1359,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSRes
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiSSLClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiSSLClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiSSLClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClient.cpp.i: cmake_force
@@ -1569,7 +1373,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiSSLClie
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiServer.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiServer.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiServer.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.cpp.i: cmake_force
@@ -1583,7 +1387,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiServer.
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiUdp.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiUdp.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\WiFiUdp.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp.i: cmake_force
@@ -1597,7 +1401,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiUdp.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\bsp\source\nm_bsp_arduino.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\bsp\source\nm_bsp_arduino.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\bsp\source\nm_bsp_arduino.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino.c.i: cmake_force
@@ -1611,7 +1415,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\bsp\source\nm_bsp_arduino_avr.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\bsp\source\nm_bsp_arduino_avr.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\bsp\source\nm_bsp_arduino_avr.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/nm_bsp_arduino_avr.c.i: cmake_force
@@ -1625,7 +1429,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bsp/source/
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\bus_wrapper\source\nm_bus_wrapper_samd21.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\bus_wrapper\source\nm_bus_wrapper_samd21.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\bus_wrapper\source\nm_bus_wrapper_samd21.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper/source/nm_bus_wrapper_samd21.cpp.i: cmake_force
@@ -1639,7 +1443,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/bus_wrapper
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\common\source\nm_common.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\common\source\nm_common.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\common\source\nm_common.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/common/source/nm_common.c.i: cmake_force
@@ -1653,7 +1457,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/common/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ate_mode.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ate_mode.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ate_mode.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ate_mode.c.i: cmake_force
@@ -1667,7 +1471,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_crypto.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_crypto.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_crypto.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_crypto.c.i: cmake_force
@@ -1681,7 +1485,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_hif.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_hif.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_hif.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_hif.c.i: cmake_force
@@ -1695,7 +1499,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ota.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ota.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ota.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ota.c.i: cmake_force
@@ -1709,7 +1513,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_periph.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_periph.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_periph.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_periph.c.i: cmake_force
@@ -1723,7 +1527,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ssl.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ssl.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_ssl.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_ssl.c.i: cmake_force
@@ -1737,7 +1541,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_wifi.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_wifi.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\m2m_wifi.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/m2m_wifi.c.i: cmake_force
@@ -1751,7 +1555,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmasic.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmasic.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmasic.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmasic.c.i: cmake_force
@@ -1765,7 +1569,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmbus.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmbus.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmbus.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmbus.c.i: cmake_force
@@ -1779,7 +1583,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmdrv.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmdrv.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmdrv.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmdrv.c.i: cmake_force
@@ -1793,7 +1597,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmi2c.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmi2c.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmi2c.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmi2c.c.i: cmake_force
@@ -1807,7 +1611,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmspi.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmspi.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmspi.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmspi.c.i: cmake_force
@@ -1821,7 +1625,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmuart.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmuart.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\driver\source\nmuart.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/source/nmuart.c.i: cmake_force
@@ -1835,7 +1639,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/driver/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\socket\source\socket.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\socket\source\socket.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\socket\source\socket.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/source/socket.c.i: cmake_force
@@ -1849,7 +1653,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/socket/sour
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\spi_flash\source\spi_flash.c.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\spi_flash\source\spi_flash.c.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\spi_flash\source\spi_flash.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/source/spi_flash.c.i: cmake_force
@@ -1863,7 +1667,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/spi_flash/s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\utility\WiFiSocket.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFi101\src\utility\WiFiSocket.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFi101\src\utility\WiFiSocket.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiFiSocket.cpp.i: cmake_force
@@ -1877,7 +1681,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/utility/WiF
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\examples\Tools\FirmwareUpdater\ESP32BootROM.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\examples\Tools\FirmwareUpdater\ESP32BootROM.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\examples\Tools\FirmwareUpdater\ESP32BootROM.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools/FirmwareUpdater/ESP32BootROM.cpp.i: cmake_force
@@ -1891,7 +1695,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/examples/Tools
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFi.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFi.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFi.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp.i: cmake_force
@@ -1905,7 +1709,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFi.cpp.s
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient.cpp.i: cmake_force
@@ -1919,7 +1723,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiClient
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiSSLClient.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiSSLClient.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiSSLClient.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLClient.cpp.i: cmake_force
@@ -1933,7 +1737,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiSSLCli
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiServer.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiServer.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiServer.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer.cpp.i: cmake_force
@@ -1947,7 +1751,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiServer
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiUdp.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiUdp.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\WiFiUdp.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cpp.i: cmake_force
@@ -1961,7 +1765,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/WiFiUdp.cp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\WiFiSocketBuffer.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\WiFiSocketBuffer.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\WiFiSocketBuffer.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/WiFiSocketBuffer.cpp.i: cmake_force
@@ -1975,7 +1779,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/Wi
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\server_drv.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\server_drv.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\server_drv.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/server_drv.cpp.i: cmake_force
@@ -1989,7 +1793,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/se
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\spi_drv.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\spi_drv.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\spi_drv.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/spi_drv.cpp.i: cmake_force
@@ -2003,7 +1807,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/sp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp.obj: ../.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp.obj"
 	C:\Users\patri\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp.obj -MF CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\wifi_drv.cpp.obj.d -o CMakeFiles\Z_DUMMY_TARGET.dir\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\wifi_drv.cpp.obj -c C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\.pio\libdeps\nucleo_f030r8\WiFiNINA\src\utility\wifi_drv.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wifi_drv.cpp.i: cmake_force
@@ -2017,9 +1821,24 @@ CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNINA/src/utility/wi
 # Object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/src/RTClib.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.obj" \
@@ -2071,54 +1890,25 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.obj" \
@@ -2160,9 +1950,24 @@ Z_DUMMY_TARGET_OBJECTS = \
 Z_DUMMY_TARGET_EXTERNAL_OBJECTS =
 
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/RTClib/src/RTClib.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/System/FileSystem/FileSystem.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/System/Utils/Device/Device.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/lib/uuid/UUID.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/command/cli.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/device_manager/device_manager.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/File.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/SD.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/Sd2Card.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdFile.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/driver/SD/utility/SdVolume.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/file_system/file_system.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/kernel/volume_manager/volume_manager.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_ConnectionHandler.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_EthernetConnectionHandler.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/Arduino_ConnectionHandler/src/Arduino_GSMConnectionHandler.cpp.obj
@@ -2214,54 +2019,25 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/MKRWAN/examples/MKRWANFWUpdate_standalone/utils.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/SPI.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.c.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatDbg.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFile.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFilePrint.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFileWrite.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatFormatter.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatName.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatPartition.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/ExFatLib/ExFatVolume.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatDbg.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFile.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileLFN.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFilePrint.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFileSFN.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatFormatter.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatName.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatPartition.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FatLib/FatVolume.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FreeStack.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsFile.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsNew.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/FsLib/FsVolume.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/MinimumSerial.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdCardInfo.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdSpiCard.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SdCard/SdioTeensy.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiArtemis.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiChipSelect.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiDue.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiESP.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiParticle.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiSTM32Core.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/SpiDriver/SdSpiTeensy3.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FmtNumber.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsCache.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsDateTime.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsName.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsStructs.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/FsUtf.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/PrintBasic.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/common/upcase.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StdioStream.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/StreamBaseClass.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/istream.cpp.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SdFat_-_Adafruit_Fork/src/iostream/ostream.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFi.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiClient.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFi101/src/WiFiMDNSResponder.cpp.obj
@@ -2301,7 +2077,7 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/nucleo_f030r8/WiFiNIN
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/objects1.rsp
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Linking CXX executable Z_DUMMY_TARGET"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\patri\Documents\PlatformIO\Projects\HomeEmbeddedOs\cmake-build-nucleo_f030r8\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Linking CXX executable Z_DUMMY_TARGET"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Z_DUMMY_TARGET.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
