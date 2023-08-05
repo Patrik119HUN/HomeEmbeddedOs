@@ -3,7 +3,7 @@
 #include <Arduino.h>
 #include <LiquidCrystal.h>
 
-#include "../../file_system/file_interface.h"
+#include <file_interface.h>
 constexpr uint8_t LCD_COLS = 20;
 constexpr uint8_t LCD_ROWS = 4;
 

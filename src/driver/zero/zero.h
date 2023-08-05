@@ -3,13 +3,13 @@
 
 #include <Arduino.h>
 
-#include "../../file_system/file_interface.h"
+#include <file_interface.h>
 
 class zero : public IFile {
-   private:
+  private:
     char _file_name[5] = "zero";
 
-   public:
+  public:
     zero() { setTimeout(0); }
     int available() override { return 0; }
     bool seek(uint32_t pos) override { return false; }
@@ -24,4 +24,4 @@ class zero : public IFile {
     bool isDirectory(void) override { return false; }
     void close() override { return; }
 };
-#endif  // zero
+#endif // zero

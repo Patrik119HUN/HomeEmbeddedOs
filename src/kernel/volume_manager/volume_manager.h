@@ -6,7 +6,7 @@
 
 #include <vector>
 
-#include "../file_system/file_system_interface.h"
+#include <file_system_interface.h>
 #include "fs_type.h"
 #include "volume_information.h"
 

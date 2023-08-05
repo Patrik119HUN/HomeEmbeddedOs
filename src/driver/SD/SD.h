@@ -3,8 +3,9 @@
 
 #include <Arduino.h>
 
-#include "../../file_system/file_interface.h"
-#include "../../file_system/file_system_interface.h"
+#include <file_interface.h>
+#include <file_system_interface.h>
+
 #include "utility/SdFat.h"
 #include "utility/SdFatUtil.h"
 #define FILE_READ O_READ
@@ -13,37 +14,37 @@
 namespace SDLib {
 
 class File : public IFile {
-   private:
-    char _name[13];  // our name
-    SdFile* _file;   // underlying file pointer
+  private:
+    char _name[13]; // our name
+    SdFile* _file;  // underlying file pointer
 
-   public:
-    File(SdFile f, const char* name);  // wraps an underlying SdFile
-    File(void);                        // 'empty' constructor
+  public:
+    File(SdFile f, const char* name); // wraps an underlying SdFile
+    File(void);                       // 'empty' constructor
     virtual size_t write(uint8_t);
     virtual size_t write(const uint8_t* buf, size_t size);
-    virtual int availableForWrite();  //
+    virtual int availableForWrite(); //
     virtual int read();
     virtual int peek();
     virtual int available();
     virtual void flush();
-    int read(void* buf, uint16_t nbyte);  //
+    int read(void* buf, uint16_t nbyte); //
     bool seek(uint32_t pos) override;
-    uint32_t position();  //
-    uint32_t size();      //
+    uint32_t position(); //
+    uint32_t size();     //
     void close() override;
     operator bool();
     char* name() override;
     int ioctl(int code, int type) override { return 1; }
     bool isDirectory(void) override;
-    File openNextFile(uint8_t mode = O_RDONLY);  //
-    void rewindDirectory(void);                  //
+    File openNextFile(uint8_t mode = O_RDONLY); //
+    void rewindDirectory(void);                 //
 
     using Print::write;
 };
 
 class SDClass : public IFileSystem {
-   private:
+  private:
     // These are required for initialisation and use of sdfatlib
     Sd2Card card;
     SdVolume volume;
@@ -52,7 +53,7 @@ class SDClass : public IFileSystem {
     // my quick&dirty iterator, should be replaced
     SdFile getParentDir(const char* filepath, int* indx);
 
-   public:
+  public:
     // This needs to be called to set up the connection to the SD card
     // before other methods are used.
     bool begin(uint8_t csPin = SD_CHIP_SELECT_PIN);
@@ -86,7 +87,7 @@ class SDClass : public IFileSystem {
     uint8_t rmdir(const char* filepath);
     uint8_t rmdir(const String& filepath) { return rmdir(filepath.c_str()); }
 
-   private:
+  private:
     // This is used to determine the mode used to open a file
     // it's here because it's the easiest place to pass the
     // information through the directory walking function. But
@@ -100,7 +101,7 @@ class SDClass : public IFileSystem {
 
 extern SDClass SD;
 
-};  // namespace SDLib
+}; // namespace SDLib
 
 // We enclose File and SD classes in namespace SDLib to avoid conflicts
 // with others legacy libraries that redefines File class.

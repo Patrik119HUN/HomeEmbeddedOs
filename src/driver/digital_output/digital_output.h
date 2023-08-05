@@ -1,7 +1,7 @@
 #ifndef DigitalOutput_h
 #define DigitalOutput_h
 
-#include "../../file_system/file_interface.h"
+#include <file_interface.h>
 #include "bus_out.h"
 #include <Arduino.h>
 class DigitalOutput : public IFile {

@@ -7,8 +7,8 @@
 #include <map>
 #include <vector>
 
-#include "../driver/drivers.h"
-#include "../file_system/file_interface.h"
+#include "../../driver/drivers.h"
+#include <file_interface.h>
 #include "../sysmacros.h"
 #include "device_types.h"
 

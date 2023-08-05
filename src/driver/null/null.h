@@ -3,14 +3,14 @@
 
 #include <Arduino.h>
 
-#include "../../file_system/file_interface.h"
+#include <file_interface.h>
 class null : public IFile {
-   private:
+  private:
     uint8_t nullVar;
 
     char _file_name[5] = "null";
 
-   public:
+  public:
     null() {
         setTimeout(0);
         nullVar = -1;
@@ -41,4 +41,4 @@ class null : public IFile {
     void close() override { return; }
 };
 
-#endif  // null
+#endif // null

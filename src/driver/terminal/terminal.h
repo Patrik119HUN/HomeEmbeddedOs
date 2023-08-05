@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-#include "../../file_system/file_interface.h"
+#include <file_interface.h>
 class terminal : public IFile {
    private:
     char _file_name[4] = "tty";

@@ -13,7 +13,7 @@
 #define NAME_MAX_ 32
 #define SYMLOOP_MAX 10
 #include "../device_manager/device_manager.h"
-#include "file_system_interface.h"
+#include <file_system_interface.h>
 
 using namespace node;
 class FileSystem : public IFileSystem {

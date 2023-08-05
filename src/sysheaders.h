@@ -7,7 +7,7 @@
 #include <command/cli.h>
 #include <kernel/NetworkInterface/NetworkManager.h>
 #include <kernel/device_manager/device_manager.h>
-#include <kernel/driver/drivers.h>
+#include <driver/drivers.h>
 #include <kernel/file_system/file_system.h>
 
 #include <kernel/volume_manager/volume_manager.h>
