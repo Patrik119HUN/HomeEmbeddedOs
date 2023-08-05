@@ -238,6 +238,99 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/.codespellrc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/arduino-lint.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/compile-examples.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/report-size-deltas.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/spell-check.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/.github/workflows/sync-labels.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/README.adoc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/ECCX08HMAC/ECCX08HMAC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/ECCX08RandomNumber/ECCX08RandomNumber.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/Tools/ECCX08CSR/ECCX08CSR.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/Tools/ECCX08JWSPublicKey/ECCX08JWSPublicKey.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/examples/Tools/ECCX08SelfSignedCert/ECCX08SelfSignedCert.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ArduinoECCX08.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/ECCX08.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ASN1Utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08CSR.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08DefaultTLSConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08JWS.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/ECCX08SelfSignedCert.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/PEMUtils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoECCX08/src/utility/sha1.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
 		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/ArduinoJson/.clang-format">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
@@ -1552,628 +1645,310 @@
 		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SPI/src/utility/spi_com.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/.gitattributes">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/.github/FUNDING.yml">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/.gitignore">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/.github/stale.yml">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/.piopm">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/.github/workflows/version.yml">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/LICENSE.md">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/.gitignore">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/README.md">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/.piopm">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/AvrAdcLogger/AvrAdcLogger.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/AvrAdcLogger/AvrAdcLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/BoundlessCommand/BoundlessCommand.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/BackwardCompatibility/BackwardCompatibility.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/ESP8266WebCLI/ESP8266WebCLI.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/BufferedPrint/BufferedPrint.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/HelpCommand/HelpCommand.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/DirectoryFunctions/DirectoryFunctions.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/Ping/Ping.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/ExFatLogger/ExFatLogger.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/PingWithArguments/PingWithArguments.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/ExFatLogger/ExFatLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/PingWithCallbacks/PingWithCallbacks.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/MinimumSizeSdReader/MinimumSizeSdReader.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/PingWithTemplates/PingWithTemplates.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/OpenNext/OpenNext.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/SingleArgumentCommand/SingleArgumentCommand.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/QuickStart/QuickStart.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/examples/VideoExample/VideoExample.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/ReadCsvFile/ReadCsvFile.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/RtcTimestampTest/RtcTimestampTest.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/library.json">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/SdErrorCodes/SdErrorCodes.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/SdFormatter/SdFormatter.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/SdInfo/SdInfo.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Argument.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/SoftwareSpi/SoftwareSpi.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/TeensyDmaAdcLogger/TeensyDmaAdcLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/Command.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/TeensyRtcTimestamp/TeensyRtcTimestamp.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/TeensySdioDemo/TeensySdioDemo.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/CommandError.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/TeensySdioLogger/TeensySdioLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/UnicodeFilenames/UnicodeFilenames.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/SimpleCLI.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/UserChipSelectFunction/UserChipSelectFunction.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/StringCLI.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/UserSPIDriver/UserSPIDriver.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.c">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/bench/bench.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/AnalogLogger/AnalogLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/arg_types.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/BaseExtCaseTest/BaseExtCaseTest.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.c">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/HelloWorld/HelloWorld.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/MiniSerial/MiniSerial.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.c">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/PrintBenchmarkSD/PrintBenchmarkSD.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/SD_Size/SD_Size.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_error_types.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/SdFatSize/SdFatSize.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/cmd_types.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/StreamParseInt/StreamParseInt.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.c">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/append/append.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/comparator.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/average/average.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.c">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/benchSD/benchSD.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/bufstream/bufstream.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SimpleCLI/src/c/parser_types.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/cin_cout/cin_cout.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/.piopm">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/eventlog/eventlog.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/LICENSE.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/fgetsRewrite/fgetsRewrite.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/README.md">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/readlog/readlog.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example00_Blink/Scheduler_example00_Blink.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/#attic/readme.txt">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example00_Blink_Namespace/Scheduler_example00_Blink_Namespace.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/AnalogBinLogger/AnalogBinLogger.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example01/Scheduler_example01.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/AnalogBinLogger/AnalogBinLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example02/Scheduler_example02.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/LongFileName.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example03/Scheduler_example03.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/A long name can be 255 characters.txt">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example04_StatusRequest/Scheduler_example04_StatusRequest.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/LFN,NAME.TXT">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example05_StatusRequest/Scheduler_example05_StatusRequest.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/MIXCASE.txt">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example06_IDLE/Scheduler_example06_IDLE.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/Not_8_3.txt">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example07_WDT/Scheduler_example07_WDT.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/OK%83.TXT">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example08_LTS/Scheduler_example08_LTS.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/STD_8_3.TXT">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example09_TimeCritical/Scheduler_example09_TimeCritical.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/With Blank.txt">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example10_Benchmark/Scheduler_example10_Benchmark.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/With.Two dots.txt">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example11_Priority/Scheduler_example11_Priority.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/lower.txt">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example12_Priority/Scheduler_example12_Priority.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LongFileName/testFiles/mixed.TXT">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example13_Micros/Scheduler_example13_Micros.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLogger/LowLatencyLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example14_Yield/Scheduler_example14_Yield.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLogger/UserFunctions.cpp">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example15_STDFunction/Scheduler_example15_STDFunction.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLogger/UserTypes.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/Scheduler_example16_Multitab.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerADXL345/LowLatencyLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file1.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerADXL345/LowLatencyLoggerADXL345.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/file2.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserFunctions.cpp">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/header.hpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerADXL345/UserTypes.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example16_Multitab/ts.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerADXL345/readme.txt">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example17_Timeout/Scheduler_example17_Timeout.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerMPU6050/LowLatencyLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example18_StatusRequest_LTS_WDT_Timeout/Scheduler_example18_StatusRequest_LTS_WDT_Timeout.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerMPU6050/LowLatencyLoggerMPU6050.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example19_Dynamic_Tasks/Scheduler_example19_Dynamic_Tasks.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserFunctions.cpp">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example19_Dynamic_Tasks_SelfDestruct/Scheduler_example19_Dynamic_Tasks_SelfDestruct.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/LowLatencyLoggerMPU6050/UserTypes.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example19_Dynamic_Tasks_stdQueue/Scheduler_example19_Dynamic_Tasks_stdQueue.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/PrintBenchmark/PrintBenchmark.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/RawWrite/RawWrite.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/ReadCsv/ReadCsv.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example20_StatusRequest_LTS_WDT_Timeout_Object/SuperSensor.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/ReadCsvArray/ReadCsvArray.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/ReadCsvStream/ReadCsvStream.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Calculator.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/ReadWrite/ReadWrite.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Scheduler_example21_OO_Callbacks.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/STM32Test/STM32Test.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/StdioBench/StdioBench.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/SuperSensor.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/Timestamp/Timestamp.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/TwoCards/TwoCards.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example21_OO_Callbacks/Ticker.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/VolumeFreeSpace/VolumeFreeSpace.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example23_IDLE_Callback/Scheduler_example23_IDLE_Callback.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/dataLogger/dataLogger.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example24_CPU_LOAD/Scheduler_example24_CPU_LOAD.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/fgets/fgets.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example25_SCHEDULER_CHAIN/Scheduler_example25_SCHEDULER_CHAIN.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/formatting/formatting.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example26_SCHEDULING_OPTIONS/Scheduler_example26_SCHEDULING_OPTIONS.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/getline/getline.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/.gitignore">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/examplesV1/wipe/wipe.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/.vscode/extensions.json">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/examples/rename/rename.ino">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/include/led.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/library.properties">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/include/main.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/BufferedPrint.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/platformio.ini">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/DigitalPin.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/TaskScheduler.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/SoftSPI.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/led.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/AvrDevelopersGpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_example27_PlatformIO/src/main.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/BobuinoGpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/examples/Scheduler_template/Scheduler_template.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/GpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/keywords.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/LeonardoGpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/library.json">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/MegaGpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/library.properties">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/SleepingBeautyGpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/src/TScheduler.hpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/Standard1284GpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/src/TSchedulerDeclarations.hpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/Teensy2GpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/src/TaskScheduler.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/Teensy2ppGpioPinMap.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/src/TaskSchedulerDeclarations.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/boards/UnoGpioPinMap.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/DigitalIO/readme.txt">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatConfig.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatDbg.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatFile.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatFile.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatFilePrint.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatFileWrite.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatFormatter.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatFormatter.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatLib.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatName.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatPartition.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatPartition.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatVolume.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/ExFatLib/ExFatVolume.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatDbg.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatFile.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatFile.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatFileLFN.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatFilePrint.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatFileSFN.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatFormatter.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatFormatter.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatLib.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatName.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatPartition.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatPartition.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatVolume.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FatLib/FatVolume.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FreeStack.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FreeStack.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FsLib/FsFile.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FsLib/FsFile.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FsLib/FsFormatter.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FsLib/FsLib.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FsLib/FsNew.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FsLib/FsNew.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FsLib/FsVolume.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/FsLib/FsVolume.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/MinimumSerial.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/MinimumSerial.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/RingBuf.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/CPPLINT.cfg">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdCard.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdCardInfo.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdCardInfo.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdCardInterface.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdSpiCard.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdSpiCard.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdioCard.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdioTeensy.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdCard/SdioTeensy.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdFat.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SdFatConfig.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiArduinoDriver.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiArtemis.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiAvr.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiBareUnoDriver.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiBaseClass.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiChipSelect.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiDriver.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiDue.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiESP.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiLibDriver.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiParticle.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiSTM32.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiSTM32Core.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiSoftDriver.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/SpiDriver/SdSpiTeensy3.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/ArduinoFiles.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/CPPLINT.cfg">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/CompileDateTime.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/DebugMacros.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FmtNumber.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FmtNumber.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsApiConstants.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsBlockDevice.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsBlockDeviceInterface.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsCache.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsCache.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsDateTime.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsDateTime.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsName.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsName.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsStructs.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsStructs.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsUtf.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/FsUtf.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/PrintBasic.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/PrintBasic.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/SysCall.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/upcase.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/common/upcase.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/ArduinoStream.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/StdioStream.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/StdioStream.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/StreamBaseClass.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/bufstream.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/fstream.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/ios.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/iostream.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/istream.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/istream.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/ostream.cpp">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/iostream/ostream.h">
-			<Option target="Z_DUMMY_TARGET"/>
-		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/SdFat - Adafruit Fork/src/sdios.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/TaskScheduler/src/TaskSchedulerSleepMethods.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/.pio/libdeps/nucleo_f030r8/WiFi101/.piopm">
@@ -2812,43 +2587,181 @@
 		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/Streaming/src/Streaming.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/DeviceManager/DeviceManager.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/bus_out/bus_out.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/Driver/DigitalOutput/DigitalOutput.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/UUID.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/Driver/Screen/Screen.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/UUID.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/Driver/rtc/rtc.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_minimum/UUID_minimum.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/FileSystem/FileSystem.cpp">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_performance/UUID_performance.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/FileSystem/FileSystem.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_performance/performance_0.1.4..txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/NetworkInterface/NetworkInterface.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_performance/performance_0.1.5.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/NetworkInterface/NetworkManager.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_random_ESP32/UUID_random_ESP32.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/Utils/Device/Device.cpp">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_random_seed/UUID_random_seed.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/Utils/Device/Device.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_test/UUID_test.ino">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/drivers.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_test/output_0.1.1.txt">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/System/sysmacros.h">
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_test/output_0.1.2.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_test/output_0.1.3.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/lib/uuid/examples/UUID_test/output_0.1.4.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/command/cli.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/command/cli.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/command/echo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/command/file_system/cd.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/command/file_system/fs_commands.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/command/file_system/ls.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/command/file_system/mkdir.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/NetworkInterface/NetworkManager.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/device_manager/device_manager.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/device_manager/device_manager.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/device_manager/device_types.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/File.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/SD.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/SD.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/FatStructs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/Sd2Card.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/Sd2Card.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/Sd2PinMap.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/SdFat.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/SdFatUtil.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/SdFatmainpage.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/SdFile.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/SdInfo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/SD/utility/SdVolume.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/digital_output/digital_output.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/drivers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/full/full.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/null/null.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/rtc/rtc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/screen/screen.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/terminal/terminal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/driver/zero/zero.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/file_system/file_interface.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/file_system/file_system.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/file_system/file_system.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/file_system/file_system_interface.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/file_system/node.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/kernel_boot.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/sysmacros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/volume_manager/fs_type.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/volume_manager/volume_information.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/volume_manager/volume_manager.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/kernel/volume_manager/volume_manager.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/src/sysheaders.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/CMakeLists.txt">
