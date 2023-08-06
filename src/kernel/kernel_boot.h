@@ -7,11 +7,11 @@ extern void kernel_boot(void) {
     DeviceManager* dv = DeviceManager::getInstance();
     VolumeManager* vm = VolumeManager::getInstance();
     FileSystem* fs = FileSystem::getInstance();
-    
-    pinMode(PB13,OUTPUT);
-    digitalWrite(PB13,HIGH);
+
+    pinMode(PB13, OUTPUT);
+    digitalWrite(PB13, HIGH);
     delay(100);
-    digitalWrite(PB13,LOW);
+    digitalWrite(PB13, LOW);
     Serial.begin(BAUD_RATE);
     Ethernet.init(W5500_PIN);
     if (!SD.begin(SD_PIN)) {
@@ -21,6 +21,7 @@ extern void kernel_boot(void) {
     }
     vm->mount("C", FSType::FAT32, &SD);
     fs->mkdir("/dev");
+    fs->mknod("/dev/rtc", dv->addDevice(DeviceTypes::kRTC, &rtcdev));
     fs->mknod("/dev/full", dv->addDevice(DeviceTypes::kSystem, &fulldev));
     fs->mknod("/dev/zero", dv->addDevice(DeviceTypes::kSystem, &nulldev));
     fs->mknod("/dev/null", dv->addDevice(DeviceTypes::kSystem, &zerodev));

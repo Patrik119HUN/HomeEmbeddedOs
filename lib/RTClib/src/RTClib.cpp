@@ -12,12 +12,12 @@
 #endif
 
 #if (ARDUINO >= 100)
-#define _I2C_WRITE write  ///< Modern I2C write
-#define _I2C_READ read    ///< Modern I2C read
+#define _I2C_WRITE write ///< Modern I2C write
+#define _I2C_READ read   ///< Modern I2C read
 #else
 #include <WProgram.h>
-#define _I2C_WRITE send    ///< Legacy I2C write
-#define _I2C_READ receive  ///< legacy I2C read
+#define _I2C_WRITE send   ///< Legacy I2C write
+#define _I2C_READ receive ///< legacy I2C read
 #endif
 
 /**************************************************************************/
@@ -76,7 +76,8 @@ const uint8_t daysInMonth[] PROGMEM = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 3
 static uint16_t date2days(uint16_t y, uint8_t m, uint8_t d) {
     if (y >= 2000U) y -= 2000U;
     uint16_t days = d;
-    for (uint8_t i = 1; i < m; ++i) days += pgm_read_byte(daysInMonth + i - 1);
+    for (uint8_t i = 1; i < m; ++i)
+        days += pgm_read_byte(daysInMonth + i - 1);
     if (m > 2 && y % 4 == 0) ++days;
     return days + 365 * y + (y + 3) / 4 - 1;
 }
@@ -135,6 +136,8 @@ static uint8_t dowToDS3231(uint8_t d) { return d == 0 ? 7 : d; }
 
 bool RTC_DS3231::begin(TwoWire* wireInstance) {
     RTCWireBus = wireInstance;
+    wireInstance->setSCL(PB8);
+    wireInstance->setSDA(PB9);
     RTCWireBus->begin();
     RTCWireBus->beginTransmission(DS3231_ADDRESS);
     if (RTCWireBus->endTransmission() == 0) return true;
@@ -159,23 +162,23 @@ bool RTC_DS3231::lostPower(void) {
     @param dt DateTime object containing the date/time to set
 */
 /**************************************************************************/
-  // void RTC_DS3231::adjust(const DateTime& dt) {
-  //     RTCWireBus->beginTransmission(DS3231_ADDRESS);
-  //     RTCWireBus->_I2C_WRITE((byte)DS3231_TIME);  // start at location 0
-  //     RTCWireBus->_I2C_WRITE(bin2bcd(dt.second()));
-  //     RTCWireBus->_I2C_WRITE(bin2bcd(dt.minute()));
-  //     RTCWireBus->_I2C_WRITE(bin2bcd(dt.hour()));
-  //     // The RTC must know the day of the week for the weekly alarms to work.
-  //     RTCWireBus->_I2C_WRITE(bin2bcd(dowToDS3231(dt.dayOfTheWeek())));
-  //     RTCWireBus->_I2C_WRITE(bin2bcd(dt.day()));
-  //     RTCWireBus->_I2C_WRITE(bin2bcd(dt.month()));
-  //     RTCWireBus->_I2C_WRITE(bin2bcd(dt.year() - 2000U));
-  //     RTCWireBus->endTransmission();
+void RTC_DS3231::adjust(const DateTime& dt) {
+    RTCWireBus->beginTransmission(DS3231_ADDRESS);
+    RTCWireBus->_I2C_WRITE((byte)DS3231_TIME); // start at location 0
+    RTCWireBus->_I2C_WRITE(bin2bcd(dt.second()));
+    RTCWireBus->_I2C_WRITE(bin2bcd(dt.minute()));
+    RTCWireBus->_I2C_WRITE(bin2bcd(dt.hour()));
+    // The RTC must know the day of the week for the weekly alarms to work.
+    RTCWireBus->_I2C_WRITE(bin2bcd(dowToDS3231(dt.dayOfTheWeek())));
+    RTCWireBus->_I2C_WRITE(bin2bcd(dt.day()));
+    RTCWireBus->_I2C_WRITE(bin2bcd(dt.month()));
+    RTCWireBus->_I2C_WRITE(bin2bcd(dt.year() - 2000U));
+    RTCWireBus->endTransmission();
 
-  //     uint8_t statreg = read_i2c_register(DS3231_ADDRESS, DS3231_STATUSREG, RTCWireBus);
-  //     statreg &= ~0x80;  // flip OSF bit
-  //     write_i2c_register(DS3231_ADDRESS, DS3231_STATUSREG, statreg, RTCWireBus);
-  // }
+    uint8_t statreg = read_i2c_register(DS3231_ADDRESS, DS3231_STATUSREG, RTCWireBus);
+    statreg &= ~0x80; // flip OSF bit
+    write_i2c_register(DS3231_ADDRESS, DS3231_STATUSREG, statreg, RTCWireBus);
+}
 
 /**************************************************************************/
 /*!
@@ -202,7 +205,7 @@ uint32_t RTC_DS3231::unixTime() {
     uint32_t t;
     uint16_t days = date2days(yOff, m, d);
     t = time2ulong(days, hh, mm, ss);
-    t += SECONDS_FROM_1970_TO_2000;  // seconds from 1970 to 2000
+    t += SECONDS_FROM_1970_TO_2000; // seconds from 1970 to 2000
 
     return t;
 }
@@ -238,8 +241,8 @@ void RTC_DS3231::writeSqwPinMode(Ds3231SqwPinMode mode) {
     uint8_t ctrl;
     ctrl = read_i2c_register(DS3231_ADDRESS, DS3231_CONTROL, RTCWireBus);
 
-    ctrl &= ~0x04;  // turn off INTCON
-    ctrl &= ~0x18;  // set freq bits to 0
+    ctrl &= ~0x04; // turn off INTCON
+    ctrl &= ~0x18; // set freq bits to 0
 
     ctrl |= mode;
     write_i2c_register(DS3231_ADDRESS, DS3231_CONTROL, ctrl, RTCWireBus);
@@ -291,7 +294,8 @@ float RTC_DS3231::getTemperature() {
 //     uint8_t A1M2 = (alarm_mode & 0x02) << 6;   // Minutes bit 7.
 //     uint8_t A1M3 = (alarm_mode & 0x04) << 5;   // Hour bit 7.
 //     uint8_t A1M4 = (alarm_mode & 0x08) << 4;   // Day/Date bit 7.
-//     uint8_t DY_DT = (alarm_mode & 0x10) << 2;  // Day/Date bit 6. Date when 0, day of week when 1.
+//     uint8_t DY_DT = (alarm_mode & 0x10) << 2;  // Day/Date bit 6. Date when 0, day of week
+//     when 1.
 
 //     RTCWireBus->beginTransmission(DS3231_ADDRESS);
 //     RTCWireBus->_I2C_WRITE(DS3231_ALARM1);

@@ -9,7 +9,7 @@
 #include <kernel/device_manager/device_manager.h>
 #include <driver/drivers.h>
 #include <kernel/file_system/file_system.h>
-
+#include "kernel/time.h"
 #include <kernel/volume_manager/volume_manager.h>
 
 #include "UUID.h"

@@ -23,22 +23,21 @@
  ******************************************************************************/
 
 #include <Arduino.h>
-
+#include <DateTime.h>
 #include <stdarg.h>
-
 /******************************************************************************
    CONSTANTS
  ******************************************************************************/
 
-static int const DBG_NONE    = -1;
-static int const DBG_ERROR   =  0;
-static int const DBG_WARNING =  1;
-static int const DBG_INFO    =  2;
-static int const DBG_DEBUG   =  3;
-static int const DBG_VERBOSE =  4;
+static int const DBG_NONE = -1;
+static int const DBG_ERROR = 0;
+static int const DBG_WARNING = 1;
+static int const DBG_INFO = 2;
+static int const DBG_DEBUG = 3;
+static int const DBG_VERBOSE = 4;
 
 void setDebugMessageLevel(int const debug_level);
-int  getDebugMessageLevel();
+int getDebugMessageLevel();
 
 /******************************************************************************
    CLASS DECLARATION
@@ -47,13 +46,12 @@ int  getDebugMessageLevel();
 class Arduino_DebugUtils {
 
   public:
-
     Arduino_DebugUtils();
 
     void setDebugLevel(int const debug_level);
-    int  getDebugLevel() const;
+    int getDebugLevel() const;
 
-    void setDebugOutputStream(Stream * stream);
+    void setDebugOutputStream(Stream* stream);
 
     void timestampOn();
     void timestampOff();
@@ -64,27 +62,25 @@ class Arduino_DebugUtils {
     void debugLabelOn();
     void debugLabelOff();
 
-    void formatTimestampOn();
-    void formatTimestampOff();
+    //void enableStorageLog(const char* t_file_name = "log.txt",IFileSystem fs);
 
-    void print(int const debug_level, const char * fmt, ...);
-    void print(int const debug_level, const __FlashStringHelper * fmt, ...);
+    void print(int const debug_level, const char* fmt, ...);
+    void print(int const debug_level, const __FlashStringHelper* fmt, ...);
 
+    void setTime(uint32_t epoch) { time->setEpoch(epoch); }
 
   private:
+    DateTime* time;
+    bool _timestamp_on;
+    bool _newline_on;
+    bool _print_debug_label;
+    int _debug_level;
+    Stream* _debug_output_stream;
 
-    bool      _timestamp_on;
-    bool      _newline_on;
-    bool      _print_debug_label;
-    bool      _format_timestamp_on;
-    int       _debug_level;
-    Stream *  _debug_output_stream;
-
-    void vPrint(char const * fmt, va_list args);
+    void vPrint(char const* fmt, va_list args);
     void printTimestamp();
     void printDebugLabel(int const debug_level);
     bool shouldPrint(int const debug_level) const;
-
 };
 
 /******************************************************************************
@@ -98,23 +94,23 @@ extern Arduino_DebugUtils Debug;
  **************************************************************************************/
 
 #ifndef DEBUG_ERROR
-#  define DEBUG_ERROR(fmt, ...) Debug.print(DBG_ERROR, fmt, ## __VA_ARGS__)
+#define DEBUG_ERROR(fmt, ...) Debug.print(DBG_ERROR, fmt, ##__VA_ARGS__)
 #endif
 
 #ifndef DEBUG_WARNING
-#  define DEBUG_WARNING(fmt, ...) Debug.print(DBG_WARNING, fmt, ## __VA_ARGS__)
+#define DEBUG_WARNING(fmt, ...) Debug.print(DBG_WARNING, fmt, ##__VA_ARGS__)
 #endif
 
 #ifndef DEBUG_INFO
-#  define DEBUG_INFO(fmt, ...) Debug.print(DBG_INFO, fmt, ## __VA_ARGS__)
+#define DEBUG_INFO(fmt, ...) Debug.print(DBG_INFO, fmt, ##__VA_ARGS__)
 #endif
 
 #ifndef DEBUG_DEBUG
-#  define DEBUG_DEBUG(fmt, ...) Debug.print(DBG_DEBUG, fmt, ## __VA_ARGS__)
+#define DEBUG_DEBUG(fmt, ...) Debug.print(DBG_DEBUG, fmt, ##__VA_ARGS__)
 #endif
 
 #ifndef DEBUG_VERBOSE
-#  define DEBUG_VERBOSE(fmt, ...) Debug.print(DBG_VERBOSE, fmt, ## __VA_ARGS__)
+#define DEBUG_VERBOSE(fmt, ...) Debug.print(DBG_VERBOSE, fmt, ##__VA_ARGS__)
 #endif
 
 #endif /* ARDUINO_DEBUG_UTILS_H_ */

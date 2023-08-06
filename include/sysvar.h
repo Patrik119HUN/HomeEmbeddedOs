@@ -16,5 +16,6 @@ full fulldev;
 zero zerodev;
 null nulldev;
 terminal term;
+rtc rtcdev;
 
 #endif // sysvar

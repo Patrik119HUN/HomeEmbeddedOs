@@ -3,44 +3,45 @@
 
 #include <Arduino.h>
 #include <RTClib.h>
-
-
+#include <debug.h>
 #include <file_interface.h>
-class rtc : public IFile{
-   private:
-    RTC_DS3231* RTCInstance = NULL;
+class rtc : public IFile {
+  private:
+    RTC_DS3231* RTCInstance = nullptr;
     char _file_name[4] = "rtc";
+    int m_is_availabe = 1;
 
-   public:
+  public:
     enum RTCCMD { RTC_SET_TIME, RTC_ALM_READ, RTC_ALM_SET, RTC_AIE_ON, RTC_AIE_OFF };
     rtc() {
         this->RTCInstance = new RTC_DS3231();
         if (!this->RTCInstance->begin()) {
             Serial.println("Couldn't find RTC");
-            Serial.flush();
-            abort();
+            m_is_availabe = 0;
         }
+        DEBUG_INFO("RTC init succes");
     };
     ~rtc() { delete RTCInstance; }
     int read() override { return RTCInstance->unixTime(); }
     int ioctl(int code, int var) {
         switch (code) {
-            case RTC_SET_TIME:
-                break;
-            case RTC_ALM_READ:
-                break;
-            case RTC_ALM_SET:
-                break;
-            case RTC_AIE_ON:
-                break;
-            case RTC_AIE_OFF:
-                break;
-            default:
-                break;
+        case RTC_SET_TIME:
+            this->RTCInstance->adjust(DateTime(var));
+            break;
+        case RTC_ALM_READ:
+            break;
+        case RTC_ALM_SET:
+            break;
+        case RTC_AIE_ON:
+            break;
+        case RTC_AIE_OFF:
+            break;
+        default:
+            break;
         }
         return 1;
     }
-    int available() override { return 0; }
+    int available() override { return m_is_availabe; }
 
     bool seek(uint32_t pos) override { return false; }
     int peek() override { return EOF; }
@@ -52,4 +53,4 @@ class rtc : public IFile{
     void close() override { return; }
 };
 
-#endif  // rtc
+#endif // rtc

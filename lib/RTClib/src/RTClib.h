@@ -6,11 +6,11 @@
 
 #include "const.h"
 #include "enums.h"
-
+#include <DateTime.h>
 class RTC_DS3231 {
-   public:
+  public:
     bool begin(TwoWire* wireInstance = &Wire);
-    // void adjust(const DateTime& dt);
+    void adjust(const DateTime& dt);
     bool lostPower(void);
     uint32_t unixTime();
     Ds3231SqwPinMode readSqwPinMode();
@@ -23,10 +23,10 @@ class RTC_DS3231 {
     void enable32K(void);
     void disable32K(void);
     bool isEnabled32K(void);
-    float getTemperature();  // in Celsius degree
+    float getTemperature(); // in Celsius degree
 
-   protected:
-    TwoWire* RTCWireBus;  ///< I2C bus connected to the RTC
+  protected:
+    TwoWire* RTCWireBus; ///< I2C bus connected to the RTC
 };
 
-#endif  // _RTCLIB_H_
+#endif // _RTCLIB_H_
