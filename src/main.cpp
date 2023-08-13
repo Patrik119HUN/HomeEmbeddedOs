@@ -10,7 +10,6 @@ void setup() {
     kernel_boot();
 
     VolumeManager* vm = VolumeManager::getInstance();
-    FileSystem* fs = FileSystem::getInstance();
     IFileSystem* external_drive = vm->getVolume("C");
     if (external_drive != nullptr) {
         IFile* file = external_drive->open("proba2.txt", FILE_WRITE);
@@ -18,12 +17,11 @@ void setup() {
         file->println("ez egy alma425");
         file->close();
     }
-    rtc = fs->open("/dev/rtc");
+    rtc = fileSystem.open("/dev/rtc");
     // rtc->ioctl(0,1691254131);
 }
-    ProcessManager *pm = ProcessManager::getInstance();
 void loop() {
-    pm->loop();
+    processManager.loop();
     Debug.setTime(rtc->read());
 }
 /*

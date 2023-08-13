@@ -11,7 +11,7 @@ NTPClient timeClient(ntpUdp);
 
 int ntp_deamon(int argc, char** argv) {
     timeClient.begin();
-    IFile* rtc = FileSystem::getInstance()->open("/dev/rtc");
+    IFile* rtc = fileSystem.open("/dev/rtc");
     if (rtc == nullptr) return 1;
     while (true) {
         timeClient.update();

@@ -9,8 +9,7 @@
 
 void static lsCallback(cmd* c) {
     Command cmd(c);
-    FileSystem* fs = FileSystem::getInstance();
-    for (auto i : fs->lastFilePointer->files) {
+    for (auto i : fileSystem.lastFilePointer->files) {
         Serial << i->name << endl;
     }
     Serial << ".." << endl;

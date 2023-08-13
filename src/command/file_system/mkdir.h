@@ -9,10 +9,9 @@
 
 void static mkdirCallback(cmd* c) {
     Command cmd(c);
-    FileSystem* fs = FileSystem::getInstance();
     Argument arg = cmd.getArg(0);
     const char* name = arg.getValue().c_str();
 
-    fs->mkdir(name);
+    fileSystem.mkdir(name);
 }
 #endif  // mkdir

@@ -1,5 +1,5 @@
 #include "ethernet_handler.h"
-
+#include <debug.h>
 NetworkConnectionState EthernetConnectionHandler::update_handleInit() {
     if (Ethernet.hardwareStatus() == EthernetNoHardware) {
         DEBUG_ERROR("Error, ethernet shield was not found.");
@@ -17,7 +17,7 @@ NetworkConnectionState EthernetConnectionHandler::update_handleConnecting() {
         }
     } else {
         if (Ethernet.begin(nullptr, 15000, 4000) == 0) {
-            DBG_ERROR("Waiting Ethernet configuration from DHCP server, check cable connection");
+            DEBUG_ERROR("Waiting Ethernet configuration from DHCP server, check cable connection");
             return NetworkConnectionState::CONNECTING;
         }
     }
@@ -41,6 +41,6 @@ NetworkConnectionState EthernetConnectionHandler::update_handleDisconnecting() {
 }
 
 NetworkConnectionState EthernetConnectionHandler::update_handleDisconnected() {
-    int ret = (_keep_alive) ? NetworkConnectionState::INIT : NetworkConnectionState::CLOSED;
-    return ret;
+    NetworkConnectionState state = (_keep_alive) ? NetworkConnectionState::INIT : NetworkConnectionState::CLOSED;
+    return state;
 }

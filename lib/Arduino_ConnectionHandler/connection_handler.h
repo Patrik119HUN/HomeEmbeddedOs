@@ -68,6 +68,4 @@ class ConnectionHandler {
                            _on_error_event_callback = NULL;
 };
 
-#include "ethernet_handler/ethernet_handler.h"
-#include "wifi_handler/wifi_handler.h"
 #endif /* CONNECTION_HANDLER_H_ */

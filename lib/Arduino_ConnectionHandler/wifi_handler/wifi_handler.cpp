@@ -53,8 +53,7 @@ NetworkConnectionState WiFiConnectionHandler::update_handleDisconnecting() {
 
 NetworkConnectionState WiFiConnectionHandler::update_handleDisconnected() {
     WiFi.end();
-    int ret = (_keep_alive) ? NetworkConnectionState::INIT : NetworkConnectionState::CLOSED;
-    return ret;
+    NetworkConnectionState state = (_keep_alive) ? NetworkConnectionState::INIT : NetworkConnectionState::CLOSED;
+    return state;
 }
 
-#endif /* #ifdef BOARD_HAS_WIFI */

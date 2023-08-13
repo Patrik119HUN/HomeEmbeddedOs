@@ -3,14 +3,12 @@
 #include <sysheaders.h>
 #include <sysvar.h>
 extern void fileSystemInit() {
-    FileSystem* fs = FileSystem::getInstance();
-    DeviceManager* dv = DeviceManager::getInstance();
-    fs->mkdir("/dev");
-    fs->mknod("/dev/rtc", dv->addDevice(DeviceTypes::kRTC, &rtcdev));
-    fs->mknod("/dev/full", dv->addDevice(DeviceTypes::kSystem, &fulldev));
-    fs->mknod("/dev/zero", dv->addDevice(DeviceTypes::kSystem, &nulldev));
-    fs->mknod("/dev/null", dv->addDevice(DeviceTypes::kSystem, &zerodev));
-    fs->mknod("/dev/tty", dv->addDevice(DeviceTypes::kScreen, &term));
-    fs->mkdir("/user");
+    fileSystem.mkdir("/dev");
+    fileSystem.mknod("/dev/rtc", deviceManager.addDevice(DeviceTypes::kRTC, &rtcdev));
+    fileSystem.mknod("/dev/full", deviceManager.addDevice(DeviceTypes::kSystem, &fulldev));
+    fileSystem.mknod("/dev/zero", deviceManager.addDevice(DeviceTypes::kSystem, &nulldev));
+    fileSystem.mknod("/dev/null", deviceManager.addDevice(DeviceTypes::kSystem, &zerodev));
+    fileSystem.mknod("/dev/tty", deviceManager.addDevice(DeviceTypes::kScreen, &term));
+    fileSystem.mkdir("/user");
 }
 #endif // file_system_init

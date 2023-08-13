@@ -3,7 +3,7 @@
 
 #ifndef Dhcp_h
 #define Dhcp_h
-
+#include <Arduino.h>
 /* DHCP state machine. */
 #define STATE_DHCP_START	0
 #define	STATE_DHCP_DISCOVER	1

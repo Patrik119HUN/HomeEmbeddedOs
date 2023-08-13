@@ -8,14 +8,13 @@
 
 void static cdCallback(cmd* c) {
     Command cmd(c);
-    FileSystem* fs = FileSystem::getInstance();
     Argument arg = cmd.getArg(0);
     String path = arg.getValue();
     if (strcmp(path.c_str(), "..") == 0) {
-        fs->lastFilePointer = fs->lastFilePointer->prev_node;
+        fileSystem.lastFilePointer = fileSystem.lastFilePointer->prev_node;
     }
-    Node* res = fs->search(path.c_str(), node::Type::FOLDER, fs->lastFilePointer);
-    if (res != nullptr) fs->lastFilePointer = res;
+    Node* res = fileSystem.search(path.c_str(), node::Type::FOLDER, fileSystem.lastFilePointer);
+    if (res != nullptr) fileSystem.lastFilePointer = res;
     return;
 }
 #endif  // cd

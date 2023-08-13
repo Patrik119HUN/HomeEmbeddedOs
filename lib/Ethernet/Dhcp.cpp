@@ -7,7 +7,7 @@
 #include <Arduino.h>
 
 int DhcpClass::beginWithDHCP(
-    uint8_t* mac, const char* hostName unsigned long timeout, unsigned long responseTimeout
+    uint8_t* mac, const char* hostName,unsigned long timeout, unsigned long responseTimeout
 ) {
     _dhcpLeaseTime = 0;
     _dhcpT1 = 0;

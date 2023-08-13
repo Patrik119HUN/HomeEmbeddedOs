@@ -1,5 +1,5 @@
-#ifndef const_h
-#define const_h
+#ifndef handler_const_h
+#define handler_const_h
 
 #define SPIWIFI SPI
 #define SPIWIFI_SS PA4   // Chip select pin

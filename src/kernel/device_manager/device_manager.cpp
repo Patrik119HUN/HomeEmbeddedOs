@@ -1,12 +1,5 @@
 #include "device_manager.h"
 
-DeviceManager* DeviceManager::getInstance() {
-    if (!m_instance) {
-        m_instance = new DeviceManager();
-    }
-    return m_instance;
-}
-
 dev_t DeviceManager::addDevice(DeviceTypes t_type, IFile* t_dev) {
     dev_t a = m_device_record.at(t_type);
     dev_t id = makedev(t_type, a);
@@ -27,3 +20,4 @@ int DeviceManager::exists(IFile* t_device_ptr) {
     }
     return 0;
 }
+DeviceManager deviceManager;

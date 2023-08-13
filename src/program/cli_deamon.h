@@ -15,7 +15,6 @@ Command echo;
 
 void errorCallback(cmd_error* e);
 int cli_deamon(int argc, char** argv) {
-    FileSystem* fs = FileSystem::getInstance();
     cli.setOnError(errorCallback);
     ls = cli.addCommand("ls", lsCallback);
     cd = cli.addSingleArgumentCommand("cd", cdCallback);
@@ -27,7 +26,7 @@ int cli_deamon(int argc, char** argv) {
     bool arrived = true;
     while (true) {
         if (arrived) {
-            Serial << fs->currentPath(fs->lastFilePointer) << "> ";
+            Serial << fileSystem.currentPath(fileSystem.lastFilePointer) << "> ";
             arrived = false;
         }
         if (Serial.available()) {

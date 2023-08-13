@@ -18,10 +18,13 @@
 using namespace node;
 class FileSystem : public IFileSystem {
   public:
-    FileSystem(const FileSystem&) = delete;
-    FileSystem& operator=(const FileSystem&) = delete;
+    FileSystem() {
+        m_root.type = FOLDER;
+        m_root.name = "";
+    };
+    ~FileSystem() = default;
 
-    static FileSystem* getInstance();
+  public:
     String currentPath(Node* t_actualFolder);
     Node* search(const char* t_name, Type t_type, Node* t_actualFolder);
     uint8_t mknod(const char* t_path);
@@ -48,15 +51,8 @@ class FileSystem : public IFileSystem {
     Node* lastFilePointer = &m_root;
 
   private:
-    DeviceManager* m_dm_instance = DeviceManager::getInstance();
     uint8_t mknod(const char* t_path, Node* t_node);
-    inline static FileSystem* m_instance{nullptr};
     Node m_root;
-    FileSystem() {
-        m_root.type = FOLDER;
-        m_root.name = "";
-    };
-    ~FileSystem() = default;
 };
-
+extern FileSystem fileSystem;
 #endif // FILESYSTEM_H

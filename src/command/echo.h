@@ -15,8 +15,7 @@ void static echoCallback(cmd* c) {
     String message = arg.getValue();
     String da = display.getValue();
 
-    FileSystem* fs = FileSystem::getInstance();
-    IFile* scr = fs->open(da.c_str());
+    IFile* scr = fileSystem.open(da.c_str());
 
     if (scr == nullptr) return;
 

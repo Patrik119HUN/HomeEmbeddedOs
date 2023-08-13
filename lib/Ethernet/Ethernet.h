@@ -49,7 +49,7 @@
 #include "Client.h"
 #include "Server.h"
 #include <Arduino.h>
-
+#include <Udp.h>
 #define DEFAULT_HOST_NAME "WIZnet"
 #define DEFAULT_HOST_NAME_LENGTH (sizeof(DEFAULT_HOST_NAME) - 1)
 #define HOST_NAME_MAX_LEN 20 // Max 30 or change the DHCP local buffer sizee "Udp.h"

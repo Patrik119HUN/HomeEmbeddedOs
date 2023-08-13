@@ -4,12 +4,6 @@
 
 #include "file_system.h"
 
-FileSystem* FileSystem::getInstance() {
-    if (!m_instance) {
-        m_instance = new FileSystem();
-    }
-    return m_instance;
-}
 Node* FileSystem::search(const char* t_name, Type t_type, Node* t_actualFolder) {
     std::vector<Node*> vec = t_actualFolder->files;
     for (auto i : vec) {
@@ -136,6 +130,7 @@ IFile* FileSystem::open(const char* t_path, uint8_t t_mode) {
     }
     Node* devFile = this->search(devName, DEVICE, lastInstance);
     if (devFile == nullptr) return nullptr;
-    dev = m_dm_instance->getDevice(devFile->dev);
+    dev = deviceManager.getDevice(devFile->dev);
     return dev;
 }
+FileSystem fileSystem;
