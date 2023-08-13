@@ -7,8 +7,8 @@
 #include "sysvar.h"
 class NetworkManager {
   private:
-    const char* ssid = "secret";
-    const char* psw = "secret";
+    const char* ssid = "Wi-Fi";
+    const char* psw = "Asdfghjkl12";
     inline static NetworkManager* instance{nullptr};
     EthernetConnectionHandler* ethCon;
     WiFiConnectionHandler* wifiCon;
