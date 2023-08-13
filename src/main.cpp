@@ -1,13 +1,13 @@
-#include "kernel/kernel_boot.h"
+#include "boot/kernel_boot.h"
 #include "sysvar.h"
 #include <DateTime.h>
 #include <stm32f0xx_ll_gpio.h>
 #include <sysheaders.h>
 IFile* rtc = nullptr;
 void setup() {
-    kernel_boot();
     Debug.timestampOn();
     Debug.setDebugLevel(DBG_VERBOSE);
+    kernel_boot();
 
     VolumeManager* vm = VolumeManager::getInstance();
     FileSystem* fs = FileSystem::getInstance();
@@ -21,17 +21,10 @@ void setup() {
     rtc = fs->open("/dev/rtc");
     // rtc->ioctl(0,1691254131);
 }
-
+    ProcessManager *pm = ProcessManager::getInstance();
 void loop() {
-
-    DateTime now(rtc->read());
+    pm->loop();
     Debug.setTime(rtc->read());
-    runner.execute();
-
-    //DEBUG_INFO("Time: %d-%d-%d  %d:%d:%d Epoch:%d", getYears(), getMonths(), getDays(), getHours(),getMinutes(), getSeconds(), getEpoch());
-    DEBUG_INFO("Time: %d-%d-%d  %d:%d:%d", now.year(), now.month(), now.day(), now.hour(),now.minute(), now.second());
-    delay(1000);
-    // nm->loop();
 }
 /*
 BUS

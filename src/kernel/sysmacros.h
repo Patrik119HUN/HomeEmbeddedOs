@@ -21,5 +21,4 @@ static std::vector<char*> tokenize(const char* path, const char* delim) {
     return folders;
 }
 
-
 #endif // SYSMACROS_H

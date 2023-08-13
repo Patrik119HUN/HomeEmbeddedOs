@@ -62,8 +62,6 @@ class Arduino_DebugUtils {
     void debugLabelOn();
     void debugLabelOff();
 
-    //void enableStorageLog(const char* t_file_name = "log.txt",IFileSystem fs);
-
     void print(int const debug_level, const char* fmt, ...);
     void print(int const debug_level, const __FlashStringHelper* fmt, ...);
 

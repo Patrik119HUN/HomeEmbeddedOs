@@ -2,8 +2,8 @@
 #define rtc_h
 
 #include <Arduino.h>
-#include <RTClib.h>
-#include <debug.h>
+#include "RTClib.h"
+#include "../debug/debug.h"
 #include <file_interface.h>
 class rtc : public IFile {
   private:

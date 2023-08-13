@@ -1,5 +1,0 @@
-C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/out/build/x64-Debug/CMakeFiles/Production.dir
-C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/out/build/x64-Debug/CMakeFiles/Debug.dir
-C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/out/build/x64-Debug/CMakeFiles/Z_DUMMY_TARGET.dir
-C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/patri/Documents/PlatformIO/Projects/HomeEmbeddedOs/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

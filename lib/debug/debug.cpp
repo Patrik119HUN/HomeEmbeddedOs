@@ -135,7 +135,6 @@ void Arduino_DebugUtils::printTimestamp() {
         " ] ",
         hours, minutes, seconds
     );
-
     _debug_output_stream->print(timestamp);
 }
 
