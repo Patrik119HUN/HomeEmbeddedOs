@@ -1,6 +1,4 @@
-#ifndef ls_h
-#define ls_h
-
+#pragma once
 #include <Arduino.h>
 #include <SimpleCLI.h>
 #include <Streaming.h>
@@ -14,4 +12,3 @@ void static lsCallback(cmd* c) {
     }
     Serial << ".." << endl;
 }
-#endif  // ls

@@ -1,12 +1,9 @@
-#ifndef full_h
-#define full_h
-#include <Arduino.h>
+#pragma once
 
+#include <Arduino.h>
 #include <file_interface.h>
 class full : public IFile {
-    char _file_name[5] = "full";
-
-   public:
+  public:
     full() { setTimeout(0); }
     int available() override { return 0; }
 
@@ -20,5 +17,7 @@ class full : public IFile {
     char* name() override { return _file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }
+
+  private:
+    char _file_name[5] = "full";
 };
-#endif  // full

@@ -1,8 +1,7 @@
-#ifndef DeviceManager_h
-#define DeviceManager_h
+#pragma once
 #include <Arduino.h>
 #include <stdlib.h>
-
+#include <Streaming.h>
 #include <map>
 #include <vector>
 
@@ -12,7 +11,9 @@
 #include <file_interface.h>
 class DeviceManager {
   public:
-    DeviceManager() { m_device_record.assign(5, 0); }
+    DeviceManager(){
+      m_device_record.assign(10,0);
+    }
     ~DeviceManager() = default;
 
   public:
@@ -26,6 +27,5 @@ class DeviceManager {
     std::vector<int> m_device_record;
 
     int exists(IFile* t_device_ptr);
-} ;
+};
 extern DeviceManager deviceManager;
-#endif // DeviceManager

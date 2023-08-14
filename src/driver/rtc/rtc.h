@@ -1,16 +1,10 @@
-#ifndef rtc_h
-#define rtc_h
+#pragma once
 
-#include <Arduino.h>
-#include "RTClib.h"
 #include "../debug/debug.h"
+#include "RTClib.h"
+#include <Arduino.h>
 #include <file_interface.h>
 class rtc : public IFile {
-  private:
-    RTC_DS3231* RTCInstance = nullptr;
-    char _file_name[4] = "rtc";
-    int m_is_availabe = 1;
-
   public:
     enum RTCCMD { RTC_SET_TIME, RTC_ALM_READ, RTC_ALM_SET, RTC_AIE_ON, RTC_AIE_OFF };
     rtc() {
@@ -51,6 +45,9 @@ class rtc : public IFile {
     char* name() override { return _file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }
-};
 
-#endif // rtc
+  private:
+    RTC_DS3231* RTCInstance = nullptr;
+    char _file_name[4] = "rtc";
+    int m_is_availabe = 1;
+};

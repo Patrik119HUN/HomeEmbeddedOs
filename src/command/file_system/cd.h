@@ -1,5 +1,4 @@
-#ifndef cd_h
-#define cd_h
+#pragma once
 #include <Arduino.h>
 #include <SimpleCLI.h>
 #include <Streaming.h>
@@ -17,4 +16,3 @@ void static cdCallback(cmd* c) {
     if (res != nullptr) fileSystem.lastFilePointer = res;
     return;
 }
-#endif  // cd

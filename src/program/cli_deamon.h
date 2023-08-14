@@ -12,11 +12,12 @@ Command ls;
 Command cd;
 Command mkdir;
 Command echo;
-
+Command restart;
 void errorCallback(cmd_error* e);
 int cli_deamon(int argc, char** argv) {
     cli.setOnError(errorCallback);
     ls = cli.addCommand("ls", lsCallback);
+    restart = cli.addCommand("restart", restartCallback);
     cd = cli.addSingleArgumentCommand("cd", cdCallback);
     mkdir = cli.addSingleArgumentCommand("mkdir", mkdirCallback);
     echo = cli.addCommand("echo", echoCallback);

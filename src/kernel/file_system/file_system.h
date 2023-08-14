@@ -1,6 +1,4 @@
-#ifndef FILESYSTEM_H
-#define FILESYSTEM_H
-
+#pragma once
 #include <Arduino.h>
 #include <Streaming.h>
 
@@ -19,7 +17,7 @@ using namespace node;
 class FileSystem : public IFileSystem {
   public:
     FileSystem() {
-        m_root.type = FOLDER;
+        m_root.type = node::Type::FOLDER;
         m_root.name = "";
     };
     ~FileSystem() = default;
@@ -55,4 +53,3 @@ class FileSystem : public IFileSystem {
     Node m_root;
 };
 extern FileSystem fileSystem;
-#endif // FILESYSTEM_H

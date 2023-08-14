@@ -1,7 +1,3 @@
-//
-// Created by patri on 2023. 06. 25..
-//
-
 #include "file_system.h"
 
 Node* FileSystem::search(const char* t_name, Type t_type, Node* t_actualFolder) {
@@ -27,7 +23,7 @@ uint8_t FileSystem::mkdir(const char* t_path) {
     Node* lastInstance = (_path[0] == '/') ? &m_root : lastFilePointer;
 
     while (!paths.empty()) {
-        Node* srchres = this->search(paths.front(), FOLDER, lastInstance);
+        Node* srchres = this->search(paths.front(), Type::FOLDER, lastInstance);
         if (srchres != nullptr) {
             lastInstance = srchres;
         } else {
@@ -50,13 +46,13 @@ uint8_t FileSystem::rmdir(const char* t_path) {
     Node* lastInstance = (_path[0] == '/') ? &m_root : lastFilePointer;
 
     while (paths.size() != 1) {
-        Node* srchres = this->search(paths.front(), FOLDER, lastInstance);
+        Node* srchres = this->search(paths.front(), Type::FOLDER, lastInstance);
         if (srchres == nullptr) return 0;
         lastInstance = srchres;
         paths.erase(paths.begin());
     }
 
-    folder = this->search(paths.front(), FOLDER, lastInstance);
+    folder = this->search(paths.front(), Type::FOLDER, lastInstance);
     paths.erase(paths.begin());
     if (!folder->files.empty()) return 0;
     auto it = std::find(lastInstance->files.begin(), lastInstance->files.end(), folder);
@@ -74,7 +70,7 @@ uint8_t FileSystem::mknod(const char* t_path, Node* t_file) {
     paths.pop_back();
 
     while (!paths.empty()) {
-        Node* srchres = this->search(paths.front(), FOLDER, lastInstance);
+        Node* srchres = this->search(paths.front(), Type::FOLDER, lastInstance);
         if (srchres == nullptr) return 0;
         lastInstance = srchres;
         paths.erase(paths.begin());
@@ -104,7 +100,7 @@ String FileSystem::currentPath(Node* t_actualFolder) {
 
 uint8_t FileSystem::mknod(const char* t_path, dev_t t_dev) {
     Node* file = new Node;
-    file->type = DEVICE;
+    file->type = Type::DEVICE;
     file->dev = t_dev;
     return this->mknod(t_path, file);
 }
@@ -123,12 +119,12 @@ IFile* FileSystem::open(const char* t_path, uint8_t t_mode) {
     paths.pop_back();
 
     while (!paths.empty()) {
-        Node* srchres = this->search(paths.front(), FOLDER, lastInstance);
+        Node* srchres = this->search(paths.front(), Type::FOLDER, lastInstance);
         if (srchres == nullptr) return 0;
         lastInstance = srchres;
         paths.erase(paths.begin());
     }
-    Node* devFile = this->search(devName, DEVICE, lastInstance);
+    Node* devFile = this->search(devName, Type::DEVICE, lastInstance);
     if (devFile == nullptr) return nullptr;
     dev = deviceManager.getDevice(devFile->dev);
     return dev;

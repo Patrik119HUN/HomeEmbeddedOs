@@ -1,6 +1,4 @@
-#ifndef drivers_h
-#define drivers_h
-
+#pragma once
 #include "SD/SD.h"
 #include "digital_output/digital_output.h"
 #include "full/full.h"
@@ -9,4 +7,3 @@
 #include "screen/screen.h"
 #include "terminal/terminal.h"
 #include "zero/zero.h"
-#endif // drivers

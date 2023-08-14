@@ -1,6 +1,4 @@
-#ifndef mkdir_h
-#define mkdir_h
-
+#pragma once
 #include <Arduino.h>
 #include <SimpleCLI.h>
 #include <Streaming.h>
@@ -14,4 +12,3 @@ void static mkdirCallback(cmd* c) {
 
     fileSystem.mkdir(name);
 }
-#endif  // mkdir

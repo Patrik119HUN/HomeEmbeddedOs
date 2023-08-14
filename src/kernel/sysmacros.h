@@ -1,6 +1,4 @@
-#ifndef SYSMACROS_H
-#define SYSMACROS_H
-
+#pragma once
 #include <Arduino.h>
 #include <string.h>
 
@@ -20,5 +18,3 @@ static std::vector<char*> tokenize(const char* path, const char* delim) {
     }
     return folders;
 }
-
-#endif // SYSMACROS_H

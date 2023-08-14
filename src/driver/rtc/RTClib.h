@@ -1,6 +1,4 @@
-#ifndef _RTCLIB_H_
-#define _RTCLIB_H_
-
+#pragma once
 #include <Arduino.h>
 #include <Wire.h>
 
@@ -28,5 +26,3 @@ class RTC_DS3231 {
   protected:
     TwoWire* RTCWireBus; ///< I2C bus connected to the RTC
 };
-
-#endif // _RTCLIB_H_

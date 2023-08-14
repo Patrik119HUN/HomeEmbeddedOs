@@ -1,17 +1,14 @@
-#ifndef node_h
-#define node_h
-
+#pragma once
 #include <Arduino.h>
 
 namespace node {
 
-enum Type { FOLDER, DEVICE };
+enum class Type { FOLDER, DEVICE };
 struct Node {
     dev_t dev;
     Node* prev_node = nullptr;
-    Type type = FOLDER;
+    Type type = Type::FOLDER;
     const char* name;
     std::vector<Node*> files;
 };
 } // namespace Node
-#endif // node

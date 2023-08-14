@@ -1,6 +1,4 @@
-
-#ifndef process_wrapper_h
-#define process_wrapper_h
+#pragma once
 #include <Arduino.h>
 
 typedef int (*parametered_function)(int, char**);
@@ -17,4 +15,3 @@ class ProcessWrapper {
     int m_argc, m_ret;
     parametered_function m_func;
 };
-#endif

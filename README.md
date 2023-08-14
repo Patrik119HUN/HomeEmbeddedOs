@@ -7,8 +7,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -30,26 +28,36 @@
   </ol>
 </details>
 
-
 ### About the project
-    - File System 
+
+    - File System
     - Easy to use external hardware
-    - Easyly configurable 
+    - Easyly configurable
     - Network managment
     - Task Scheduling
     - Console Line Interface
     - Easy Debugging
 
 ### Built with
- - C++
- - C
- - PlatformIO
+
+- C++
+- C
+- PlatformIO
 
 ### Roadmap
- - [ ] Hot-Swappable devices
- - [ ] True RNG
- - [ ] Data Encryption
+
+- [ ] Hot-Swappable devices
+- [ ] True RNG
+- [ ] Data Encryption
 
 ### Usage
+
 ## Devices
+
 - Every device is using the same interface as a file.
+
+### Coding style-guide
+
+- Use `#pragma` instead of `#ifndef`
+- use enum class
+

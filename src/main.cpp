@@ -1,7 +1,7 @@
 #include "boot/kernel_boot.h"
 #include "sysvar.h"
 #include <DateTime.h>
-#include <stm32f0xx_ll_gpio.h>
+
 #include <sysheaders.h>
 IFile* rtc = nullptr;
 void setup() {
@@ -9,20 +9,19 @@ void setup() {
     Debug.setDebugLevel(DBG_VERBOSE);
     kernel_boot();
 
-    VolumeManager* vm = VolumeManager::getInstance();
-    IFileSystem* external_drive = vm->getVolume("C");
+    IFileSystem* external_drive = volumeManager.getVolume("C");
     if (external_drive != nullptr) {
         IFile* file = external_drive->open("proba2.txt", FILE_WRITE);
 
         file->println("ez egy alma425");
         file->close();
     }
-    rtc = fileSystem.open("/dev/rtc");
+    //rtc = fileSystem.open("/dev/rtc");
     // rtc->ioctl(0,1691254131);
 }
 void loop() {
     processManager.loop();
-    Debug.setTime(rtc->read());
+    //Debug.setTime(rtc->read());
 }
 /*
 BUS

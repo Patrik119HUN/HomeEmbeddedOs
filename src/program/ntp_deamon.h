@@ -1,6 +1,4 @@
-#ifndef ntp_deamon_h
-#define ntp_deamon_h
-
+#pragma once
 #include "kernel/file_system/file_system.h"
 #include <Arduino.h>
 #include <NTPClient.h>
@@ -19,4 +17,3 @@ int ntp_deamon(int argc, char** argv) {
     }
     return 0;
 }
-#endif // ntp_deamon

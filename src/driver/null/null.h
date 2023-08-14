@@ -1,15 +1,8 @@
-#ifndef null_h
-#define null_h
+#pragma once
 
 #include <Arduino.h>
-
 #include <file_interface.h>
 class null : public IFile {
-  private:
-    uint8_t nullVar;
-
-    char _file_name[5] = "null";
-
   public:
     null() {
         setTimeout(0);
@@ -39,6 +32,8 @@ class null : public IFile {
     char* name() override { return _file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }
-};
 
-#endif // null
+  private:
+    uint8_t nullVar;
+    char _file_name[5] = "null";
+};

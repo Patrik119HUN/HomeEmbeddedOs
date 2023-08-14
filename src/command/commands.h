@@ -1,6 +1,4 @@
-#ifndef commands_h
-#define commands_h
-
+#pragma once
 #include "file_system/fs_commands.h"
 #include "echo.h"
-#endif //commands
+#include "restart.h"

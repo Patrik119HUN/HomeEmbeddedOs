@@ -1,29 +1,12 @@
-#ifndef Screen_h
-#define Screen_h
+#pragma once
 #include <Arduino.h>
 #include <LiquidCrystal.h>
 
+#include "const.h"
 #include <file_interface.h>
-constexpr uint8_t LCD_COLS = 20;
-constexpr uint8_t LCD_ROWS = 4;
-
-constexpr uint8_t rs = PC8;
-constexpr uint8_t rw = PC6;
-constexpr uint8_t en = PC5;
-constexpr uint8_t d0 = PA12;
-constexpr uint8_t d1 = PA11;
-constexpr uint8_t d2 = PB12;
-constexpr uint8_t d3 = PB11;
-constexpr uint8_t d4 = PB2;
-constexpr uint8_t d5 = PB1;
-constexpr uint8_t d6 = PB15;
-constexpr uint8_t d7 = PB14;
 class Screen : public IFile {
-   private:
-    LiquidCrystal* LCDinstance = NULL;
-    char _file_name[4] = "scr";
 
-   public:
+  public:
     enum CTRLCMD {
         CLEAR,
         HOME,
@@ -51,46 +34,46 @@ class Screen : public IFile {
     };
     int ioctl(int code, int var) override {
         switch (code) {
-            case CLEAR:
-                this->LCDinstance->clear();
-                break;
-            case HOME:
-                this->LCDinstance->home();
-                break;
-            case SET_CURSOR:
-                this->seek(var);
-                break;
-            case DISPLAY_CURSOR:
-                if (var) {
-                    this->LCDinstance->cursor();
-                } else {
-                    this->LCDinstance->noCursor();
-                }
-                break;
-            case BLINK_CURSOR:
-                if (var) {
-                    this->LCDinstance->blink();
-                } else {
-                    this->LCDinstance->noBlink();
-                }
-                break;
-            case SET_DISPLAY:
-                if (var) {
-                    this->LCDinstance->display();
-                } else {
-                    this->LCDinstance->noDisplay();
-                }
-                break;
-            case SET_AUTOSCROLL:
-                if (var) {
-                    this->LCDinstance->autoscroll();
-                } else {
-                    this->LCDinstance->noAutoscroll();
-                }
-                break;
-            default:
-                return 0;
-                break;
+        case CLEAR:
+            this->LCDinstance->clear();
+            break;
+        case HOME:
+            this->LCDinstance->home();
+            break;
+        case SET_CURSOR:
+            this->seek(var);
+            break;
+        case DISPLAY_CURSOR:
+            if (var) {
+                this->LCDinstance->cursor();
+            } else {
+                this->LCDinstance->noCursor();
+            }
+            break;
+        case BLINK_CURSOR:
+            if (var) {
+                this->LCDinstance->blink();
+            } else {
+                this->LCDinstance->noBlink();
+            }
+            break;
+        case SET_DISPLAY:
+            if (var) {
+                this->LCDinstance->display();
+            } else {
+                this->LCDinstance->noDisplay();
+            }
+            break;
+        case SET_AUTOSCROLL:
+            if (var) {
+                this->LCDinstance->autoscroll();
+            } else {
+                this->LCDinstance->noAutoscroll();
+            }
+            break;
+        default:
+            return 0;
+            break;
         }
         return 1;
     }
@@ -108,6 +91,8 @@ class Screen : public IFile {
     char* name() override { return _file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }
-};
 
-#endif  // Screen
+  private:
+    LiquidCrystal* LCDinstance = NULL;
+    char _file_name[4] = "scr";
+};

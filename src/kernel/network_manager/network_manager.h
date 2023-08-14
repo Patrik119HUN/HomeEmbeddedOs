@@ -3,6 +3,7 @@
 #include <connection_handler.h>
 #include <vector>
 
+
 class NetworkManager {
   public:
     NetworkManager() = default;

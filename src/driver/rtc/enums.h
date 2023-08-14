@@ -1,6 +1,4 @@
-#ifndef enums_h
-#define enums_h
-
+#pragma once
 /** DS3231 SQW pin mode settings */
 enum Ds3231SqwPinMode {
     DS3231_OFF = 0x1C,            /**< Off */
@@ -33,4 +31,3 @@ enum Ds3231Alarm2Mode {
     DS3231_A2_Day = 0x8        /**< Alarm when day (day of week), hours
                                     and minutes match */
 };
-#endif //enums

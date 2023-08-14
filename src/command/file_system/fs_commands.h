@@ -1,8 +1,4 @@
-#ifndef fs_commands_h
-#define fs_commands_h
-
+#pragma once
 #include "cd.h"
 #include "ls.h"
 #include "mkdir.h"
-
-#endif  // FileSystem

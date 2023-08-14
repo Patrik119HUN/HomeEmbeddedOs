@@ -1,5 +1,4 @@
-#ifndef network_handler_deamon_h
-#define network_handler_deamon_h
+#pragma once 
 #include "../kernel/network_manager/network_manager.h"
 
 int network_handler(int argc, char** argv) {
@@ -22,4 +21,3 @@ int network_handler(int argc, char** argv) {
 
     return 0;
 }
-#endif // network_handler_deamon

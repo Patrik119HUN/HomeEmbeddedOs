@@ -1,5 +1,4 @@
-#ifndef IFile_h
-#define IFile_h
+#pragma once
 
 #include <Arduino.h>
 
@@ -22,4 +21,3 @@ class IFile : public Stream {
 
     virtual void close() = 0;
 };
-#endif  // IFile

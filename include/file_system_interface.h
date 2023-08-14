@@ -1,5 +1,4 @@
-#ifndef IFileSystem_h
-#define IFileSystem_h
+#pragma once
 
 #include <Arduino.h>
 
@@ -21,5 +20,3 @@ class IFileSystem {
     virtual bool remove(const char*) = 0;
     virtual bool remove(const String&) = 0;
 };
-
-#endif  // IFileSystem

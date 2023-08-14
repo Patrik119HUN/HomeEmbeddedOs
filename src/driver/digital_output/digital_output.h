@@ -1,5 +1,4 @@
-#ifndef DigitalOutput_h
-#define DigitalOutput_h
+#pragma once
 
 #include <file_interface.h>
 #include "bus_out.h"
@@ -47,5 +46,3 @@ class DigitalOutput : public IFile {
 
     BusOut* m_relay = nullptr;
 };
-
-#endif // DigitalOutput

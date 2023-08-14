@@ -1,5 +1,4 @@
-#ifndef kernel_boot_h
-#define kernel_boot_h
+#pragma once
 #include "includes.h"
 
 #include "program/cli_deamon.h"
@@ -11,16 +10,20 @@
 #define SPIWIFI_ACK PB0  // a.k.a BUSY or READY pin
 #define ESP32_RESETN PC1 // Reset pin
 #define ESP32_GPIO0 -1   // Not connected
-
 extern void kernel_boot(void) {
     Serial.begin(BAUD_RATE);
-    VolumeManager* vm = VolumeManager::getInstance();
+    volumeManager.mount("C", FSType::FAT32, &SD);
 
-    vm->mount("C", FSType::FAT32, &SD);
+    fileSystem.mkdir("/dev");
+    fileSystem.mknod("/dev/rtc", deviceManager.addDevice(DeviceTypes::REAL_TIME_CLOCK, &rtcdev));
+    fileSystem.mknod("/dev/full", deviceManager.addDevice(DeviceTypes::SYSTEM, &fulldev));
+    fileSystem.mknod("/dev/zero", deviceManager.addDevice(DeviceTypes::SYSTEM, &nulldev));
+    fileSystem.mknod("/dev/null", deviceManager.addDevice(DeviceTypes::SYSTEM, &zerodev));
+    fileSystem.mknod("/dev/tty", deviceManager.addDevice(DeviceTypes::SCREEN, &term));
+    fileSystem.mkdir("/user");
 
-    fileSystemInit();
-
-    tone(PB13, 2000, 200);
+    processManager.startProcess("cli_deamon", true, &cli_deamon, 0);
+    tone(PB13, 2000, 100);
     Ethernet.init(W5500_PIN);
     if (!SD.begin(SD_PIN)) {
         DEBUG_ERROR("SD initialization failed");
@@ -35,6 +38,4 @@ extern void kernel_boot(void) {
     }
 
     processManager.startProcess("ntp_deamon", false, &ntp_deamon, 0);
-    processManager.startProcess("cli_deamon", true, &cli_deamon, 0);
 }
-#endif // kernel_boot

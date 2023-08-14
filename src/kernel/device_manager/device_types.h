@@ -1,5 +1,3 @@
-#ifndef device_types_h
-#define device_types_h
+#pragma once
 
-enum DeviceTypes{ kScreen, kRTC, kRelay, kSD, kSystem };
-#endif //device_types
+enum DeviceTypes { NONE, SCREEN, REAL_TIME_CLOCK, RELAY, SECURE_DIGITAL, SYSTEM};

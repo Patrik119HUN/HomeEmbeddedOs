@@ -1,6 +1,4 @@
-#ifndef process_manager_h
-#define process_manager_h
-
+#pragma once
 #define _TASK_PRIORITY
 #define _TASK_STD_FUNCTION
 #define _TASK_SLEEP_ON_IDLE_RUN
@@ -64,4 +62,3 @@ class ProcessManager {
     std::map<const char*, Task*> m_task_map;
 };
 ProcessManager processManager;
-#endif // process_manager

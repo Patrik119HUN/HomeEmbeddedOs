@@ -1,6 +1,4 @@
-#ifndef echo_h
-#define echo_h
-
+#pragma once
 #include <Arduino.h>
 #include <SimpleCLI.h>
 #include <Streaming.h>
@@ -25,4 +23,3 @@ void static echoCallback(cmd* c) {
     scr->write('\n');
     return;
 }
-#endif // echo
