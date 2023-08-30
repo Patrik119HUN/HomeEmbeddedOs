@@ -1,13 +1,13 @@
 {
-    "C_Cpp.files.exclude": {
-        "**/.vscode": true,
-        "**/.vs": true
-    },
-    "C_Cpp.default.cppStandard": "c++17",
-    "sonarlint.pathToCompileCommands": "${workspaceFolder}\\compile_commands.json",
-    "C_Cpp.errorSquiggles": "disabled",
-    "files.associations": {
-        "vector": "cpp",
-        "map": "cpp"
-    }
+  "C_Cpp.files.exclude": {
+    "**/.vscode": true,
+    "**/.vs": true
+  },
+  "C_Cpp.default.cppStandard": "c++17",
+  "sonarlint.pathToCompileCommands": "${workspaceFolder}\\compile_commands.json",
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "vector": "cpp",
+    "map": "cpp"
+  }
 }

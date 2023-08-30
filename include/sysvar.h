@@ -1,8 +1,6 @@
 #pragma once
 
-#include "sysheaders.h"
-#include <TaskScheduler.h>
-#include <WiFiUdp.h>
+#include "driver/drivers.h"
 #define BAUD_RATE 9600
 #define SD_PIN PB6
 #define W5500_PIN PA9

@@ -1,64 +1,32 @@
 #pragma once
-#define _TASK_PRIORITY
-#define _TASK_STD_FUNCTION
-#define _TASK_SLEEP_ON_IDLE_RUN
-#include "process_wrapper.h"
-#include <Arduino.h>
-#include <TaskScheduler.h>
-#include <map>
-typedef int (*parametered_function)(int, char**);
-typedef int (*function)();
+#include "includes.h"
+#include <memory>
 class ProcessManager {
   public:
-    ProcessManager() {
-        lowPriority = new Scheduler;
-        highPriority = new Scheduler;
-        lowPriority->allowSleep(true);
-        highPriority->allowSleep(true);
-        lowPriority->setHighPriorityScheduler(highPriority);
-    }
-    ~ProcessManager() = default;
+    ProcessManager();
+    ~ProcessManager();
 
   public:
-    void startProcess(
-        const char* t_name, bool t_is_high_priority, parametered_function t_func, int n, ...
-    ) {
-        if (m_task_map.find(t_name) != m_task_map.end()) {
-            // DEBUG_ERROR("%s is already running!!", t_name);
-            return;
-        }
-        Task* process;
-        ProcessWrapper* proc = new ProcessWrapper(t_func);
-
-        va_list vl;
-        va_start(vl, n);
-        proc->setArgv(m_generate_params(vl, t_name, n));
-        va_end(vl);
-
-        proc->setArgc(n + 1);
-
-        auto f1 = std::bind(&ProcessWrapper::func, proc);
-        process = t_is_high_priority ? new Task(1000, TASK_ONCE, f1, highPriority, true)
-                                     : new Task(1 * TASK_HOUR, TASK_ONCE, f1, lowPriority, true);
-        m_task_map.insert(std::pair{t_name, process});
-        lowPriority->addTask(*process);
-    }
+    void
+    startProcess(processSettings* settings, parametered_function function, const char** params);
     inline void loop() { lowPriority->execute(); }
-    void stopProcess();
+    void stop(const char* task);
+    void signal(const char* task, int status);
 
   private:
-    char** m_generate_params(va_list t_vl, const char* t_name, int n) {
-
-        char** fparam = (char**)malloc(sizeof(char*) * (n + 2));
-        fparam[0] = (char*)t_name;
-        fparam[n + 2] = nullptr;
-        for (int i = 0; i < n; i++) {
-            fparam[i + 1] = va_arg(t_vl, char*);
-        }
-        return fparam;
-    }
+    std::unique_ptr<Task> generateProcess(bool is_high_priority, ProcessWrapper* proc);
+    bool isMapped(const char* name);
     Scheduler* lowPriority;
+    Scheduler* basePriority;
     Scheduler* highPriority;
-    std::map<const char*, Task*> m_task_map;
+    std::map<const char*, std::unique_ptr<Task>> m_task_map;
 };
-ProcessManager processManager;
+extern ProcessManager processManager;
+
+/*
+TODO: Refactor it to unique pointers
+Todo: no need for destructor
+Todo: make Schedulers an array
+Todo: use std::optional
+Todo: use tuple and std::move
+*/

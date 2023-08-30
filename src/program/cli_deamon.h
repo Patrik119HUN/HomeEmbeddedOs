@@ -2,7 +2,7 @@
 #define cli_deamon_h
 
 #include "../command/commands.h"
-#include "../sysheaders.h"
+#include "../kernel/kernel.h"
 #include <Arduino.h>
 #include <SimpleCLI.h>
 #include <Streaming.h>

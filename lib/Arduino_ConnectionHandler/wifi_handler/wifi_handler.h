@@ -27,7 +27,6 @@ class WiFiConnectionHandler : public ConnectionHandler {
 
     virtual Client& getClient() override { return _wifi_client; }
     virtual UDP& getUDP() override { return _wifi_udp; }
-
   protected:
     virtual NetworkConnectionState update_handleInit() override;
     virtual NetworkConnectionState update_handleConnecting() override;

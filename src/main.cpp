@@ -1,53 +1,44 @@
-#include "boot/kernel_boot.h"
 #include "sysvar.h"
-#include <DateTime.h>
 
-#include <sysheaders.h>
-IFile* rtc = nullptr;
+#include "kernel/kernel.h"
+
+#include "program/cli_deamon.h"
+#include "program/ntp_deamon.h"
+#include <Arduino.h>
+
+#include <ethernet_handler/ethernet_handler.h>
+
 void setup() {
     Debug.timestampOn();
     Debug.setDebugLevel(DBG_VERBOSE);
-    kernel_boot();
-
-    IFileSystem* external_drive = volumeManager.getVolume("C");
-    if (external_drive != nullptr) {
-        IFile* file = external_drive->open("proba2.txt", FILE_WRITE);
-
-        file->println("ez egy alma425");
-        file->close();
+    Serial.begin(9600);
+    fileSystem.mkdir("/dev");
+    fileSystem.mknod("/dev/rtc", deviceManager.addDevice(DeviceTypes::REAL_TIME_CLOCK, &rtcdev));
+    fileSystem.mknod("/dev/full", deviceManager.addDevice(DeviceTypes::SYSTEM, &fulldev));
+    //fileSystem.mknod("/dev/zero", deviceManager.addDevice(DeviceTypes::SYSTEM, &nulldev));
+    //fileSystem.mknod("/dev/null", deviceManager.addDevice(DeviceTypes::SYSTEM, &zerodev));
+    //fileSystem.mknod("/dev/tty", deviceManager.addDevice(DeviceTypes::SCREEN, &term));
+    //fileSystem.mkdir("/user");
+    processSettings cli{"cli_deamon", ProcessPriority::BASE};
+   // processSettings ntp{"ntp_deamon", ProcessPriority::BASE};
+    //processSettings network{"network_deamon", ProcessPriority::BASE};
+    //processSettings dummy_settings{"dummy", ProcessPriority::BASE};
+    tone(PB13, 2000, 100);
+    Ethernet.init(W5500_PIN);
+    if (!SD.begin(SD_PIN)) {
+        DEBUG_ERROR("SD initialization failed");
+        while (1)
+            ;
     }
-    //rtc = fileSystem.open("/dev/rtc");
-    // rtc->ioctl(0,1691254131);
+    volumeManager.mount("C", FSType::FAT32, &SD);
+
+    EthernetConnectionHandler EthernetAdapter;
+
+    networkManager.addAdapter(&EthernetAdapter);
+    networkManager.setClient(&EthernetAdapter.getClient());
+    networkManager.setUDP(&EthernetAdapter.getUDP());
+
+    // processManager.startProcess(&ntp, &ntp_deamon, 0);
+    processManager.startProcess(&cli, &cli_deamon, 0);
 }
-void loop() {
-    processManager.loop();
-    //Debug.setTime(rtc->read());
-}
-/*
-BUS
-    Power
-        5V
-        3.3V
-        12V
-        GND
-        GND
-    Data
-        SDA1
-        SCL1    I2C
-
-        SDA2
-        SCL2    I2C
-
-        MISO
-        MOSI    SPI
-        SCLK
-
-        1-wire  IDENTIFICATION
-
-        CS1
-        CS2
-        CS3     Bus Select
-        CS4
-        CS5
-        CS6
-*/
+void loop() { processManager.loop(); }

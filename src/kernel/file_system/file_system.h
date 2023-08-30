@@ -22,6 +22,7 @@ class FileSystem : public IFileSystem {
     };
     ~FileSystem() = default;
 
+#pragma region Public
   public:
     String currentPath(Node* t_actualFolder);
     Node* search(const char* t_name, Type t_type, Node* t_actualFolder);
@@ -47,9 +48,12 @@ class FileSystem : public IFileSystem {
         return this->open(t_path.c_str(), t_mode);
     };
     Node* lastFilePointer = &m_root;
+#pragma endregion
 
+#pragma region Private
   private:
     uint8_t mknod(const char* t_path, Node* t_node);
     Node m_root;
 };
+#pragma endregion
 extern FileSystem fileSystem;
