@@ -1,8 +1,8 @@
 #pragma once
 
 #include "process_priority.h"
-
+#include <string>
 struct processSettings {
-    const char* name;
+    std::string name;
     ProcessPriority priority;
 };

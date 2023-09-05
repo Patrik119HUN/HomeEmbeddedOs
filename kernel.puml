@@ -1,0 +1,81 @@
+@startuml Kernel
+package "kernel"{
+    class FileSystem << Singleton >>{
+        + String currentPath(Node* t_actualFolder)
+        + Node* search(const char* t_name, Type t_type, Node* t_actualFolder)
+        + uint8_t mknod(const char* t_path)
+
+        + uint8_t mknod(const char* t_path, dev_t t_dev)
+
+        + void rmnod(const char* t_path)
+
+        + uint8_t rmdir(const char* t_path)
+        + uint8_t rmdir(const String& t_path)
+
+        + bool remove(const char* t_path)
+        + bool remove(const String& t_path)
+
+        + bool exists(const char* t_path)
+        + bool exists(const String& t_path)
+
+        + uint8_t mkdir(const char* t_path)
+        + uint8_t mkdir(const String& t_path)
+        + IFile* open(const char* t_path, uint8_t t_mode = 1)
+        + IFile* open(const String& t_path, uint8_t t_mode = 1)
+        + Node* lastFilePointer
+
+        - uint8_t mknod(const char* t_path, Node* t_node)
+        - Node m_root
+    }
+
+    enum DeviceTypes{
+        NONE
+        SCREEN
+        REAL_TIME_CLOCK
+        RELAY
+        SECURE_DIGITAL
+        SYSTEM
+    }
+    class DeviceManager {
+        + dev_t addDevice(DeviceTypes t_type, IFile* t_dev)
+        + dev_t addDevice(DeviceTypes t_type, IFile* t_dev)
+        + IFile* getDevice(dev_t t_id)
+        + uint8_t removeDevice(dev_t t_id)
+
+        - map<dev_t, IFile*> m_devices
+        - vector<int> m_device_record
+        - int exists(IFile* t_device_ptr)
+    }
+    class NetworkManager{
+        + UDP* getUDP()
+        + Client* getClient()
+
+        + void setUDP(UDP* t_udp)
+        + void setClient(Client* t_client)
+
+        + void removeHandler(int t_n)
+        + ConnectionHandler* getHandler(int t_n)
+        + void addHandler(ConnectionHandler* t_handler)
+
+        + uint8_t getHandlerCount()
+
+        - UDP* m_udp;
+        - Client* m_client;
+        - vector<ConnectionHandler*> m_handler;
+    }
+    class ProcessManager{
+        + void startProcess(const char* t_name, bool t_is_high_priority, parametered_function t_func, int n, ...)
+        + void stopProcess()
+        + void loop()
+
+        - char** m_generate_params(va_list t_vl, const char* t_name, int n)
+        - Scheduler* lowPriority;
+        - Scheduler* highPriority;
+        - map<const char*, Task*> m_task_map;
+    }
+    class VolumeManager{
+
+    }
+
+}
+@enduml

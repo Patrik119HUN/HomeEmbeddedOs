@@ -1,12 +1,9 @@
 #pragma once
 
-#include <SimpleCLI.h>
 #include <Arduino.h>
 
-void static restartCallback(cmd* c){
-    Command cmd(c);
-    
+int restartCallback(int argc, char** argv) {
     Serial.println("System force restart");
     NVIC_SystemReset();
-    return;
+    return 0;
 }

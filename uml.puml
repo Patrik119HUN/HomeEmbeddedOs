@@ -1,0 +1,19 @@
+@startuml HomeOS
+skinparam handwritten false
+
+!include kernel.puml!0
+package "boot"{
+
+}
+package "command"{
+
+}
+package "driver"{
+
+}
+package "programs"{
+
+}
+
+
+@enduml
