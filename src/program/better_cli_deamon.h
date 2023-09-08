@@ -1,9 +1,10 @@
 #pragma once
+#include "cd.h"
+#include "ls.h"
+#include "restart.h"
 #include <Arduino.h>
 #include <cmdArduino.h>
-#include "ls.h"
-#include "cd.h"
-#include "restart.h"
+#include "../kernel/kernel.h"
 int cli_deamon(int argc, char** argv) {
 
     cmd.begin(9600);
@@ -12,7 +13,9 @@ int cli_deamon(int argc, char** argv) {
     cmd.add("restart", restartCallback);
 
     while (true) {
-        cmd.poll();
+        if (Serial.available()) {
+            cmd.handler();
+        }
     }
     return 0;
 }

@@ -2,6 +2,7 @@
 #include <Arduino.h>
 #include <string.h>
 
+#include <random>
 #include <vector>
 
 static dev_t makedev(uint8_t major, uint8_t minor) { return (major * 100) + minor; }

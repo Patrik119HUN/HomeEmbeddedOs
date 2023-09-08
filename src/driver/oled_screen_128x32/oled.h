@@ -3,16 +3,13 @@
 #include <ArduinoECCX08.h>
 #include <Streaming.h>
 #include <file_interface.h>
-class frandom : public IFile {
+class oled : public IFile {
   public:
-    frandom() {
-        setTimeout(0);
-    }
-    int available() override { return true; }
+    oled() { setTimeout(0); }
 
     bool seek(uint32_t pos) override { return false; }
     int peek() override { return EOF; }
-    int read() override { return ECCX08.random(65535); }
+    int read() override { return EOF}
 
     void flush() override { return; };
 
@@ -25,6 +22,5 @@ class frandom : public IFile {
     void close() override { return; }
 
   private:
-    char m_file_name[5] = "rand";
-    uint32_t m_rand_val;
+    char m_file_name[5] = "oled";
 };

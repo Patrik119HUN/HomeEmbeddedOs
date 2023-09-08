@@ -1,25 +1,26 @@
 #pragma once
 #include "includes.h"
-#include <memory>
-#include <tuple>
 class ProcessManager {
   public:
     ProcessManager();
     ~ProcessManager() = default;
 
   public:
-    void
-    startProcess(processSettings* settings, parametered_function function, const char** params);
+    void startProcess(
+        std::string t_name, ProcessPriority t_priority, parametered_function function,
+        const char** params
+    );
     inline void loop() { lowPriority->execute(); }
     void stop(const std::string task);
     void signal(const std::string_view task, int status);
-
+    Task* get(std::string name){
+      return m_task_map.at(name);
+    }
   private:
-    std::unique_ptr<Task> generateProcess(bool is_high_priority, ProcessWrapper* proc);
+    Task* generateProcess(ProcessPriority t_priority, ProcessWrapper* proc);
     Scheduler* lowPriority;
     Scheduler* basePriority;
-    Scheduler* highPriority;
-    std::map<std::string, std::unique_ptr<Task>> m_task_map;
+    std::map<std::string, Task*> m_task_map;
 };
 extern ProcessManager processManager;
 
