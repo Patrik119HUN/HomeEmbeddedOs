@@ -2,25 +2,26 @@
 #include "includes.h"
 class ProcessManager {
   public:
-    ProcessManager();
+    ProcessManager() = default;
     ~ProcessManager() = default;
 
   public:
     void startProcess(
-        std::string t_name, ProcessPriority t_priority, parametered_function function,
+        std::string t_name, ProcessPriority t_priority, function func,
         const char** params
     );
-    inline void loop() { lowPriority->execute(); }
+    inline void loop() {
+        vTaskStartScheduler();
+        Serial.println("Insufficient RAM");
+        while (1)
+            ;
+    }
     void stop(const std::string task);
     void signal(const std::string_view task, int status);
-    Task* get(std::string name){
-      return m_task_map.at(name);
-    }
+
   private:
-    Task* generateProcess(ProcessPriority t_priority, ProcessWrapper* proc);
-    Scheduler* lowPriority;
-    Scheduler* basePriority;
-    std::map<std::string, Task*> m_task_map;
+    portBASE_TYPE* generateProcess(ProcessPriority t_priority, ProcessWrapper* proc);
+    std::map<std::string, TaskHandle_t*> m_task_map;
 };
 extern ProcessManager processManager;
 

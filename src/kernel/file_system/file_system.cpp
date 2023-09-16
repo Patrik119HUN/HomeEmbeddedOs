@@ -126,7 +126,8 @@ IFile* FileSystem::open(const char* t_path, uint8_t t_mode) {
     }
     Node* devFile = this->search(devName, Type::DEVICE, lastInstance);
     if (devFile == nullptr) return nullptr;
-    dev = deviceManager.getDevice(devFile->dev);
+    //dev = deviceManager.getDevice("null");
+    dev = nullptr;
     return dev;
 }
 FileSystem fileSystem;

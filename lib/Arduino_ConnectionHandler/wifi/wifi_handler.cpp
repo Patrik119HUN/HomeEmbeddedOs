@@ -1,6 +1,5 @@
-#include "wifi_handler.h"
-
-NetworkConnectionState WiFiConnectionHandler::update_handleInit() {
+/*
+NetworkConnectionState WiFiAdapter::update_handleInit() {
     DEBUG_INFO("WiFi.status(): %d", WiFi.status());
 
     WiFi.setPins(SPIWIFI_SS, SPIWIFI_ACK, ESP32_RESETN, ESP32_GPIO0, &SPIWIFI);
@@ -15,7 +14,7 @@ NetworkConnectionState WiFiConnectionHandler::update_handleInit() {
     return NetworkConnectionState::CONNECTING;
 }
 
-NetworkConnectionState WiFiConnectionHandler::update_handleConnecting() {
+NetworkConnectionState WiFiAdapter::update_handleConnecting() {
     if (WiFi.status() != WL_CONNECTED) {
         WiFi.begin(_ssid, _pass);
     }
@@ -33,7 +32,7 @@ NetworkConnectionState WiFiConnectionHandler::update_handleConnecting() {
     }
 }
 
-NetworkConnectionState WiFiConnectionHandler::update_handleConnected() {
+NetworkConnectionState WiFiAdapter::update_handleConnected() {
     if (WiFi.status() != WL_CONNECTED) {
         DEBUG_VERBOSE("WiFi.status(): %d", WiFi.status());
         DEBUG_ERROR("Connection to \"%s\" lost.", _ssid);
@@ -46,14 +45,15 @@ NetworkConnectionState WiFiConnectionHandler::update_handleConnected() {
     return NetworkConnectionState::CONNECTED;
 }
 
-NetworkConnectionState WiFiConnectionHandler::update_handleDisconnecting() {
+NetworkConnectionState WiFiAdapter::update_handleDisconnecting() {
     WiFi.disconnect();
     return NetworkConnectionState::DISCONNECTED;
 }
 
-NetworkConnectionState WiFiConnectionHandler::update_handleDisconnected() {
+NetworkConnectionState WiFiAdapter::update_handleDisconnected() {
     WiFi.end();
     NetworkConnectionState state = (_keep_alive) ? NetworkConnectionState::INIT : NetworkConnectionState::CLOSED;
     return state;
 }
 
+*/

@@ -54,14 +54,14 @@ package "kernel"{
         + void setClient(Client* t_client)
 
         + void removeHandler(int t_n)
-        + ConnectionHandler* getHandler(int t_n)
-        + void addHandler(ConnectionHandler* t_handler)
+        + INetworkAdapter* getHandler(int t_n)
+        + void addHandler(INetworkAdapter* t_handler)
 
         + uint8_t getHandlerCount()
 
         - UDP* m_udp;
         - Client* m_client;
-        - vector<ConnectionHandler*> m_handler;
+        - vector<INetworkAdapter*> m_handler;
     }
     class ProcessManager{
         + void startProcess(const char* t_name, bool t_is_high_priority, parametered_function t_func, int n, ...)

@@ -12,7 +12,7 @@ class ProcessWrapper {
             Serial.println("Wrong function wrapper call");
         }
     }
-    void setTask(function t_func) {
+    void setTask(basic_function t_func) {
         if (!isParametered) {
             this->m_func = t_func;
         } else {
@@ -23,12 +23,12 @@ class ProcessWrapper {
     void setArgc(int t_num) { this->m_argc = t_num; }
     void setArgv(char** t_argv) { this->m_argv = t_argv; }
     int getReturn() { return m_ret; }
-    void func() { m_ret = (isParametered) ? m_param_func(m_argc, m_argv) : m_func(); }
+    void func(void* f) { m_ret = (isParametered) ? m_param_func(m_argc, m_argv) : m_func(); }
 
   private:
     bool isParametered = false;
     char** m_argv;
     int m_argc, m_ret;
     parametered_function m_param_func;
-    function m_func;
+    basic_function m_func;
 };

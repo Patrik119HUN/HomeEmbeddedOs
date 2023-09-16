@@ -1,3 +1,0 @@
-#pragma once
-
-enum DeviceTypes { NONE, SCREEN, REAL_TIME_CLOCK, RELAY, SECURE_DIGITAL, SYSTEM};

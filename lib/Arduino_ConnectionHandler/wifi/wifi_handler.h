@@ -14,16 +14,13 @@
    software without disclosing the source code of your own applications. To purchase
    a commercial license, send an email to license@arduino.cc.
 */
-
-#ifndef WIFI_HANDLER_H_
-#define WIFI_HANDLER_H_
-
+/*
 #include "../connection_handler.h"
 
-class WiFiConnectionHandler : public ConnectionHandler {
+class WiFiAdapter : public INetworkAdapter {
   public:
-    WiFiConnectionHandler(char const* ssid, char const* pass, bool const keep_alive = true)
-        : ConnectionHandler{keep_alive, NetworkAdapter::WIFI}, _ssid{ssid}, _pass{pass} {}
+    WiFiAdapter(char const* ssid, char const* pass, bool const keep_alive = true)
+        : INetworkAdapter{keep_alive, NetworkAdapter::WIFI}, _ssid{ssid}, _pass{pass} {}
 
     virtual Client& getClient() override { return _wifi_client; }
     virtual UDP& getUDP() override { return _wifi_udp; }
@@ -42,4 +39,5 @@ class WiFiConnectionHandler : public ConnectionHandler {
     WiFiClient _wifi_client;
 };
 
-#endif /* ARDUINO_WIFI_CONNECTION_HANDLER_H_ */
+
+*/

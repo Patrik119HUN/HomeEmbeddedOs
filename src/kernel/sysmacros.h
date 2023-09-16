@@ -3,8 +3,8 @@
 #include <string.h>
 
 #include <random>
+#include <sstream>
 #include <vector>
-
 static dev_t makedev(uint8_t major, uint8_t minor) { return (major * 100) + minor; }
 static uint8_t major(dev_t dev) { return dev / 100; }
 static uint8_t minor(dev_t dev) { return dev % 100; }
@@ -18,4 +18,14 @@ static std::vector<char*> tokenize(const char* path, const char* delim) {
         pch = strtok(nullptr, delim);
     }
     return folders;
+}
+static std::vector<std::string> tokenize_str(const std::string& str, const char delim) {
+    std::vector<std::string> vector;
+    std::string token;
+    std::istringstream stream(str);
+
+    while (std::getline(stream, token, delim)) {
+        vector.push_back(token);
+    }
+    return vector;
 }

@@ -4,6 +4,5 @@
 #include "process_wrapper.h"
 #include "typedef.h"
 #include <Arduino.h>
-#include <TaskSchedulerDeclarations.h>
 #include <map>
-#include <memory>
+#include <STM32FreeRTOS.h>

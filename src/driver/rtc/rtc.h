@@ -6,7 +6,13 @@
 #include <file_interface.h>
 class rtc : public IFile {
   public:
-    enum RTCCMD { RTC_SET_TIME, RTC_ALM_READ, RTC_ALM_SET, RTC_AIE_ON, RTC_AIE_OFF };
+    enum RTCCMD {
+        RTC_SET_TIME,
+        RTC_ALM_READ,
+        RTC_ALM_SET,
+        RTC_AIE_ON,
+        RTC_AIE_OFF
+    };
     rtc() {
         this->RTCInstance = new RTC_DS3231();
         if (!this->RTCInstance->begin()) {

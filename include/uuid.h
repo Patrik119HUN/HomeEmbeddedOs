@@ -6,7 +6,7 @@
 class UUID {
   public:
     UUID() {
-        IFile* random_dev = fileSystem.open("/dev/random");
+        Stream* random_dev = deviceManager.open("random");
         std::mt19937_64 generator(random_dev->read());
         std::uniform_int_distribution<uint64_t> distrib;
         id = distrib(generator);

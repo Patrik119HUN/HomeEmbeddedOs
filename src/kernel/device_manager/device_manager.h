@@ -1,31 +1,23 @@
 #pragma once
 #include <Arduino.h>
-#include <stdlib.h>
 #include <Streaming.h>
 #include <map>
-#include <vector>
 
 #include "../../driver/drivers.h"
-#include "../sysmacros.h"
-#include "device_types.h"
-#include <file_interface.h>
 class DeviceManager {
   public:
-    DeviceManager(){
-      m_device_record.assign(10,0);
-    }
+    DeviceManager() = default;
     ~DeviceManager() = default;
 
   public:
-    dev_t addDevice(DeviceTypes t_type, IFile* t_dev);
-    IFile* getDevice(dev_t t_id);
+    void addDevice(std::string t_name, IFile* p_dev) {
+        m_devices.insert(std::pair{t_name, p_dev});
+    }
+    IFile* open(std::string t_name) { return m_devices.at(t_name); }
 
-    uint8_t removeDevice(dev_t t_id);
+    void removeDevice(std::string t_name) { m_devices.erase(t_name); }
 
   private:
-    std::map<dev_t, IFile*> m_devices;
-    std::vector<int> m_device_record;
-
-    int exists(IFile* t_device_ptr);
+    std::unordered_map<std::string, IFile*> m_devices;
 };
-extern DeviceManager deviceManager;
+DeviceManager deviceManager;
