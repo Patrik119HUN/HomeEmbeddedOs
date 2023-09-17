@@ -1,8 +1,8 @@
 #pragma once
 #include <Arduino.h>
 #include <Streaming.h>
+#include <connection_handler.h>
 #include <map>
-#include <network_adapter_interface.h>
 #include <string>
 class NetworkManager {
   public:
@@ -32,11 +32,11 @@ class NetworkManager {
     UDP* m_udp;
     Client* m_client;
     std::unordered_map<std::string, INetworkAdapter*> m_handler;
-    const char* NetworkTypeString(adapterType elem) {
+    const char* NetworkTypeString(NetworkAdapter elem) {
         switch (elem) {
-        case adapterType::WIFI:
+        case NetworkAdapter::WIFI:
             return "WiFi";
-        case adapterType::ETHERNET:
+        case NetworkAdapter::ETHERNET:
             return "Ethernet";
         default:
             break;
