@@ -8,13 +8,13 @@
 #include "program/ntp_deamon.h"
 #include "program/print_random.h"
 #include "program/shell.h"
+#include "program/wifid.h"
 #include <Arduino.h>
 
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <ArduinoJson.h>
 #include <SdFat.h>
-#include <ethernet/ethernet_adapter.h>
 void setup() {
     Serial.begin(9600);
     if (!ECCX08.begin()) {
@@ -39,14 +39,17 @@ void setup() {
     // tone(PB13, 2000, 100);
 
     EthernetAdapter ethernetAdapter("w5500");
+    WiFiAdapter wifiAdapter("esp32", "Wi-Fi", "Asdfghjkl12");
     networkManager.addAdapter(&ethernetAdapter);
+    networkManager.addAdapter(&wifiAdapter);
     networkManager.setStack("w5500");
     display.clearDisplay();
     display.display();
 
-    processManager.startProcess("Shell", ProcessPriority::ABOVE_BASE, shell, 0);
+    xTaskCreate(shell, "Shell", configMINIMAL_STACK_SIZE + 800, NULL, 1, NULL);
 
     processManager.startProcess("ethernet_deamon", ProcessPriority::ABOVE_BASE, ethernet_deamon, 0);
+    processManager.startProcess("wifi_deamon", ProcessPriority::ABOVE_BASE, wifi_deamon, 0);
     // processManager.startProcess("networkManager", ProcessPriority::ABOVE_BASE,
     // network_handler_deamon,0);
     processManager.loop();

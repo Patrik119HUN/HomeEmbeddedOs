@@ -7,3 +7,5 @@
 #include "terminal/terminal.h"
 #include "zero/zero.h"
 #include "random/random.h"
+#include "ethernet/ethernet_adapter.h"
+#include "wifi/wifi_adapter.h"
