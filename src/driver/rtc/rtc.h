@@ -19,7 +19,7 @@ class rtc : public IFile {
             Serial.println("Couldn't find RTC");
             m_is_availabe = 0;
         }
-        DEBUG_INFO("RTC init succes");
+        //DEBUG_INFO("RTC init succes");
     };
     ~rtc() { delete RTCInstance; }
     int read() override { return RTCInstance->unixTime(); }

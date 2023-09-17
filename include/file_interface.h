@@ -2,18 +2,21 @@
 
 #include <Arduino.h>
 
-class IFile : public Stream {
+class IFile : public  Stream {
    public:
-    virtual int available();
+    IFile() {}
+    virtual ~IFile() {}
 
-    virtual bool seek(uint32_t);
-    virtual int peek();
+    virtual int available() = 0;
 
-    virtual int read();
-    virtual void flush();
+    virtual bool seek(uint32_t) = 0;
+    virtual int peek() = 0;
 
-    virtual size_t write(uint8_t);
-    virtual size_t write(const uint8_t*, size_t);
+    virtual int read() = 0;
+    virtual void flush()= 0;
+
+    virtual size_t write(uint8_t) = 0;
+    virtual size_t write(const uint8_t*, size_t) =0;
 
     virtual int ioctl(int, int) = 0;
     virtual char* name() = 0;

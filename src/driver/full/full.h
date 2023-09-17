@@ -4,7 +4,7 @@
 #include <file_interface.h>
 class full : public IFile {
   public:
-    full() { setTimeout(0); }
+    full()  { setTimeout(0); }
     int available() override { return 0; }
 
     bool seek(uint32_t pos) override { return false; }
