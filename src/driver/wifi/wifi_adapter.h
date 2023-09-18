@@ -4,7 +4,7 @@
 #include <WiFiNINA.h>
 #include <WiFiUdp.h>
 #include <network_adapter_interface.h>
-using std::string;
+using std::string, std::pair;
 
 class WiFiAdapter : public INetworkAdapter {
   public:
@@ -13,20 +13,13 @@ class WiFiAdapter : public INetworkAdapter {
 
     virtual Client* getClient() override { return &_wifi_client; }
     virtual UDP* getUDP() override { return &_wifi_udp; }
-    int reconnect() {
-        WiFi.begin(_ssid.c_str(), _pass.c_str());
-        delay(10000);
-        if (WiFi.status() != WL_CONNECTED) {
-            return 2;
-        }
-        return 0;
-    }
+    pair<string, string> getConnectionData() { return std::make_pair(_ssid, _pass); }
     int begin() override {
         WiFi.setPins(SPIWIFI_SS, SPIWIFI_ACK, ESP32_RESETN, ESP32_GPIO0, &SPIWIFI);
         if (WiFi.status() == WL_NO_MODULE) {
             return 1;
         }
-        return reconnect();
+        return 0;
     }
 
   private:
