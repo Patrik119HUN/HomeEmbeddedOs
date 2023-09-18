@@ -22,6 +22,15 @@ class WiFiAdapter : public INetworkAdapter {
         return 0;
     }
 
+    void listNetworks() {
+        int numSsid = WiFi.scanNetworks();
+        if (numSsid == -1) {
+            Serial.println("Couldn't get a wifi connection");
+            while (true)
+                ;
+        }
+    }
+
   private:
     string _ssid;
     string _pass;

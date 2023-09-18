@@ -22,11 +22,13 @@ void setup() {
         while (1)
             ;
     }
-    // display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
-    // display.clearDisplay();
-    // display.setCursor(0, 0);
-    // display.setTextColor(WHITE); display.setTextSize(2);
-    // display.print("Booting"); display.display();
+    display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
+    display.clearDisplay();
+    display.setCursor(0, 0);
+    display.setTextColor(WHITE);
+    display.setTextSize(1);
+    display.print("Booting");
+    display.display();
 
     deviceManager.addDevice("rtc", &rtcdev);
     deviceManager.addDevice("random", &randomdev);
@@ -43,13 +45,11 @@ void setup() {
     networkManager.addAdapter(&ethernetAdapter);
     networkManager.addAdapter(&wifiAdapter);
     networkManager.setStack("w5500");
-    display.clearDisplay();
-    display.display();
 
     xTaskCreate(shell, "Shell", configMINIMAL_STACK_SIZE + 800, NULL, 1, NULL);
+    xTaskCreate(wifi_deamon, "wifid", 5000, NULL, 1, NULL);
 
     processManager.startProcess("ethernet_deamon", ProcessPriority::ABOVE_BASE, ethernet_deamon, 0);
-    processManager.startProcess("wifi_deamon", ProcessPriority::ABOVE_BASE, wifi_deamon, 0);
     // processManager.startProcess("networkManager", ProcessPriority::ABOVE_BASE,
     // network_handler_deamon,0);
     processManager.loop();

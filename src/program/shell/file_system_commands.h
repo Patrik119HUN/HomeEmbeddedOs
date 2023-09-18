@@ -10,9 +10,7 @@ void cdCallback(void* arg) {
     std::string& folder = *(std::string*)arg;
     ExFile file;
     ExFile dir;
-    if (folder == ".." && paths.size() > 1) {
-        paths.pop_back();
-    }
+    if (folder == "..") paths.pop_back();
     if (!dir.open(path_s().c_str())) {
         syslog(&Serial, Debug_level::ERROR, "Failed to open sd");
     }
