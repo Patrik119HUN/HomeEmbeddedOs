@@ -11,6 +11,7 @@
 #include "program/wifid.h"
 #include <Arduino.h>
 
+#include "secret.h"
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <ArduinoJson.h>
@@ -41,13 +42,14 @@ void setup() {
     // tone(PB13, 2000, 100);
 
     EthernetAdapter ethernetAdapter("w5500");
-    WiFiAdapter wifiAdapter("esp32", "Wi-Fi", "Asdfghjkl12");
+    WiFiAdapter wifiAdapter("esp32", ssid, psw);
     networkManager.addAdapter(&ethernetAdapter);
     networkManager.addAdapter(&wifiAdapter);
     networkManager.setStack("w5500");
 
     xTaskCreate(shell, "Shell", configMINIMAL_STACK_SIZE + 800, NULL, 1, NULL);
     xTaskCreate(wifi_deamon, "wifid", 5000, NULL, 1, NULL);
+    xTaskCreate(ntp_deamon, "ntpd", 1000, NULL, 1, NULL);
 
     processManager.startProcess("ethernet_deamon", ProcessPriority::ABOVE_BASE, ethernet_deamon, 0);
     // processManager.startProcess("networkManager", ProcessPriority::ABOVE_BASE,

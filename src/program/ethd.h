@@ -31,13 +31,14 @@ void ethernet_deamon(void*) {
         if (Ethernet.linkStatus() == LinkON) {
             printed = false;
             eth->setStatus(connectionState::CONNECTED);
-        } else {
-            if (!printed) {
-                printed = true;
-                LOG_WARNING("Ethernet link OFF, connection lost.");
-            }
-            eth->setStatus(connectionState::DISCONNECTED);
+            taskYIELD();
+            continue;
         }
+        if (!printed) {
+            printed = true;
+            LOG_WARNING("Ethernet link OFF, connection lost.");
+        }
+        eth->setStatus(connectionState::DISCONNECTED);
         vTaskDelay(xDelay);
         taskYIELD();
     }

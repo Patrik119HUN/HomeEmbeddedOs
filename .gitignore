@@ -5,3 +5,4 @@
 .vscode/ipch
 .cache
 src/System/sysvar.h
+src/secret.h
