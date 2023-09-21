@@ -33,21 +33,6 @@
 
 **User-Friendly:** SHOS includes a user-friendly interface for device management, making it accessible to both developers and end-users.
 
-##Getting Started
-###Prerequisites
-Before you begin, ensure you have met the following requirements:
-
-- A compatible microcontroller or development board.
-- The FreeRTOS SDK installed on your development machine.
-- [Optional] Platform-specific dependencies (refer to hardware documentation).
-### Installation
-1. Clone the SHOS repository to your development machine:
-
-```git clone https://github.com/your-username/SHOS.git```
-2.Build the SHOS firmware for your target device by following the instructions in the README or documentation provided in the repository.
-
-3.Flash the compiled firmware onto your microcontroller or development board.
-
 ## Usage
 1. Include the SHOS library in your project and initialize it according to your hardware and application requirements.
 
@@ -61,5 +46,5 @@ Before you begin, ensure you have met the following requirements:
 We welcome contributions from the community to make SHOS even better. If you'd like to contribute, please follow our contribution guidelines.
 
 ## License
-SHOS is open-source software released under the MIT License. You are free to use, modify, and distribute it according to the terms of the license.
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
 
