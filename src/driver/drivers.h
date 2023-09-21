@@ -9,3 +9,4 @@
 #include "random/random.h"
 #include "ethernet/ethernet_adapter.h"
 #include "wifi/wifi_adapter.h"
+#include "oled_screen_128x32/oled.h"

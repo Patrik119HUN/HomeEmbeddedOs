@@ -10,7 +10,7 @@ class DigitalOutput : public IFile {
         m_relay = new BusOut(m_pins);
         setTimeout(0);
     }
-    int ioctl(int code, int var) {
+    int ioctl(int code, int var) override{
         switch (code) {
         case SET_ALL:
             this->write(0);

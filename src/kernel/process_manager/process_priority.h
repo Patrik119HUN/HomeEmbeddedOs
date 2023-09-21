@@ -1,3 +1,3 @@
 #pragma once
 
-enum class ProcessPriority { BELOW_BASE, BASE, ABOVE_BASE };
+enum ProcessPriority { BELOW_BASE = 1, BASE, ABOVE_BASE };

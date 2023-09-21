@@ -2,14 +2,15 @@
 #include <Ethernet.h>
 #include <network_adapter_interface.h>
 #include <stdexcept>
+using std::string;
 class EthernetAdapter : public INetworkAdapter {
   public:
-    EthernetAdapter(std::string name, bool const keep_alive = true)
+    EthernetAdapter(const string& name, bool const keep_alive = true)
         : INetworkAdapter{name, 0, keep_alive, adapterType::ETHERNET}, _ip{INADDR_NONE},
           _dns{INADDR_NONE}, _gateway{INADDR_NONE}, _netmask{INADDR_NONE} {}
 
     EthernetAdapter(
-        std::string name, const IPAddress ip, const IPAddress dns, const IPAddress gateway,
+        const string& name, const IPAddress ip, const IPAddress dns, const IPAddress gateway,
         const IPAddress netmask, bool const keep_alive = true
     )
         : INetworkAdapter{name, 0, keep_alive, adapterType::ETHERNET}, _ip{ip}, _dns{dns},

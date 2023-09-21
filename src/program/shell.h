@@ -23,29 +23,19 @@ void shell(void*) {
 
         if (read != 0) {
             out.assign(buffer, read);
-            Serial.printf("%s : %s", path_s().c_str(), out.c_str());
+            Serial.printf("%s : %s\n", path_s().c_str(), out.c_str());
             auto texts = tokenize_str(out, ' ');
             string cmd = texts.at(0);
             if (cmd == "cd") {
-                xTaskCreate(
-                    cdCallback, "cd", configMINIMAL_STACK_SIZE + 800,
-                    static_cast<void*>(&texts.at(1)), 1, NULL
-                );
-
+                processManager.startProcess("cd", cdCallback,static_cast<void*>(&texts.at(1)));
             } else if (cmd == "ls") {
-                xTaskCreate(lsCallback, "ls", configMINIMAL_STACK_SIZE + 800, NULL, 1, NULL);
+                processManager.startProcess("ls", lsCallback);
             } else if (cmd == "pwd") {
-                xTaskCreate(pwdCallback, "pwd", configMINIMAL_STACK_SIZE + 800, NULL, 1, NULL);
+                processManager.startProcess("pwd",pwdCallback);
             } else if (cmd == "mkdir") {
-                xTaskCreate(
-                    mkdirCallback, "mkdir", configMINIMAL_STACK_SIZE + 800,
-                    static_cast<void*>(&texts.at(1)), 1, NULL
-                );
+                processManager.startProcess("mkdir", mkdirCallback,static_cast<void*>(&texts.at(1)));
             } else if (cmd == "rmdir") {
-                xTaskCreate(
-                    rmdirCallback, "rmdir", configMINIMAL_STACK_SIZE + 800,
-                    static_cast<void*>(&texts.at(1)), 1, NULL
-                );
+                processManager.startProcess("rmdir", rmdirCallback,static_cast<void*>(&texts.at(1)));
             } else {
                 Serial.println("cmd not found");
             }

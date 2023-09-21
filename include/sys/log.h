@@ -15,13 +15,14 @@ std::map<Debug_level, const char*> errorCode{
 
 void syslog(Stream* where, Debug_level level, const char* format, ...) {
     char buffer[128];
+    unsigned int buffer_length = 128;
     DateTime time;
 
     time.setEpoch(deviceManager.open("rtc")->read());
 
     va_list args;
     va_start(args, format);
-    vsnprintf(buffer, 128, format, args);
+    vsnprintf(buffer, buffer_length, format, args);
     va_end(args);
 
     where->printf(

@@ -8,7 +8,9 @@ using std::string, std::pair;
 
 class WiFiAdapter : public INetworkAdapter {
   public:
-    WiFiAdapter(string name, string ssid, string pass, bool const keep_alive = true)
+    WiFiAdapter(
+        const string& name, const string& ssid, const string& pass, bool const keep_alive = true
+    )
         : INetworkAdapter{name, 1, keep_alive, adapterType::WIFI}, _ssid{ssid}, _pass{pass} {}
 
     virtual Client* getClient() override { return &_wifi_client; }
@@ -23,11 +25,11 @@ class WiFiAdapter : public INetworkAdapter {
     }
 
     void listNetworks() {
+    alma:
         int numSsid = WiFi.scanNetworks();
         if (numSsid == -1) {
             Serial.println("Couldn't get a wifi connection");
-            while (true)
-                ;
+            goto alma;
         }
     }
 

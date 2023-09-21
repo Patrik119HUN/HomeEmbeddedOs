@@ -10,7 +10,7 @@ const TickType_t xDelay = 2000 / portTICK_PERIOD_MS;
 
 void ethernet_deamon(void*) {
     bool printed = false;
-    EthernetAdapter* eth = (EthernetAdapter*)networkManager.getAdapter("w5500");
+    EthernetAdapter* eth = static_cast<EthernetAdapter*>(networkManager.getAdapter("w5500"));
     switch (eth->begin()) {
     case 1:
         LOG_ERROR("Ethernet shield was not found.");
