@@ -16,11 +16,11 @@ class null : public IFile {
 
     void flush() override { return; };
 
-    size_t write(const uint8_t data) {
+    size_t write(const uint8_t data) override {
         this->nullVar = data;
         return 1;
     }
-    size_t write(const uint8_t* buffer, size_t size) {
+    size_t write(const uint8_t* buffer, size_t size) override {
         if (size > 0) {
             nullVar = buffer[size - 1];
         }
@@ -28,7 +28,7 @@ class null : public IFile {
     }
 
     int lastByte() { return nullVar; }
-    int ioctl(int code, int var) { return 1; }
+    int ioctl(int code, int var) override { return 1; }
     char* name() override { return _file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }

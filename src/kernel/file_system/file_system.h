@@ -31,19 +31,19 @@ class FileSystem : public IFileSystem {
 
     void rmnod(const char* t_path);
 
-    uint8_t rmdir(const char* t_path);
-    uint8_t rmdir(const String& t_path) { return this->rmdir(t_path.c_str()); };
+    uint8_t rmdir(const char* t_path) override;
+    uint8_t rmdir(const String& t_path) override{ return this->rmdir(t_path.c_str()); };
 
-    bool remove(const char* t_path) { return true; }
-    bool remove(const String& t_path) { return this->remove(t_path.c_str()); };
+    bool remove(const char* t_path) override{ return true; }
+    bool remove(const String& t_path) override { return this->remove(t_path.c_str()); };
 
-    bool exists(const char* t_path) { return true; }
-    bool exists(const String& t_path) { return this->exists(t_path.c_str()); };
+    bool exists(const char* t_path) override { return true; }
+    bool exists(const String& t_path) override { return this->exists(t_path.c_str()); };
 
-    uint8_t mkdir(const char* t_path);
-    uint8_t mkdir(const String& t_path) { return this->mkdir(t_path.c_str()); };
-    IFile* open(const char* t_path, uint8_t t_mode = 1);
-    IFile* open(const String& t_path, uint8_t t_mode = 1) {
+    uint8_t mkdir(const char* t_path) override;
+    uint8_t mkdir(const String& t_path) override{ return this->mkdir(t_path.c_str()); };
+    IFile* open(const char* t_path, uint8_t t_mode = 1) override;
+    IFile* open(const String& t_path, uint8_t t_mode = 1) override {
         return this->open(t_path.c_str(), t_mode);
     };
     Node* lastFilePointer = &m_root;

@@ -9,7 +9,8 @@
 const TickType_t xDelay = 2000 / portTICK_PERIOD_MS;
 
 void ethernet_deamon(void*) {
-    EthernetAdapter* eth = (EthernetAdapter*)networkManager.getAdapter("w5500");
+    bool printed = false;
+    EthernetAdapter* eth = static_cast<EthernetAdapter*>(networkManager.getAdapter("w5500"));
     switch (eth->begin()) {
     case 1:
         LOG_ERROR("Ethernet shield was not found.");
@@ -28,11 +29,16 @@ void ethernet_deamon(void*) {
     }
     while (true) {
         if (Ethernet.linkStatus() == LinkON) {
+            printed = false;
             eth->setStatus(connectionState::CONNECTED);
-        } else {
-            LOG_WARNING("Ethernet link OFF, connection lost.");
-            eth->setStatus(connectionState::DISCONNECTED);
+            taskYIELD();
+            continue;
         }
+        if (!printed) {
+            printed = true;
+            LOG_WARNING("Ethernet link OFF, connection lost.");
+        }
+        eth->setStatus(connectionState::DISCONNECTED);
         vTaskDelay(xDelay);
         taskYIELD();
     }

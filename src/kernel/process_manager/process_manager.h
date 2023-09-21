@@ -1,5 +1,12 @@
 #pragma once
-#include "includes.h"
+#include "process_priority.h"
+#include "typedef.h"
+#include <Arduino.h>
+#include <STM32FreeRTOS.h>
+#include <map>
+#include <sys/log.h>
+#define INFO(str) syslog(&Serial, Debug_level::INFO, "Starting %s process", str);
+using std::string, std::pair, std::string_view;
 class ProcessManager {
   public:
     ProcessManager() = default;
@@ -7,28 +14,30 @@ class ProcessManager {
 
   public:
     void startProcess(
-        std::string t_name, ProcessPriority t_priority, function func,
-        const char** params
-    );
+        const string& t_name, function func, void* params = NULL, ProcessPriority t_priority = BASE,
+        uint16_t stack_size = 900
+    ) {
+        INFO(t_name.c_str());
+        TaskHandle_t* xHandle = new TaskHandle_t;
+        portBASE_TYPE process =
+            xTaskCreate(func, t_name.c_str(), stack_size, params, t_priority, xHandle);
+        m_task_map.insert(pair{t_name, xHandle});
+    }
     inline void loop() {
         vTaskStartScheduler();
         Serial.println("Insufficient RAM");
         while (1)
             ;
     }
-    void stop(const std::string task);
-    void signal(const std::string_view task, int status);
+    void stop(const string& task) {
+        auto res = m_task_map.find(task);
+        if (res != m_task_map.end()) {
+            auto process = res->second;
+        }
+    }
+    void signal(const string_view task, int status);
 
   private:
-    portBASE_TYPE* generateProcess(ProcessPriority t_priority, ProcessWrapper* proc);
-    std::map<std::string, TaskHandle_t*> m_task_map;
+    std::map<string, TaskHandle_t*> m_task_map;
 };
-extern ProcessManager processManager;
-
-/*
-TODO: Refactor it to unique pointers
-Todo: no need for destructor
-Todo: make Schedulers an array
-Todo: use std::optional
-Todo: use tuple and std::move
-*/
+ProcessManager processManager;

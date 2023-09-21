@@ -5,3 +5,6 @@
 .vscode/ipch
 .cache
 src/System/sysvar.h
+src/secret.h
+kerel.puml
+uml.puml

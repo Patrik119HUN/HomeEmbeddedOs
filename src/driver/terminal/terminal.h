@@ -9,7 +9,7 @@ class terminal : public IFile {
     int available() override { return Serial.available(); }
     int peek() override { return EOF; }
     int read() override { return EOF; }
-    void flush() { return; };
+    void flush() override { return; };
 
     size_t write(const uint8_t data) override { return Serial.write(data); }
     size_t write(const uint8_t* buffer, size_t size) override { return Serial.write(buffer, size); }

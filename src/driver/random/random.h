@@ -5,9 +5,7 @@
 #include <file_interface.h>
 class frandom : public IFile {
   public:
-    frandom() {
-        setTimeout(0);
-    }
+    frandom() { setTimeout(0); }
     int available() override { return true; }
 
     bool seek(uint32_t pos) override { return false; }
@@ -16,10 +14,10 @@ class frandom : public IFile {
 
     void flush() override { return; };
 
-    size_t write(const uint8_t data) { return 0; }
-    size_t write(const uint8_t* buffer, size_t size) { return 0; }
+    size_t write(const uint8_t data) override { return 0; }
+    size_t write(const uint8_t* buffer, size_t size) override { return 0; }
 
-    int ioctl(int code, int var) { return 1; }
+    int ioctl(int code, int var) override { return 1; }
     char* name() override { return m_file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }

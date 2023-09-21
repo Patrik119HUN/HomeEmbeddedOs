@@ -6,7 +6,7 @@
 #include <string>
 class NetworkManager {
   public:
-    NetworkManager() = default;
+    NetworkManager() : m_client(nullptr), m_udp(nullptr) {}
     ~NetworkManager() = default;
 
   public:
