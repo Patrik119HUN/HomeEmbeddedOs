@@ -1,8 +1,8 @@
 #include <exception>
 #include <string>
-class UnableToStartProcess : public std::exception {
+class UnableTostart_process : public std::exception {
   public:
-    UnableToStartProcess(std::string& process_name) { m_process_name = process_name; }
+    UnableTostart_process(std::string& process_name) { m_process_name = process_name; }
     const char* what() {
         std::string message = "Failed to start the process: ";
         std::string ret = message + m_process_name;

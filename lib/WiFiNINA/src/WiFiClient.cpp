@@ -245,7 +245,7 @@ uint8_t WiFiClient::status() {
     if (_sock == 255) {
     return CLOSED;
   } else {
-    return ServerDrv::getClientState(_sock);
+    return ServerDrv::get_clientState(_sock);
   }
 }
 

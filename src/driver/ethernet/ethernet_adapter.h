@@ -27,8 +27,8 @@ class EthernetAdapter : public INetworkAdapter {
         if (Ethernet.hardwareStatus() == EthernetNoHardware) return 1;
         return 0;
     }
-    virtual Client* getClient() override { return &_eth_client; }
-    virtual UDP* getUDP() override { return &_eth_udp; }
+    virtual Client* get_client() override { return &_eth_client; }
+    virtual UDP* get_udp() override { return &_eth_udp; }
 
   private:
     byte mac[6] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};

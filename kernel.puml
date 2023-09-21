@@ -37,8 +37,8 @@ package "kernel"{
         SYSTEM
     }
     class DeviceManager {
-        + dev_t addDevice(DeviceTypes t_type, IFile* t_dev)
-        + dev_t addDevice(DeviceTypes t_type, IFile* t_dev)
+        + dev_t add_device(DeviceTypes t_type, IFile* t_dev)
+        + dev_t add_device(DeviceTypes t_type, IFile* t_dev)
         + IFile* getDevice(dev_t t_id)
         + uint8_t removeDevice(dev_t t_id)
 
@@ -47,8 +47,8 @@ package "kernel"{
         - int exists(IFile* t_device_ptr)
     }
     class NetworkManager{
-        + UDP* getUDP()
-        + Client* getClient()
+        + UDP* get_udp()
+        + Client* get_client()
 
         + void setUDP(UDP* t_udp)
         + void setClient(Client* t_client)
@@ -64,7 +64,7 @@ package "kernel"{
         - vector<INetworkAdapter*> m_handler;
     }
     class ProcessManager{
-        + void startProcess(const char* t_name, bool t_is_high_priority, parametered_function t_func, int n, ...)
+        + void start_process(const char* t_name, bool t_is_high_priority, parametered_function t_func, int n, ...)
         + void stopProcess()
         + void loop()
 

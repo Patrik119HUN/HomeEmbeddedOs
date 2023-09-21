@@ -19,23 +19,23 @@ void setup() {
         while (1)
             ;
     }
-    deviceManager.addDevice("rtc", &rtcdev);
-    deviceManager.addDevice("random", &randomdev);
-    deviceManager.addDevice("full", &fulldev);
-    deviceManager.addDevice("zero", &zerodev);
-    deviceManager.addDevice("null", &nulldev);
-    deviceManager.addDevice("tty", &term);
+    deviceManager.add_device("rtc", &rtcdev);
+    deviceManager.add_device("random", &randomdev);
+    deviceManager.add_device("full", &fulldev);
+    deviceManager.add_device("zero", &zerodev);
+    deviceManager.add_device("null", &nulldev);
+    deviceManager.add_device("tty", &term);
     //  tone(PB13, 2000, 100);
     EthernetAdapter ethernetAdapter("w5500");
     WiFiAdapter wifiAdapter("esp32", ssid, psw);
-    networkManager.addAdapter(&ethernetAdapter);
-    networkManager.addAdapter(&wifiAdapter);
-    networkManager.setStack("w5500");
+    networkManager.add_adapter(&ethernetAdapter);
+    networkManager.add_adapter(&wifiAdapter);
+    networkManager.set_stack("w5500");
 
-    processManager.startProcess("Shell", shell);
-    processManager.startProcess("wifid", wifi_deamon);
-    processManager.startProcess("ethd", ethernet_deamon);
-    processManager.startProcess("ntpd", ntp_deamon);
+    processManager.start_process("Shell", shell);
+    processManager.start_process("wifid", wifi_deamon);
+    processManager.start_process("ethd", ethernet_deamon);
+    processManager.start_process("ntpd", ntp_deamon);
 
     processManager.loop();
 }

@@ -13,7 +13,7 @@ class ProcessManager {
     ~ProcessManager() = default;
 
   public:
-    void startProcess(
+    void start_process(
         const string& t_name, function func, void* params = NULL, ProcessPriority t_priority = BASE,
         uint16_t stack_size = 900
     ) {

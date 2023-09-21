@@ -27,15 +27,15 @@ void shell(void*) {
             auto texts = tokenize_str(out, ' ');
             string cmd = texts.at(0);
             if (cmd == "cd") {
-                processManager.startProcess("cd", cdCallback,static_cast<void*>(&texts.at(1)));
+                processManager.start_process("cd", cdCallback,static_cast<void*>(&texts.at(1)));
             } else if (cmd == "ls") {
-                processManager.startProcess("ls", lsCallback);
+                processManager.start_process("ls", lsCallback);
             } else if (cmd == "pwd") {
-                processManager.startProcess("pwd",pwdCallback);
+                processManager.start_process("pwd",pwdCallback);
             } else if (cmd == "mkdir") {
-                processManager.startProcess("mkdir", mkdirCallback,static_cast<void*>(&texts.at(1)));
+                processManager.start_process("mkdir", mkdirCallback,static_cast<void*>(&texts.at(1)));
             } else if (cmd == "rmdir") {
-                processManager.startProcess("rmdir", rmdirCallback,static_cast<void*>(&texts.at(1)));
+                processManager.start_process("rmdir", rmdirCallback,static_cast<void*>(&texts.at(1)));
             } else {
                 Serial.println("cmd not found");
             }

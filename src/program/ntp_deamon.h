@@ -6,7 +6,7 @@
 #include <Streaming.h>
 #include <WiFiUdp.h>
 void ntp_deamon(void*) {
-    UDP* udp = networkManager.getAdapter("esp32")->getUDP();
+    UDP* udp = networkManager.get_adapter("esp32")->get_udp();
     NTPClient timeClient(*udp);
     timeClient.begin();
     // IFile* rtc = fileSystem.open("/dev/rtc");

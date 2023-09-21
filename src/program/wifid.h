@@ -13,7 +13,7 @@
 unsigned long startAttemptTime;
 
 void wifi_deamon(void*) {
-    WiFiAdapter* wifi = static_cast<WiFiAdapter*>(networkManager.getAdapter("esp32"));
+    WiFiAdapter* wifi = static_cast<WiFiAdapter*>(networkManager.get_adapter("esp32"));
     if (wifi->begin() == 1) {
         LOG_ERROR("Wi-Fi was not found.");
         wifi->setStatus(connectionState::ERROR);

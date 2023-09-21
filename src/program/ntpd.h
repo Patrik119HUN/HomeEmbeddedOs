@@ -19,7 +19,7 @@ struct ntp_data {
 };
 ntp_data data;
 void ntp_deamon(void*) {
-    UDP* _udp = networkManager.getAdapter("esp32")->getUDP();
+    UDP* _udp = networkManager.get_adapter("esp32")->get_udp();
     _udp->begin(PORT);
     data.udpSetup = true;
     while (true) {

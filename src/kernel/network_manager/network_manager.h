@@ -4,44 +4,34 @@
 #include <map>
 #include <network_adapter_interface.h>
 #include <string>
+#include <vector>
+using std::string, std::pair;
 class NetworkManager {
   public:
     NetworkManager() : m_client(nullptr), m_udp(nullptr) {}
     ~NetworkManager() = default;
 
   public:
-    UDP* getUDP() { return this->m_udp; }
-    Client* getClient() { return this->m_client; }
+    UDP* get_udp() { return this->m_udp; }
+    Client* get_client() { return this->m_client; }
 
-    void setStack(std::string t_name) {
-        this->m_udp = m_handler.at(t_name)->getUDP();
-        this->m_client = m_handler.at(t_name)->getClient();
+    void set_stack(string t_name) {
+        this->m_udp = m_handler.at(t_name)->get_udp();
+        this->m_client = m_handler.at(t_name)->get_client();
     }
-    void removeAdapter(std::string t_name) { m_handler.erase(t_name); }
-    INetworkAdapter* getAdapter(std::string t_name) { return m_handler.at(t_name); }
-    void addAdapter(INetworkAdapter* t_handler) {
-        m_handler.insert(std::pair{t_handler->getName(), t_handler});
+    void remove_adapter(string t_name) { m_handler.erase(t_name); }
+    INetworkAdapter* get_adapter(std::string t_name) { return m_handler.at(t_name); }
+    void add_adapter(INetworkAdapter* t_handler) {
+        m_adapter_names.push_back(t_handler->getName());
+        m_handler.insert(pair{t_handler->getName(), t_handler});
     };
 
-    uint8_t getAdapterCount() { return m_handler.size(); }
-    void printAdapter(std::string t_name) {
-        Serial << "Link type: " << NetworkTypeString(m_handler.at(t_name)->getInterface()) << endl;
-    }
+    const std::vector<string>& get_adapters() const { return m_adapter_names; }
 
   private:
     UDP* m_udp;
     Client* m_client;
-    std::unordered_map<std::string, INetworkAdapter*> m_handler;
-    const char* NetworkTypeString(adapterType elem) {
-        switch (elem) {
-        case adapterType::WIFI:
-            return "WiFi";
-        case adapterType::ETHERNET:
-            return "Ethernet";
-        default:
-            break;
-        }
-        return nullptr;
-    };
+    std::unordered_map<string, INetworkAdapter*> m_handler;
+    std::vector<string> m_adapter_names;
 };
-extern NetworkManager networkManager;
+NetworkManager networkManager;

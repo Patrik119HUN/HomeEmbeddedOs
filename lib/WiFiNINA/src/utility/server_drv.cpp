@@ -197,7 +197,7 @@ uint8_t ServerDrv::getServerState(uint8_t sock)
    return _data;
 }
 
-uint8_t ServerDrv::getClientState(uint8_t sock)
+uint8_t ServerDrv::get_clientState(uint8_t sock)
 {
 	WAIT_FOR_SLAVE_SELECT();
     // Send Command

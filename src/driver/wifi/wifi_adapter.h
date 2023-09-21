@@ -13,8 +13,8 @@ class WiFiAdapter : public INetworkAdapter {
     )
         : INetworkAdapter{name, 1, keep_alive, adapterType::WIFI}, _ssid{ssid}, _pass{pass} {}
 
-    virtual Client* getClient() override { return &_wifi_client; }
-    virtual UDP* getUDP() override { return &_wifi_udp; }
+    virtual Client* get_client() override { return &_wifi_client; }
+    virtual UDP* get_udp() override { return &_wifi_udp; }
     pair<string, string> getConnectionData() { return std::make_pair(_ssid, _pass); }
     int begin() override {
         WiFi.setPins(SPIWIFI_SS, SPIWIFI_ACK, ESP32_RESETN, ESP32_GPIO0, &SPIWIFI);

@@ -32,8 +32,8 @@ class INetworkAdapter {
     void connect();
     void disconnect();
 
-    virtual Client* getClient() = 0;
-    virtual UDP* getUDP() = 0;
+    virtual Client* get_client() = 0;
+    virtual UDP* get_udp() = 0;
     virtual int begin() = 0;
 
   protected:
