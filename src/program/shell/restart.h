@@ -1,9 +1,9 @@
 #pragma once
-
+#include <STM32FreeRTOS.h>
 #include <Arduino.h>
 
-int restartCallback(int argc, char** argv) {
+void restartCallback(void*) {
     Serial.println("System force restart");
     NVIC_SystemReset();
-    return 0;
+    vTaskDelete(NULL);
 }

@@ -33,3 +33,11 @@ void syslog(Stream* where, Debug_level level, const char* format, ...) {
     where->print(buffer);
     where->print("\n");
 }
+#define EMERGENCY(str,...) syslog(&Serial,Debug_level::EMERGENCY,str __VA_OPT__(,) __VA_ARGS__)
+#define ALERT(str,...) syslog(&Serial,Debug_level::ALERT,str __VA_OPT__(,) __VA_ARGS__)
+#define CRITICAL(str,...) syslog(&Serial,Debug_level::CRITICAL,str __VA_OPT__(,) __VA_ARGS__)
+#define ERROR(str,...) syslog(&Serial,Debug_level::ERROR,str __VA_OPT__(,) __VA_ARGS__)
+#define WARNING(str,...) syslog(&Serial,Debug_level::WARNING,str __VA_OPT__(,) __VA_ARGS__)
+#define NOTICE(str,...) syslog(&Serial,Debug_level::NOTICE,str __VA_OPT__(,) __VA_ARGS__)
+#define INFO(str,...) syslog(&Serial,Debug_level::INFO,str __VA_OPT__(,) __VA_ARGS__)
+#define DEBUG(str,...) syslog(&Serial,Debug_level::DEBUG,str __VA_OPT__(,) __VA_ARGS__)

@@ -6,27 +6,26 @@
 #include <sysvar.h>
 
 #define TASK_SEC 1000 / portTICK_PERIOD_MS
-#define WIFI_TIMEOUT_MS 20000
-#define LOG_WARNING(string) syslog(&Serial, Debug_level::WARNING, string)
-#define LOG_ERROR(string) syslog(&Serial, Debug_level::ERROR, string)
-
+#define WIFI_TIMEOUT_MS 10000
 unsigned long startAttemptTime;
 
 void wifi_deamon(void*) {
     WiFiAdapter* wifi = static_cast<WiFiAdapter*>(networkManager.get_adapter("esp32"));
     if (wifi->begin() == 1) {
-        LOG_ERROR("Wi-Fi was not found.");
+        ERROR("Wi-Fi was not found.");
         wifi->setStatus(connectionState::ERROR);
+        vTaskDelete(NULL);
     }
     while (true) {
         if (WiFi.status() == WL_CONNECTED) {
-            LOG_WARNING("Wi-Fi connected");
+            WARNING("Wi-Fi connected");
             Serial.println(WiFi.localIP());
             wifi->setStatus(connectionState::CONNECTED);
             vTaskDelay(20 * TASK_SEC);
             continue;
         }
         auto [ssid, pass] = wifi->getConnectionData();
+        INFO("Connecting to %s %s",ssid.c_str(),pass.c_str());
         WiFi.begin(ssid.c_str(), pass.c_str());
         startAttemptTime = millis();
         while (WiFi.status() != WL_CONNECTED && millis() - startAttemptTime < WIFI_TIMEOUT_MS) {
@@ -34,8 +33,7 @@ void wifi_deamon(void*) {
         }
 
         if (WiFi.status() != WL_CONNECTED) {
-            wifi->listNetworks();
-            LOG_WARNING("Waiting Wi-Fi configuration from DHCP server, check cable connection");
+            WARNING("Waiting Wi-Fi configuration from DHCP server, check cable connection");
             wifi->setStatus(connectionState::DISCONNECTED);
             vTaskDelay(5 * TASK_SEC);
             continue;

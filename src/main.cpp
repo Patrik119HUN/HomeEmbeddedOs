@@ -35,7 +35,8 @@ void setup() {
     processManager.start_process("Shell", shell);
     processManager.start_process("wifid", wifi_deamon);
     processManager.start_process("ethd", ethernet_deamon);
-    processManager.start_process("ntpd", ntp_deamon);
+    processManager.start_process("network",network_handler_deamon);
+    //processManager.start_process("ntpd", ntp_deamon);
 
     processManager.loop();
 }

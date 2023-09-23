@@ -24,14 +24,6 @@ class WiFiAdapter : public INetworkAdapter {
         return 0;
     }
 
-    void listNetworks() {
-    alma:
-        int numSsid = WiFi.scanNetworks();
-        if (numSsid == -1) {
-            Serial.println("Couldn't get a wifi connection");
-            goto alma;
-        }
-    }
 
   private:
     string _ssid;

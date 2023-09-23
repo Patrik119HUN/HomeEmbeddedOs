@@ -1,26 +1,26 @@
 #pragma once
-#include "process_priority.h"
-#include "typedef.h"
 #include <Arduino.h>
 #include <STM32FreeRTOS.h>
-#include <map>
 #include <sys/log.h>
-#define INFO(str) syslog(&Serial, Debug_level::INFO, "Starting %s process", str);
+
+#include <map>
+
+#include "process_priority.h"
+#include "typedef.h"
 using std::string, std::pair, std::string_view;
 class ProcessManager {
-  public:
+   public:
     ProcessManager() = default;
     ~ProcessManager() = default;
 
-  public:
-    void start_process(
-        const string& t_name, function func, void* params = NULL, ProcessPriority t_priority = BASE,
-        uint16_t stack_size = 900
-    ) {
-        INFO(t_name.c_str());
+   public:
+    void start_process(const string& t_name, function func, void* params = NULL,
+                       ProcessPriority t_priority = BASE,
+                       uint16_t stack_size = 900) {
+        INFO("Starting %s process", t_name.c_str());
         TaskHandle_t* xHandle = new TaskHandle_t;
-        portBASE_TYPE process =
-            xTaskCreate(func, t_name.c_str(), stack_size, params, t_priority, xHandle);
+        portBASE_TYPE process = xTaskCreate(func, t_name.c_str(), stack_size,
+                                            params, t_priority, xHandle);
         m_task_map.insert(pair{t_name, xHandle});
     }
     inline void loop() {
@@ -37,7 +37,7 @@ class ProcessManager {
     }
     void signal(const string_view task, int status);
 
-  private:
+   private:
     std::map<string, TaskHandle_t*> m_task_map;
 };
 ProcessManager processManager;

@@ -1,5 +1,5 @@
 #pragma once
-
+#define ENOSPC 28
 #include <Arduino.h>
 
 class IFile : public  Stream {
