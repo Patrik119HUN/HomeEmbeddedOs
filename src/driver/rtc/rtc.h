@@ -20,6 +20,7 @@ class rtc : public IFile {
     int ioctl(int code, int var) override {
         switch (code) {
         case RTC_SET_TIME:
+            Serial.printf("%d\n",var);
             this->RTCInstance->adjust(DateTime(var));
             break;
         case RTC_ALM_READ:

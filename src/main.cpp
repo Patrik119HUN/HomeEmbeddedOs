@@ -1,17 +1,14 @@
-#include "sysvar.h"
+#include <Arduino.h>
+#include <SdFat.h>
 
 #include "kernel/kernel.h"
-
-#include "program/ethd.h"
-#include "program/network_handler_deamon.h"
-#include "program/ntp_deamon.h"
-#include "program/print_random.h"
+#include "program/network/ethd.h"
+#include "program/network/network_handler_deamon.h"
+#include "program/network/ntpd.h"
+#include "program/network/wifid.h"
 #include "program/shell.h"
-#include "program/wifid.h"
-#include <Arduino.h>
-
 #include "secret.h"
-#include <SdFat.h>
+#include "sysvar.h"
 void setup() {
     Serial.begin(115200);
     if (!ECCX08.begin()) {
@@ -35,8 +32,8 @@ void setup() {
     processManager.start_process("Shell", shell);
     processManager.start_process("wifid", wifi_deamon);
     processManager.start_process("ethd", ethernet_deamon);
-    processManager.start_process("network",network_handler_deamon);
-    //processManager.start_process("ntpd", ntp_deamon);
+    processManager.start_process("network", network_handler_deamon);
+    processManager.start_process("ntpd", ntp_deamon);
 
     processManager.loop();
 }
