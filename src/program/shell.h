@@ -26,11 +26,6 @@ std::map<string, Command> commands{
 };
 
 void shell(void *) {
-  if (!sd.begin(SdSpiConfig(SD_PIN, SHARED_SPI, SD_SCK_MHZ(16)))) {
-    ERROR("Couldn't open SD Card: %d", sd.sdErrorCode());
-    vTaskDelete(NULL);
-  }
-
   while (true) {
     read = Serial.readBytesUntil('\n', buffer, 256);
 
