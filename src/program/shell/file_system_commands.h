@@ -4,7 +4,6 @@
 #include "sys/log.h"
 #include <Arduino.h>
 #include <SdFat.h>
-#include <Streaming.h>
 
 void cdCallback(void* arg) {
     std::string& folder = *(std::string*)arg;

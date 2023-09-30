@@ -1,7 +1,7 @@
 #pragma once
 #include <Arduino.h>
 #include <ArduinoECCX08.h>
-#include <Streaming.h>
+
 #include <file_interface.h>
 class frandom : public IFile {
   public:

@@ -1,6 +1,6 @@
 #pragma once
 #include <Arduino.h>
-#include <Streaming.h>
+
 #include <network_adapter_interface.h>
 
 #include <map>

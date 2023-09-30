@@ -2,8 +2,6 @@
 #include <Arduino.h>
 #include <STM32FreeRTOS.h>
 #include <sys/log.h>
-#include <sysvar.h>
-
 #include "../../kernel/kernel.h"
 
 #define TASK_SEC 1000 / portTICK_PERIOD_MS

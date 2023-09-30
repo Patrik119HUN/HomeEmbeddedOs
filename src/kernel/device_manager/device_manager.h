@@ -1,7 +1,7 @@
 #pragma once
 #include "../../driver/drivers.h"
 #include <Arduino.h>
-#include <Streaming.h>
+
 #include <map>
 using std::string, std::pair;
 class DeviceManager {

@@ -9,3 +9,10 @@
 #include "random/random.h"
 #include "ethernet/ethernet_adapter.h"
 #include "wifi/wifi_adapter.h"
+
+rtc rtcdev;
+full fulldev;
+zero zerodev;
+null nulldev;
+terminal term;
+frandom randomdev;
