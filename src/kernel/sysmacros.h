@@ -5,9 +5,9 @@
 #include <random>
 #include <sstream>
 #include <vector>
-static dev_t makedev(uint8_t major, uint8_t minor) { return (major * 100) + minor; }
-static uint8_t major(dev_t dev) { return dev / 100; }
-static uint8_t minor(dev_t dev) { return dev % 100; }
+static int makedev(uint8_t major, uint8_t minor) { return (major * 100) + minor; }
+static uint8_t major(int dev) { return dev / 100; }
+static uint8_t minor(int dev) { return dev % 100; }
 
 static std::vector<char*> tokenize(const char* path, const char* delim) {
     std::vector<char*> folders;

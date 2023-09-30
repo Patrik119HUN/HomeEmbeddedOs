@@ -27,7 +27,7 @@ class FileSystem : public IFileSystem {
     Node* search(const char* t_name, Type t_type, Node* t_actualFolder);
     uint8_t mknod(const char* t_path);
 
-    uint8_t mknod(const char* t_path, dev_t t_dev);
+    uint8_t mknod(const char* t_path, int t_dev);
 
     void rmnod(const char* t_path);
 

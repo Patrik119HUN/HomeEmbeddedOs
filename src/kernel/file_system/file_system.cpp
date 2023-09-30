@@ -98,7 +98,7 @@ String FileSystem::currentPath(Node* t_actualFolder) {
     return path;
 }
 
-uint8_t FileSystem::mknod(const char* t_path, dev_t t_dev) {
+uint8_t FileSystem::mknod(const char* t_path, int t_dev) {
     Node* file = new Node;
     file->type = Type::DEVICE;
     file->dev = t_dev;

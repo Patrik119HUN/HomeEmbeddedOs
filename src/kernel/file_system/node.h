@@ -5,7 +5,7 @@ namespace node {
 
 enum class Type { FOLDER, DEVICE };
 struct Node {
-    dev_t dev;
+    int dev;
     Node* prev_node = nullptr;
     Type type = Type::FOLDER;
     const char* name;

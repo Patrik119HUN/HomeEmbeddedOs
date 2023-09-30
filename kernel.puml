@@ -5,7 +5,7 @@ package "kernel"{
         + Node* search(const char* t_name, Type t_type, Node* t_actualFolder)
         + uint8_t mknod(const char* t_path)
 
-        + uint8_t mknod(const char* t_path, dev_t t_dev)
+        + uint8_t mknod(const char* t_path, int t_dev)
 
         + void rmnod(const char* t_path)
 
@@ -37,12 +37,12 @@ package "kernel"{
         SYSTEM
     }
     class DeviceManager {
-        + dev_t add_device(DeviceTypes t_type, IFile* t_dev)
-        + dev_t add_device(DeviceTypes t_type, IFile* t_dev)
-        + IFile* getDevice(dev_t t_id)
-        + uint8_t removeDevice(dev_t t_id)
+        + int add_device(DeviceTypes t_type, IFile* t_dev)
+        + int add_device(DeviceTypes t_type, IFile* t_dev)
+        + IFile* getDevice(int t_id)
+        + uint8_t removeDevice(int t_id)
 
-        - map<dev_t, IFile*> m_devices
+        - map<int, IFile*> m_devices
         - vector<int> m_device_record
         - int exists(IFile* t_device_ptr)
     }
