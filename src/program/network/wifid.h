@@ -10,7 +10,8 @@
 unsigned long startAttemptTime;
 
 void wifi_deamon(void* arg) {
-    WiFiAdapter* wifi = static_cast<WiFiAdapter*>(arg);
+    auto getNetwork = networkManager.get_adapter(*static_cast<std::string*>(arg));
+    auto wifi = std::dynamic_pointer_cast<WiFiAdapter>(getNetwork);
     if (wifi->begin() == 1) {
         ERROR("Wi-Fi was not found.");
         wifi->setStatus(connectionState::ERROR);

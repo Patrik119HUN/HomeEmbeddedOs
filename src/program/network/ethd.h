@@ -5,11 +5,10 @@
 
 #include "../../kernel/kernel.h"
 
-const TickType_t xDelay = 2000 / portTICK_PERIOD_MS;
-
-void ethernet_deamon(void* adapter) {
+void ethernet_deamon(void* arg) {
     bool printed = false;
-    EthernetAdapter* eth = static_cast<EthernetAdapter*>(adapter);
+    auto getNetwork = networkManager.get_adapter(*static_cast<std::string*>(arg));
+    auto eth = std::dynamic_pointer_cast<EthernetAdapter>(getNetwork);
 
     switch (eth->begin()) {
         case 1:
@@ -39,7 +38,7 @@ void ethernet_deamon(void* adapter) {
             WARNING("Ethernet link OFF, connection lost.");
         }
         eth->setStatus(connectionState::DISCONNECTED);
-        vTaskDelay(xDelay);
+        vTaskDelay(2000 / portTICK_PERIOD_MS);
         taskYIELD();
     }
 }

@@ -6,11 +6,13 @@
 #include <types.h>
 
 #include <map>
+#include <memory>
 #include <optional>
 #include <string>
 #include <vector>
 using std::string, std::pair;
-using NetworkAdapterMap = std::unordered_map<std::string, INetworkAdapter*>;
+using NetworkAdapterPtr = std::shared_ptr<INetworkAdapter>;
+using NetworkAdapterMap = std::unordered_map<std::string, NetworkAdapterPtr>;
 class NetworkManager {
    public:
     NetworkManager() : m_client(nullptr), m_udp(nullptr) {}
@@ -26,8 +28,8 @@ class NetworkManager {
     }
     void remove_adapter(string t_name) { m_handler.erase(t_name); }
 
-    INetworkAdapter* get_adapter(string t_name) { return m_handler[t_name]; }
-    void add_adapter(INetworkAdapter* t_handler) {
+    NetworkAdapterPtr get_adapter(string t_name) { return m_handler.at(t_name); }
+    void add_adapter(NetworkAdapterPtr t_handler) {
         m_adapter_names.push_back(t_handler->getName());
         m_handler.insert(pair{t_handler->getName(), t_handler});
     };
