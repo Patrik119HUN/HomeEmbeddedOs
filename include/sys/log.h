@@ -2,7 +2,6 @@
 #include <array>
 #include <map>
 #include <stdarg.h>
-
 enum class Debug_level { EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG };
 
 std::array<const char*, 12> months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -12,7 +11,6 @@ std::map<Debug_level, const char*> errorCode{
     {Debug_level::CRITICAL, "CRITICAL"},   {Debug_level::ERROR, "ERROR"},
     {Debug_level::WARNING, "WARNING"},     {Debug_level::NOTICE, "NOTICE"},
     {Debug_level::INFO, "INFO"},           {Debug_level::DEBUG, "DEBUG"}};
-
 void syslog(Stream* where, Debug_level level, const char* format, ...) {
     char buffer[128];
     unsigned int buffer_length = 128;

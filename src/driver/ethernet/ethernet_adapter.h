@@ -6,46 +6,24 @@
 using std::string;
 class EthernetAdapter : public INetworkAdapter {
    public:
-    EthernetAdapter(const string& name, StreamFile<ExFatFile, uint64_t>* file,
-                    bool const keep_alive = true)
-        : INetworkAdapter{name, file, 0, keep_alive, adapterType::ETHERNET},
-          _ip{INADDR_NONE},
-          _dns{INADDR_NONE},
-          _gateway{INADDR_NONE},
-          _netmask{INADDR_NONE} {}
+    EthernetAdapter(const string& name, bool keep_alive = true, OptAddress conf = nullopt) : INetworkAdapter{name, 0, keep_alive, conf, adapterType::ETHERNET} {}
 
-    EthernetAdapter(const string& name, StreamFile<ExFatFile, uint64_t>* file,
-                    const IPAddress ip, const IPAddress dns,
-                    const IPAddress gateway, const IPAddress netmask,
-                    bool const keep_alive = true)
-        : INetworkAdapter{name, file, 0, keep_alive, adapterType::ETHERNET},
-          _ip{ip},
-          _dns{dns},
-          _gateway{gateway},
-          _netmask{netmask} {}
-
-    int begin() override {
+    int begin() {
         Ethernet.init(PA8);
-        if (_ip != INADDR_NONE) {
-            Ethernet.begin(mac, _ip, _dns, _gateway, _netmask);
+        if (m_static) {
+            Ethernet.begin(mac, m_ip, m_dns, m_gateway, m_subnet);
             if (Ethernet.linkStatus() == Unknown) return 2;
         } else {
-            if (Ethernet.linkStatus() != LinkON || Ethernet.begin(mac) == 0)
-                return 3;
+            if (Ethernet.linkStatus() != LinkON || Ethernet.begin(mac) == 0) return 3;
         }
         if (Ethernet.hardwareStatus() == EthernetNoHardware) return 1;
         return 0;
     }
-    virtual Client* get_client() override { return &_eth_client; }
-    virtual UDP* get_udp() override { return &_eth_udp; }
+    Client* get_client() { return &_eth_client; }
+    UDP* get_udp() { return &_eth_udp; }
 
    private:
     byte mac[6] = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED};
-    IPAddress _ip;
-    IPAddress _dns;
-    IPAddress _gateway;
-    IPAddress _netmask;
-
     EthernetUDP _eth_udp;
     EthernetClient _eth_client;
 };

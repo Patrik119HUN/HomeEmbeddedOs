@@ -18,5 +18,4 @@ static std::string path_s() {
     return path;
 }
 static FatVolume currentDir;
-static SdExFat sd;
 static std::map<std::string, TaskFunction_t> callbackMap;

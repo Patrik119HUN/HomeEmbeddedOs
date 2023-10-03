@@ -5,32 +5,30 @@
 #include <WiFiEspAT.h>
 #include <WiFiUdp.h>
 #include <network_adapter_interface.h>
+#include <types.h>
+
+#include <iomanip>
+#include <ranges>
+#include <sstream>
 
 #include "const.h"
 using std::string, std::pair;
-const char* ip_to_string(const IPAddress& address) {
-    char* buf = (char*)malloc(20 * sizeof(char));
-    sprintf(buf, "%u.%u.%u.%u", address[0], address[1], address[2], address[3]);
-    return buf;
-}
 class WiFiAdapter : public INetworkAdapter {
    public:
-    WiFiAdapter(const string& name, StreamFile<ExFatFile, uint64_t>* file, bool const keep_alive = true) : INetworkAdapter{name, file, 1} {
-        _ssid = m_json["connection"]["ssid"].as<string>();
-        _pass = m_json["connection"]["password"].as<string>();
+    WiFiAdapter(const string& name, const string& ssid, const string& pass, bool const keep_alive = true, OptAddress conf = nullopt)
+        : INetworkAdapter{name, 1, keep_alive, conf, adapterType::WIFI}, _ssid{ssid}, _pass{pass} {
+        if (!m_static) return;
         Serial.printf("Network Adapter:\n");
-        Serial.printf("\tType:\t%s\n", m_sinterface.c_str());
         Serial.printf("\tIP:\t%s\n", ip_to_string(m_ip));
         Serial.printf("\tDNS:\t%s\n", ip_to_string(m_dns));
         Serial.printf("\tGatway:\t%s\n", ip_to_string(m_gateway));
         Serial.printf("\tSubnet:\t%s\n", ip_to_string(m_subnet));
     }
-    WiFiAdapter(const string& name, StreamFile<ExFatFile, uint64_t>* file, const string& ssid, const string& pass, bool const keep_alive = true)
-        : INetworkAdapter{name, file, 1, keep_alive, adapterType::WIFI}, _ssid{ssid}, _pass{pass} {}
+    WiFiAdapter(const string& name, bool const keep_alive = true, OptAddress conf = nullopt) : WiFiAdapter{name, "", "", keep_alive, conf} {}
 
-    virtual Client* get_client() override { return &_wifi_client; }
-    virtual UDP* get_udp() override { return &_wifi_udp; }
-    pair<string, string> getConnectionData() { return std::make_pair(_ssid, _pass); }
+    Client* get_client() { return &_wifi_client; }
+    UDP* get_udp() { return &_wifi_udp; }
+    StringPair getConnectionData() { return std::make_pair(_ssid, _pass); }
     void listNetworks() {
         // scan for nearby networks:
         Serial.println("** Scan Networks **");
@@ -44,49 +42,26 @@ class WiFiAdapter : public INetworkAdapter {
         Serial.print("number of available networks: ");
         Serial.println(numSsid);
         // print the network number and name for each network found:
-        for (int thisNet = 0; thisNet < numSsid; thisNet++) {
-            Serial.print(thisNet + 1);
-            Serial.print(") ");
-            Serial.print("Signal: ");
-            Serial.print(WiFi.RSSI(thisNet));
-            Serial.print(" dBm");
-            Serial.print("\tChannel: ");
-            Serial.print(WiFi.channel(thisNet));
-            byte bssid[6];
-            Serial.print("\tEncryption: ");
-            Serial.print("\t\tSSID: ");
-            Serial.println(WiFi.SSID(thisNet));
-            Serial.flush();
-        }
-        Serial.println();
+        for (int thisNet = 0; thisNet < numSsid; thisNet++)
+            Serial.printf("%d) Signal: %d dBm \tChannel: %d \t\t SSID: %s\n", thisNet + 1, WiFi.RSSI(thisNet), WiFi.channel(thisNet), WiFi.SSID(thisNet));
     }
-    void printMacAddress(byte mac[]) {
+    std::string printMacAddress(byte mac[]) {
+        std::stringstream buffer;
         for (int i = 5; i >= 0; i--) {
-            if (mac[i] < 16) {
-                Serial.print("0");
-            }
-            Serial.print(mac[i], HEX);
-            if (i > 0) {
-                Serial.print(":");
-            }
+            buffer << std::setw(2) << std::setfill('0') << std::hex << (int)mac[i] << ":";
         }
-        Serial.println();
+        std::string ret = buffer.str();
+        ret.pop_back();
+        return ret;
     }
-    int begin() override {
-        //WiFi.disconnect();
-        
-        // if (_static) WiFi.config(ip, dns, gateway, subnet);
+    int begin() {
         if (WiFi.status() == WL_NO_MODULE) {
             Serial.print("FAILED");
-            // return 1;
+            return 1;
         }
         byte mac[6];
-
         WiFi.macAddress(mac);
-        Serial.print("MAC: ");
-        printMacAddress(mac);
-        // scan for existing networks:
-        Serial.println();
+        Serial.printf("MAC: %s \n", printMacAddress(mac).c_str());
         Serial.println("Scanning available networks...");
         listNetworks();
         return 0;

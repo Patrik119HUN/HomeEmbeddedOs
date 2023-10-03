@@ -6,13 +6,9 @@
 #include <map>
 
 #include "process_priority.h"
-#include "typedef.h"
+#include <types.h>
 using std::string, std::pair, std::string_view;
 class ProcessManager {
-   public:
-    ProcessManager() = default;
-    ~ProcessManager() = default;
-
    public:
     void start_process(const string& t_name, function func, void* params = NULL,
                        ProcessPriority t_priority = BASE,
@@ -38,6 +34,6 @@ class ProcessManager {
     void signal(const string_view task, int status);
 
    private:
-    std::map<string, TaskHandle_t*> m_task_map;
+    ProcessMap m_task_map;
 };
 ProcessManager processManager;

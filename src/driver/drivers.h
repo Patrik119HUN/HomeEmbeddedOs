@@ -16,3 +16,4 @@ zero zerodev;
 null nulldev;
 terminal term;
 frandom randomdev;
+SdExFat sd;
