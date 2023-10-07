@@ -5,10 +5,6 @@
 
 #include "../../kernel/kernel.h"
 
-#define TASK_SEC 1000 / portTICK_PERIOD_MS
-#define WIFI_TIMEOUT_MS 10000
-unsigned long startAttemptTime;
-
 void wifi_deamon(void* arg) {
     auto getNetwork = networkManager.get_adapter(*static_cast<std::string*>(arg));
     auto wifi = std::dynamic_pointer_cast<WiFiAdapter>(getNetwork);
@@ -20,14 +16,14 @@ void wifi_deamon(void* arg) {
     while (true) {
         if (WiFi.status() == WL_CONNECTED) {
             wifi->setStatus(connectionState::CONNECTED);
-            vTaskDelay(20 * TASK_SEC);
+            vTaskDelay(20 * 1000 / portTICK_PERIOD_MS);
             continue;
         }
         auto [ssid, pass] = wifi->getConnectionData();
         INFO("Connecting to %s %s", ssid.c_str(), pass.c_str());
         WiFi.begin(ssid.c_str(), pass.c_str());
-        startAttemptTime = millis();
-        while (WiFi.status() != WL_CONNECTED && millis() - startAttemptTime < WIFI_TIMEOUT_MS) {
+        unsigned long startAttemptTime = millis();
+        while (WiFi.status() != WL_CONNECTED && millis() - startAttemptTime < 10 * 1000) {
             taskYIELD();
         }
 
@@ -36,7 +32,7 @@ void wifi_deamon(void* arg) {
                 "Waiting Wi-Fi configuration from DHCP server, check cable "
                 "connection");
             wifi->setStatus(connectionState::DISCONNECTED);
-            vTaskDelay(5 * TASK_SEC);
+            vTaskDelay(5 * 1000 / portTICK_PERIOD_MS);
             continue;
         }
         wifi->setStatus(connectionState::CONNECTED);

@@ -1,8 +1,9 @@
 #pragma once
+
 #include <Ethernet.h>
 #include <network_adapter_interface.h>
-
 #include <stdexcept>
+
 using std::string;
 class EthernetAdapter : public INetworkAdapter {
    public:

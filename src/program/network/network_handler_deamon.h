@@ -10,7 +10,6 @@
 void convertFromJson(JsonVariantConst src, IPAddress& dst) { dst.fromString(src.as<const char*>()); }
 OptAddress getConfig(const JsonDocument& doc) {
     if (!doc["static"]) return {};
-
     IPAddress ip = doc["address"]["ip"];
     IPAddress dns = doc["address"]["dns"];
     IPAddress gateway = doc["address"]["gateway"];
@@ -22,19 +21,24 @@ void network_handler_deamon(void*) {
     ExFile file, dir;
     StaticJsonDocument<512> m_json;
     char fname[20];
+
     if (!dir.open("network")) ERROR("Failed to open SD Card folder");
+
     while (file.openNext(&dir, O_RDONLY)) {
         if (!file.isDir()) file.getName7(fname, 20);
         DeserializationError error = deserializeJson(m_json, file);
+
         if (error) {
             ERROR("deserializeJson() failed: %d", error.c_str());
             return;
         }
+
         file.close();
         string m_sinterface = m_json["adapterType"];
         std::transform(m_sinterface.begin(), m_sinterface.end(), m_sinterface.begin(), ::tolower);
         INFO("Its an %s adapter, named: %s", m_sinterface.c_str(), fname);
         string _fname = string(fname);
+
         if (m_sinterface == "wifi") {
             string ssid = m_json["connection"]["ssid"];
             string pass = m_json["connection"]["password"];
@@ -42,10 +46,12 @@ void network_handler_deamon(void*) {
             networkManager.add_adapter(wptr);
             processManager.start_process(_fname, wifi_deamon, static_cast<void*>(&_fname));
         }
+
         if (m_sinterface == "ethernet") {
             networkManager.add_adapter(std::make_shared<EthernetAdapter>(_fname, m_json["keep_alive"]));
             processManager.start_process(_fname, ethernet_deamon, static_cast<void*>(&_fname));
         }
+
         taskYIELD();
     }
     auto adapter_vector = networkManager.get_adapters();
