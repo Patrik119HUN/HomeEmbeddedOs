@@ -1,11 +1,11 @@
 #pragma once
 #include <Arduino.h>
 #include <sys/log.h>
+#include <sys/macros.h>
 
 #include <map>
 
 #include "../kernel/kernel.h"
-#include "../kernel/sysmacros.h"
 #include "shell/file_system_commands.h"
 #include "shell/global_var.h"
 #include "shell/i2c_scanner.h"

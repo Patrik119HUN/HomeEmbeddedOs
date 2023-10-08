@@ -4,7 +4,7 @@
 #include <Wire.h>
 #include <real_time_clock_interface.h>
 
-#include "../../kernel/sysmacros.h"
+#include <sys/macros.h>
 #include "const.h"
 #include "enums.h"
 

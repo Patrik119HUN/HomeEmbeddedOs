@@ -5,7 +5,7 @@
 #include <map>
 #include <vector>
 
-#include "../sysmacros.h"
+#include <sys/macros.h>
 #include "node.h"
 #define PATH__MAX 64
 #define NAME_MAX_ 32
