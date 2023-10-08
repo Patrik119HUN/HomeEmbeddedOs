@@ -2,7 +2,7 @@
 #include "digital_output/digital_output.h"
 #include "full/full.h"
 #include "null/null.h"
-#include "rtc/rtc.h"
+#include "ds3231/ds3231.h"
 #include "screen/screen.h"
 #include "terminal/terminal.h"
 #include "zero/zero.h"
