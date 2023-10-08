@@ -63,13 +63,13 @@ void network_handler_deamon(void*) {
             if (adapter == currentAdaper) continue;
             if (adapter->getStatus() != connectionState::CONNECTED) continue;
             if (currentAdaper->getStatus() != connectionState::CONNECTED) {
-                INFO("Changing network to: %s", adapter->getName().c_str());
+                INFO("Changing network to: %s", adapter->get_name().c_str());
                 currentAdaper = adapter;
                 networkManager.set_stack(adapter_name);
                 continue;
             }
             if (adapter->get_priority() >= currentAdaper->get_priority()) continue;
-            INFO("Changig network to: %s", adapter->getName().c_str());
+            INFO("Changig network to: %s", adapter->get_name().c_str());
             currentAdaper = adapter;
             networkManager.set_stack(adapter_name);
         }

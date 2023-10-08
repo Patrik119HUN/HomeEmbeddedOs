@@ -1,25 +1,27 @@
 #pragma once
 
-#include <file_interface.h>
-#include "bus_out.h"
 #include <Arduino.h>
+#include <file_interface.h>
+
+#include "bus_out.h"
 class DigitalOutput : public IFile {
-  public:
+   public:
     enum DOCMD { SET_ALL, RESET_ALL };
     DigitalOutput() {
+        m_name = "Digital_Output";
         m_relay = new BusOut(m_pins);
         setTimeout(0);
     }
-    int ioctl(int code, int var) override{
+    int ioctl(int code, int var) override {
         switch (code) {
-        case SET_ALL:
-            this->write(0);
-            break;
-        case RESET_ALL:
-            this->write(255);
-            break;
-        default:
-            break;
+            case SET_ALL:
+                this->write(0);
+                break;
+            case RESET_ALL:
+                this->write(255);
+                break;
+            default:
+                break;
         }
         return 1;
     }
@@ -35,14 +37,10 @@ class DigitalOutput : public IFile {
         return ENOSPC;
     }
     size_t write(const uint8_t* buffer, size_t size) override { return ENOSPC; }
-    char* name() override { return _file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }
 
-  private:
-    char _file_name[15] = "Digital_Output";
-
+   private:
     uint32_t m_pins[8] = {30, 29, 28, 27, 26, 25, 24, 23};
-
     BusOut* m_relay = nullptr;
 };

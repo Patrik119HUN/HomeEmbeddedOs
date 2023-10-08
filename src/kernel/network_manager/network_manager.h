@@ -30,8 +30,8 @@ class NetworkManager {
 
     NetworkAdapterPtr get_adapter(string t_name) { return m_handler.at(t_name); }
     void add_adapter(NetworkAdapterPtr t_handler) {
-        m_adapter_names.push_back(t_handler->getName());
-        m_handler.insert(pair{t_handler->getName(), t_handler});
+        m_adapter_names.push_back(t_handler->get_name());
+        m_handler.insert(pair{t_handler->get_name(), t_handler});
     };
 
     const StringVector& get_adapters() const { return m_adapter_names; }

@@ -17,6 +17,7 @@ class Screen : public IFile {
         SET_AUTOSCROLL
     };
     Screen() {
+        m_name="Liquid_Crystal_Screen";
         this->LCDinstance = new LiquidCrystal(rs, rw, en, d0, d1, d2, d3, d4, d5, d6, d7);
         this->LCDinstance->begin(LCD_COLS, LCD_ROWS);
     };
@@ -88,11 +89,9 @@ class Screen : public IFile {
         }
         return 1;
     }
-    char* name() override { return _file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }
 
   private:
     LiquidCrystal* LCDinstance = NULL;
-    char _file_name[4] = "scr";
 };

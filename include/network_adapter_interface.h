@@ -2,6 +2,7 @@
 #include <Arduino.h>
 #include <Client.h>
 #include <Udp.h>
+#include <device_interface.h>
 #include <network_exception.h>
 
 #include <algorithm>
@@ -26,17 +27,16 @@ const char* ip_to_string(const IPAddress& address) {
 }
 using OptAddress = std::optional<AddressConfig>;
 AdapterTypeMap adapterMap{{"none", adapterType::NONE}, {"wifi", adapterType::WIFI}, {"ethernet", adapterType::ETHERNET}};
-class INetworkAdapter {
+class INetworkAdapter : public IDevice {
    public:
     INetworkAdapter(const string& name, uint8_t priority = 0, bool const keep_alive = true, OptAddress conf = nullopt, adapterType interface = adapterType::NONE)
-        : m_name{name}, m_priority{priority}, m_keep_alive{keep_alive}, m_interface{interface}, m_static{false}, m_current_net_connection_state{connectionState::INIT} {
+        : IDevice{name}, m_priority{priority}, m_keep_alive{keep_alive}, m_interface{interface}, m_static{false}, m_current_net_connection_state{connectionState::INIT} {
         if (conf) {
             m_static = true;
             this->config(conf.value());
         }
     }
 
-    string getName() { return m_name; }
     connectionState getStatus() { return m_current_net_connection_state; }
     void setStatus(connectionState state) { m_current_net_connection_state = state; }
     adapterType getInterface() { return m_interface; }
@@ -60,7 +60,6 @@ class INetworkAdapter {
     bool m_keep_alive;
     adapterType m_interface;
     uint8_t m_priority;
-    string m_name;
     IPAddress m_ip;
     IPAddress m_dns;
     IPAddress m_gateway;

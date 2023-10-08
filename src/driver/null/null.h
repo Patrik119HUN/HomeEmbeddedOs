@@ -5,6 +5,7 @@
 class null : public IFile {
   public:
     null() {
+        m_name="null";
         setTimeout(0);
         nullVar = -1;
     }
@@ -29,11 +30,9 @@ class null : public IFile {
 
     int lastByte() { return nullVar; }
     int ioctl(int code, int var) override { return 1; }
-    char* name() override { return _file_name; }
     bool isDirectory(void) override { return false; }
     void close() override { return; }
 
   private:
     uint8_t nullVar;
-    char _file_name[5] = "null";
 };
